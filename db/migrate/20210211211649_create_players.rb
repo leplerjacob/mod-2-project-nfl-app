@@ -13,6 +13,8 @@ class CreatePlayers < ActiveRecord::Migration[6.1]
       t.string :home_state
       t.string :school
       t.text :bio
+      t.references :team
+
       t.timestamps
     end
   end
