@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :coaches
-  resources :stadia
+  resources :stadiums
   resources :matches
   resources :teams
   resources :players
