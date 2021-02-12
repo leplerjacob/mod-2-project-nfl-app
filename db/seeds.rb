@@ -8,9 +8,47 @@
 
 require 'json'
 
+
+
 json_team_data = File.read("./db/team_data/Arizona-cardinals.json")
 team_data_as_hash = JSON.parse(json_team_data)
 
 2.times do
-    byebug
+    team_data_as_hash["players"].each{|player|
+        Player.create(
+             first_name:,
+     last_name:,
+     birth_date:,
+     age:,
+     jersey:,
+     position:,
+     home_town:,
+     college:,
+     weight:,
+     height:,
+     bio: 
+        )
+        byebug
+}
 end
+
+Player.destroy_all
+# create_table "players", force: :cascade do |t|
+#     t.string "username"
+#     t.string "password"
+#     t.string "first_name"
+#     t.string "last_name"
+#     t.string "birth_date"
+#     t.integer "age"
+#     t.string "jersey"
+#     t.string "position"
+#     t.string "home_town"
+#     t.string "college"
+#     t.float "weight"
+#     t.float "height"
+#     t.text "bio"
+#     t.integer "team_id"
+#     t.datetime "created_at", precision: 6, null: false
+#     t.datetime "updated_at", precision: 6, null: false
+#     t.index ["team_id"], name: "index_players_on_team_id"
+#   end

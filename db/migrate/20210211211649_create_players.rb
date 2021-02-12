@@ -5,13 +5,14 @@ class CreatePlayers < ActiveRecord::Migration[6.1]
       t.string :password
       t.string :first_name
       t.string :last_name
-      t.string :birthday
+      t.string :birth_date
       t.integer :age
+      t.string :jersey
+      t.string :position
+      t.string :home_town
+      t.string :college
       t.float :weight
       t.float :height
-      t.string :position
-      t.string :home_state
-      t.string :school
       t.text :bio
       t.references :team
 
