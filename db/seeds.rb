@@ -16,17 +16,17 @@ team_data_as_hash = JSON.parse(json_team_data)
 2.times do
     team_data_as_hash["players"].each{|player|
         Player.create(
-             first_name:,
-     last_name:,
-     birth_date:,
-     age:,
-     jersey:,
-     position:,
-     home_town:,
-     college:,
-     weight:,
-     height:,
-     bio: 
+            first_name:,
+            last_name:,
+            birth_date:,
+            age:,
+            jersey:,
+            position:,
+            home_town:,
+            college:,
+            weight:,
+            height:,
+            bio: 
         )
         byebug
 }
