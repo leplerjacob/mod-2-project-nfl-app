@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+require 'json'
+
+json_team_data = File.read("./db/team_data/Arizona-cardinals.json")
+team_data_as_hash = JSON.parse(json_team_data)
+
+2.times do
+    byebug
+end
