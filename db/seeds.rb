@@ -8,12 +8,14 @@
 
 require 'json'
 
-
+# Create array of file names to interpolate into File.read command below
+# example json_team_data = File.read("./db/team_data/#{<filename>}.json")
+["Arizona-cardinals"]
 
 json_team_data = File.read("./db/team_data/Arizona-cardinals.json")
 team_data_as_hash = JSON.parse(json_team_data)
 
-2.times do
+10.times do
     team_data_as_hash["players"].each{|player|
         Player.create(
             first_name: player["name"].split(" ")[0],
