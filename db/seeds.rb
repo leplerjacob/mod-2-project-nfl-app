@@ -26,7 +26,7 @@ team_data_as_hash = JSON.parse(json_team_data)
             college: player[""],
             weight: player[""],
             height: player[""],
-            bio: 
+            bio: Faker::Lorem.paragraph
         )
         byebug
 }
