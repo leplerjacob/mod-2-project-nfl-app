@@ -1,1 +1,3007 @@
-{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415","franchise":{"id":"ab08c41f-7e6d-4399-9750-7ef1c6d6d4e0","name":"Panthers","alias":"CAR","references":[{"id":"32","origin":"gsis"}]},"venue":{"id":"39be9ed4-3292-49ac-8699-a381de3a4969","name":"Bank of America Stadium","city":"Charlotte","state":"NC","country":"USA","zip":"28202","address":"800 South Mint Street","capacity":75419,"surface":"turf","roof_type":"outdoor","sr_id":"sr:venue:8173","location":{"lat":"35.225937","lng":"-80.853133"}},"division":{"id":"2a46bf95-b036-4c6c-b69f-a80c4b6c46bf","name":"NFC South","alias":"NFC_SOUTH"},"conference":{"id":"b1808e5f-d40b-47c0-8af8-5175c0fdcd26","name":"NFC","alias":"NFC"},"references":[{"id":"CAR","origin":"gsis"}],"coaches":[{"id":"2546eccb-38e4-486d-9c69-c7d5215eaf34","full_name":"Joe Brady","first_name":"Joe","last_name":"Brady","position":"Offensive Coordinator"},{"id":"c8f37d4a-81fc-4649-a9d9-9cdbc5c3e64b","full_name":"Matt Rhule","first_name":"Matt","last_name":"Rhule","position":"Head Coach"},{"id":"d3a2546c-b25a-4146-951f-411e727f9c12","full_name":"Phil Snow","first_name":"Phil","last_name":"Snow","position":"Defensive Coordinator"}],"team_colors":[{"type":"primary","hex_color":"#0085ca","alpha":0.0,"rgb_color":{"red":0,"green":133,"blue":202}},{"type":"secondary","hex_color":"#101820","alpha":0.0,"rgb_color":{"red":16,"green":24,"blue":32}}],"players":[{"id":"00484794-97e8-443b-876f-d192722cd70c","name":"Jordan Mack","jersey":"47","last_name":"Mack","first_name":"Jordan","abbr_name":"J.Mack","preferred_name":"Jordan","birth_date":"1998-02-07","weight":230.0,"height":74,"position":"OLB","birth_place":"Lithonia, GA, USA","high_school":"Wesleyan (GA)","college":"Virginia","college_conf":"Atlantic Coast Conference","rookie_year":2020,"status":"R62","sr_id":"sr:player:1200872","references":[{"id":"52674","origin":"nflx"},{"id":"00-0035772","origin":"gsis"}]},{"id":"05640572-1b4d-40d5-b584-d79bdd7d5c5f","name":"Julian Stanford","jersey":"50","last_name":"Stanford","first_name":"Julian","abbr_name":"J.Stanford","preferred_name":"Julian","birth_date":"1990-09-02","weight":230.0,"height":73,"position":"OLB","birth_place":"Bloomfield, CT, USA","high_school":"Bloomfield (CT)","college":"Wagner","college_conf":"Northeast Conference","rookie_year":2012,"status":"A01","sr_id":"sr:player:829649","references":[{"id":"39008","origin":"nflx"},{"id":"00-0029061","origin":"gsis"}]},{"id":"0666e6c6-42d9-40ab-83bd-7bbf81e9ac9c","name":"Phillip Walker","jersey":"6","last_name":"Walker","first_name":"Phillip","abbr_name":"P.Walker","preferred_name":"Phillip","birth_date":"1995-02-26","weight":212.0,"height":71,"position":"QB","birth_place":"Elizabeth, NJ, USA","high_school":"Elizabeth (NJ)","college":"Temple","college_conf":"American Athletic Conference","rookie_year":2017,"status":"A01","sr_id":"sr:player:1132245","references":[{"id":"00-0033275","origin":"gsis"},{"id":"45159","origin":"nflx"}]},{"id":"06f3a0fc-2a07-4ecc-b5c3-873b2f615809","name":"Dennis Daley","jersey":"65","last_name":"Daley","first_name":"Dennis","abbr_name":"D.Daley","preferred_name":"Dennis","birth_date":"1996-08-07","weight":324.0,"height":78,"position":"G","birth_place":"Columbia, SC, USA","high_school":"Ridge View (SC)","college":"South Carolina","college_conf":"Southeastern Conference","rookie_year":2019,"status":"A01","sr_id":"sr:player:1269286","draft":{"year":2019,"round":6,"number":212,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"00-0035300","origin":"gsis"},{"id":"47995","origin":"nflx"}]},{"id":"0d226e62-3a43-4a9f-a985-05214182146f","name":"Kenny Robinson","jersey":"27","last_name":"Robinson","first_name":"Kenny","abbr_name":"K.Robinson","preferred_name":"Kenny","birth_date":"1999-01-08","weight":202.0,"height":74,"position":"FS","birth_place":"Wilkinsburg, PA, USA","high_school":"Imani Christian (PA)","college":"West Virginia","college_conf":"Big Twelve Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040251","draft":{"year":2020,"round":5,"number":152,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"50756","origin":"nflx"},{"id":"00-0036283","origin":"gsis"}]},{"id":"0e4e082e-6dc7-41c4-baa1-2c1367f8f9f9","name":"Troy Pride Jr.","jersey":"25","last_name":"Pride","first_name":"Troy","abbr_name":"T.Pride","preferred_name":"Troy","birth_date":"1998-01-19","weight":194.0,"height":71,"position":"CB","birth_place":"Greer, SC, USA","high_school":"Greer (SC)","college":"Notre Dame","college_conf":"Independent","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040463","name_suffix":"Jr.","draft":{"year":2020,"round":4,"number":113,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"52521","origin":"nflx"},{"id":"00-0036299","origin":"gsis"}]},{"id":"123f0733-0afb-4291-8e57-9970e229309b","name":"Kawann Short","jersey":"99","last_name":"Short","first_name":"Kawann","abbr_name":"K.Short","preferred_name":"Kawann","birth_date":"1989-02-02","weight":315.0,"height":75,"position":"DT","birth_place":"East Chicago, IN, USA","high_school":"Central (IN)","college":"Purdue","college_conf":"Big Ten Conference","rookie_year":2013,"status":"A01","sr_id":"sr:player:830173","draft":{"year":2013,"round":2,"number":44,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"39992","origin":"nflx"},{"id":"00-0030448","origin":"gsis"}]},{"id":"1a7ff6d7-85c8-4ef1-8db7-b629b451e368","name":"John Miller","jersey":"67","last_name":"Miller","first_name":"John","abbr_name":"J.Miller","preferred_name":"John","birth_date":"1993-08-12","weight":315.0,"height":75,"position":"G","birth_place":"Miami, FL, USA","high_school":"Central (FL)","college":"Louisville","college_conf":"Atlantic Coast Conference","rookie_year":2015,"status":"A01","sr_id":"sr:player:834763","draft":{"year":2015,"round":3,"number":81,"team":{"id":"768c92aa-75ff-4a43-bcc0-f2798c2e1724","name":"Bills","market":"Buffalo","alias":"BUF","sr_id":"sr:competitor:4376"}},"references":[{"id":"42424","origin":"nflx"},{"id":"00-0032149","origin":"gsis"}]},{"id":"1b1e5bef-13e9-4814-b7ef-7970cbf103b8","name":"Tyler Larsen","jersey":"69","last_name":"Larsen","first_name":"Tyler","abbr_name":"T.Larsen","preferred_name":"Tyler","birth_date":"1991-07-08","weight":325.0,"height":76,"position":"C","birth_place":"Salt Lake City, UT, USA","high_school":"Jordan (UT)","college":"Utah State","college_conf":"Mountain West Conference","rookie_year":2014,"status":"A01","sr_id":"sr:player:833639","references":[{"id":"41707","origin":"nflx"},{"id":"00-0030869","origin":"gsis"}]},{"id":"1d55ba37-c09e-4945-b7ae-8d84e2357283","name":"Colin Thompson","jersey":"86","last_name":"Thompson","first_name":"Colin","abbr_name":"C.Thompson","preferred_name":"Colin","birth_date":"1993-12-15","weight":255.0,"height":76,"position":"TE","birth_place":"Doylestown, PA, USA","high_school":"Archbishop Wood (PA)","college":"Temple","college_conf":"American Athletic Conference","rookie_year":2017,"status":"A01","sr_id":"sr:player:1250288","references":[{"id":"00-0033720","origin":"gsis"},{"id":"45594","origin":"nflx"}]},{"id":"1db9d170-d0cf-4b2c-a160-fe828a7339eb","name":"Adarius Taylor","jersey":"57","last_name":"Taylor","first_name":"Adarius","abbr_name":"A.Taylor","preferred_name":"Adarius","birth_date":"1990-09-21","weight":230.0,"height":72,"position":"MLB","birth_place":"Lakeland, FL, USA","high_school":"Lake Gibson (FL)","college":"Florida Atlantic","college_conf":"Conference USA","rookie_year":2014,"status":"A01","sr_id":"sr:player:829343","references":[{"id":"41937","origin":"nflx"},{"id":"00-0031120","origin":"gsis"}]},{"id":"2d16fcef-89b8-4a92-844f-a92c4e20b5c9","name":"Reggie Bonnafon","jersey":"39","last_name":"Bonnafon","first_name":"Reggie","abbr_name":"R.Bonnafon","preferred_name":"Reggie","birth_date":"1996-01-04","weight":215.0,"height":72,"position":"RB","birth_place":"Louisville, KY, USA","high_school":"Trinity (KY)","college":"Louisville","college_conf":"Atlantic Coast Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1475976","references":[{"id":"46762","origin":"nflx"},{"id":"00-0034578","origin":"gsis"}]},{"id":"305c4a34-6428-418e-adf6-09f60e83c674","name":"Michael Schofield","jersey":"75","last_name":"Schofield","first_name":"Michael","abbr_name":"M.Schofield","preferred_name":"Michael","birth_date":"1990-11-15","weight":301.0,"height":78,"position":"G","birth_place":"Orland Park, IL, USA","high_school":"Carl Sandburg (IL)","college":"Michigan","college_conf":"Big Ten Conference","rookie_year":2014,"status":"A01","sr_id":"sr:player:830417","draft":{"year":2014,"round":3,"number":95,"team":{"id":"ce92bd47-93d5-4fe9-ada4-0fc681e6caa0","name":"Broncos","market":"Denver","alias":"DEN","sr_id":"sr:competitor:4418"}},"references":[{"id":"00-0031353","origin":"gsis"},{"id":"41324","origin":"nflx"}]},{"id":"38293bdb-87d5-4219-be46-44fea6741483","name":"Russell Okung","jersey":"76","last_name":"Okung","first_name":"Russell","abbr_name":"R.Okung","preferred_name":"Russell","birth_date":"1988-10-07","weight":310.0,"height":77,"position":"T","birth_place":"Fort Bend, TX, USA","high_school":"George Bush (TX)","college":"Oklahoma State","college_conf":"Big Twelve Conference","rookie_year":2010,"status":"A01","sr_id":"sr:player:831347","draft":{"year":2010,"round":1,"number":6,"team":{"id":"3d08af9e-c767-4f88-a7dc-b920c6d2b4a8","name":"Seahawks","market":"Seattle","alias":"SEA","sr_id":"sr:competitor:4430"}},"references":[{"id":"00-0027859","origin":"gsis"},{"id":"35445","origin":"nflx"}]},{"id":"3885b40b-c31b-4cd6-a0fd-3d24bede2771","name":"Brandon Zylstra","jersey":"16","last_name":"Zylstra","first_name":"Brandon","abbr_name":"B.Zylstra","preferred_name":"Brandon","birth_date":"1993-03-25","weight":215.0,"height":74,"position":"WR","birth_place":"Spicer, MN, USA","high_school":"New London Spicer (MN)","college":"Concordia, Minn","college_conf":"Minnesota Intercollegiate Athletic Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1388269","references":[{"id":"44123","origin":"nflx"},{"id":"00-0034052","origin":"gsis"}]},{"id":"3b1bb0da-607a-4502-8855-8ab5095334da","name":"Sam Franklin Jr.","jersey":"42","last_name":"Franklin","first_name":"Sam","abbr_name":"S.Franklin","preferred_name":"Sam","birth_date":"1996-02-02","weight":210.0,"height":75,"position":"SS","birth_place":"Crystal River, FL, USA","high_school":"Citrus (FL)","college":"Temple","college_conf":"American Athletic Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:1198366","name_suffix":"Jr.","references":[{"id":"52939","origin":"nflx"},{"id":"00-0036037","origin":"gsis"}]},{"id":"3bf0711c-793a-47e7-bcbd-a0ddf350fef4","name":"Shaq Thompson","jersey":"54","last_name":"Thompson","first_name":"Shaq","abbr_name":"S.Thompson","preferred_name":"Shaq","birth_date":"1994-04-21","weight":230.0,"height":72,"position":"OLB","birth_place":"Sacramento, CA, USA","high_school":"Grant Union (CA)","college":"Washington","college_conf":"Pacific Twelve Conference","rookie_year":2015,"status":"A01","sr_id":"sr:player:834533","draft":{"year":2015,"round":1,"number":25,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"00-0031550","origin":"gsis"},{"id":"42368","origin":"nflx"}]},{"id":"430446f6-a74c-496b-8f49-4464e7d8149d","name":"Keith Kirkwood","jersey":"18","last_name":"Kirkwood","first_name":"Keith","abbr_name":"K.Kirkwood","preferred_name":"Keith","birth_date":"1993-12-26","weight":210.0,"height":75,"position":"WR","birth_place":"Neptune, NJ, USA","high_school":"Neptune (NJ)","college":"Temple","college_conf":"American Athletic Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1476902","references":[{"id":"00-0034317","origin":"gsis"},{"id":"46542","origin":"nflx"}]},{"id":"47dedc0e-a2fd-415c-8619-5a46867d83e2","name":"Bravvion Roy","jersey":"93","last_name":"Roy","first_name":"Bravvion","abbr_name":"B.Roy","preferred_name":"Bravvion","birth_date":"1996-10-18","weight":333.0,"height":73,"position":"DT","birth_place":"Spring, TX, USA","high_school":"Spring (TX)","college":"Baylor","college_conf":"Big Twelve Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040467","draft":{"year":2020,"round":6,"number":184,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"00-0036311","origin":"gsis"},{"id":"52592","origin":"nflx"}]},{"id":"488cf673-fb92-4701-abd0-4641987642ee","name":"Omar Bayless","jersey":"17","last_name":"Bayless","first_name":"Omar","abbr_name":"O.Bayless","preferred_name":"Omar","birth_date":"1996-12-15","weight":207.0,"height":75,"position":"WR","birth_place":"Laurel, MS, USA","high_school":"Laurel (MS)","college":"Arkansas State","college_conf":"Sun Belt Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040137","references":[{"id":"52849","origin":"nflx"},{"id":"00-0035947","origin":"gsis"}]},{"id":"4ca2f25d-7a0c-42e2-9b35-c9b9a025990b","name":"Tre Boston","jersey":"33","last_name":"Boston","first_name":"Tre","abbr_name":"T.Boston","preferred_name":"Tre","birth_date":"1992-06-25","weight":205.0,"height":73,"position":"FS","birth_place":"Fort Myers, FL, USA","high_school":"North Fort Myers (FL)","college":"North Carolina","college_conf":"Atlantic Coast Conference","rookie_year":2014,"status":"A01","sr_id":"sr:player:828471","draft":{"year":2014,"round":4,"number":128,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"00-0031261","origin":"gsis"},{"id":"41357","origin":"nflx"}]},{"id":"4f115bb3-1468-4bfb-a239-e55e6dc7ce3f","name":"Mike Panasiuk","jersey":"91","last_name":"Panasiuk","first_name":"Mike","abbr_name":"M.Panasiuk","preferred_name":"Mike","birth_date":"1997-10-13","weight":300.0,"height":76,"position":"DT","birth_place":"Roselle, IL, USA","high_school":"Lake Park West (IL)","college":"Michigan State","college_conf":"Big Ten Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040653","references":[{"id":"00-0036170","origin":"gsis"},{"id":"53062","origin":"nflx"}]},{"id":"4f724338-aa8c-436d-90b2-45299572c53e","name":"Pharoh Cooper","jersey":"14","last_name":"Cooper","first_name":"Pharoh","abbr_name":"P.Cooper","preferred_name":"Pharoh","birth_date":"1995-03-07","weight":207.0,"height":71,"position":"WR","birth_place":"Havelock, NC, USA","high_school":"Havelock (NC)","college":"South Carolina","college_conf":"Southeastern Conference","rookie_year":2016,"status":"A01","sr_id":"sr:player:988723","draft":{"year":2016,"round":4,"number":117,"team":{"id":"2eff2a03-54d4-46ba-890e-2bc3925548f3","name":"Rams","market":"Los Angeles","alias":"LA","sr_id":"sr:competitor:4387"}},"references":[{"id":"43406","origin":"nflx"},{"id":"00-0033111","origin":"gsis"}]},{"id":"5165ce25-382b-4809-83b7-8c66d93c2aef","name":"Zach Kerr","jersey":"92","last_name":"Kerr","first_name":"Zach","abbr_name":"Z.Kerr","preferred_name":"Zach","birth_date":"1990-08-29","weight":334.0,"height":74,"position":"DT","birth_place":"Virginia Beach, VA, USA","high_school":"Quince Orchard (MD)","college":"Delaware","college_conf":"Colonial Athletic Association","rookie_year":2014,"status":"A01","sr_id":"sr:player:855782","references":[{"id":"00-0031105","origin":"gsis"},{"id":"41919","origin":"nflx"}]},{"id":"5a09de36-5fac-4053-b3a0-2b56d2519a9b","name":"Lirim Hajrullahu","jersey":"3","last_name":"Hajrullahu","first_name":"Lirim","abbr_name":"L.Hajrullahu","preferred_name":"Lirim","birth_date":"1990-04-24","weight":215.0,"height":71,"position":"K","birth_place":"Gjilan,, MLT","high_school":"Governor Simcoe Secondary School (ON)","college":"Western Ontario, Can.","college_conf":"Ontario Universities Athletic Association","rookie_year":2020,"status":"A01","sr_id":"sr:player:2039987","references":[{"id":"00-0035758","origin":"gsis"},{"id":"42259","origin":"nflx"}]},{"id":"5cc69b4f-6ac4-4854-b3ab-5f669e0d8239","name":"Sam Tecklenburg","jersey":"71","last_name":"Tecklenburg","first_name":"Sam","abbr_name":"S.Tecklenburg","preferred_name":"Sam","birth_date":"1997-01-31","weight":310.0,"height":76,"position":"C","birth_place":"Plano, TX, USA","high_school":"Plano (TX)","college":"Baylor","college_conf":"Big Twelve Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040425","references":[{"id":"52860","origin":"nflx"},{"id":"00-0035958","origin":"gsis"}]},{"id":"5f3a60b9-64ac-41f0-877b-cfd2cdfe23c9","name":"Juston Burris","jersey":"31","last_name":"Burris","first_name":"Juston","abbr_name":"J.Burris","preferred_name":"Juston","birth_date":"1993-08-04","weight":212.0,"height":72,"position":"SS","birth_place":"Raleigh, NC, USA","high_school":"Broughton (NC)","college":"North Carolina State","college_conf":"Atlantic Coast Conference","rookie_year":2016,"status":"A01","sr_id":"sr:player:1073956","draft":{"year":2016,"round":4,"number":118,"team":{"id":"5fee86ae-74ab-4bdd-8416-42a9dd9964f3","name":"Jets","market":"New York","alias":"NYJ","sr_id":"sr:competitor:4427"}},"references":[{"id":"00-0032403","origin":"gsis"},{"id":"43407","origin":"nflx"}]},{"id":"5f3cc875-e802-46b2-81ad-3ffb7a3a1662","name":"Michael Palardy","jersey":"2","last_name":"Palardy","first_name":"Michael","abbr_name":"M.Palardy","preferred_name":"Michael","birth_date":"1992-07-06","weight":200.0,"height":71,"position":"P","birth_place":"Margate, FL, USA","high_school":"St. Thomas Aquinas (FL)","college":"Tennessee","college_conf":"Southeastern Conference","rookie_year":2014,"status":"A01","sr_id":"sr:player:854778","references":[{"id":"00-0031363","origin":"gsis"},{"id":"42098","origin":"nflx"}]},{"id":"5f623fbc-415e-4035-b423-7850cf1153b4","name":"Jeremy Chinn","jersey":"21","last_name":"Chinn","first_name":"Jeremy","abbr_name":"J.Chinn","preferred_name":"Jeremy","birth_date":"1998-02-26","weight":212.0,"height":75,"position":"FS","birth_place":"Fishers, IN, USA","high_school":"Fishers (IN)","college":"Southern Illinois","college_conf":"Missouri Valley Football Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040685","draft":{"year":2020,"round":2,"number":64,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"52472","origin":"nflx"},{"id":"00-0036293","origin":"gsis"}]},{"id":"634dcf96-92ca-474a-8a09-e26a12a7bafa","name":"Ishmael Hyman","jersey":"13","last_name":"Hyman","first_name":"Ishmael","abbr_name":"I.Hyman","preferred_name":"Ishmael","birth_date":"1995-08-23","weight":196.0,"height":72,"position":"WR","birth_place":"Manalapan, NJ, USA","high_school":"St. John Vianney (NJ)","college":"James Madison","college_conf":"Colonial Athletic Association","rookie_year":2019,"status":"A01","sr_id":"sr:player:1226190","references":[{"id":"00-0034922","origin":"gsis"},{"id":"47243","origin":"nflx"}]},{"id":"66a21b6d-97e5-4732-8bb0-062145d6bbc6","name":"Curtis Samuel","jersey":"10","last_name":"Samuel","first_name":"Curtis","abbr_name":"C.Samuel","preferred_name":"Curtis","birth_date":"1996-08-11","weight":195.0,"height":71,"position":"WR","birth_place":"Brooklyn, NY, USA","high_school":"Erasmus Hall (NY)","college":"Ohio State","college_conf":"Big Ten Conference","rookie_year":2017,"status":"A01","sr_id":"sr:player:1129833","draft":{"year":2017,"round":2,"number":40,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"00-0033282","origin":"gsis"},{"id":"44852","origin":"nflx"}]},{"id":"686cab35-6da0-4e10-ba65-0d1f97e0bc8b","name":"Alex Armah","jersey":"40","last_name":"Armah","first_name":"Alex","abbr_name":"A.Armah","preferred_name":"Alex","birth_date":"1994-05-17","weight":255.0,"height":74,"position":"FB","birth_place":"Lawrenceville, GA, USA","high_school":"Dacula (GA)","college":"West Georgia","college_conf":"Gulf South Conference","rookie_year":2017,"status":"A01","sr_id":"sr:player:1130107","draft":{"year":2017,"round":6,"number":192,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"45005","origin":"nflx"},{"id":"00-0033296","origin":"gsis"}]},{"id":"689de342-1d99-4a4d-976d-f6573ef3a8c2","name":"Giovanni Ricci","jersey":"85","last_name":"Ricci","first_name":"Giovanni","abbr_name":"G.Ricci","preferred_name":"Giovanni","birth_date":"1996-10-16","weight":240.0,"height":75,"position":"TE","birth_place":"Loveland, OH, USA","high_school":"Loveland (OH)","college":"Western Michigan","college_conf":"Mid-American Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:1228746","references":[{"id":"00-0035956","origin":"gsis"},{"id":"52858","origin":"nflx"}]},{"id":"6c162e60-0d39-46b4-bd8d-d2f3c6d6c7e5","name":"Stantley Thomas-Oliver III","jersey":"23","last_name":"Thomas-Oliver","first_name":"Stantley","abbr_name":"S.Thomas-Oliver III","preferred_name":"Stantley","birth_date":"1998-06-04","weight":184.0,"height":74,"position":"CB","birth_place":"Punta Gorda, FL, USA","high_school":"Charlotte (FL)","college":"Florida International","college_conf":"Conference USA","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040667","name_suffix":"III","draft":{"year":2020,"round":7,"number":221,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"52629","origin":"nflx"},{"id":"00-0036315","origin":"gsis"}]},{"id":"6c1cd007-fea3-47bb-a8b1-4e4c040a2d94","name":"Christian Miller","jersey":"55","last_name":"Miller","first_name":"Christian","abbr_name":"C.Miller","preferred_name":"Christian","birth_date":"1996-06-16","weight":244.0,"height":75,"position":"DE","birth_place":"Columbia, SC, USA","high_school":"Spring Valley (SC)","college":"Alabama","college_conf":"Southeastern Conference","rookie_year":2019,"status":"R62","sr_id":"sr:player:1769324","draft":{"year":2019,"round":4,"number":115,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"47898","origin":"nflx"},{"id":"00-0035257","origin":"gsis"}]},{"id":"6ef5045f-9215-4354-a1af-3f86e4c4a03d","name":"Stephen Weatherly","jersey":"91","last_name":"Weatherly","first_name":"Stephen","abbr_name":"S.Weatherly","preferred_name":"Stephen","birth_date":"1994-03-19","weight":265.0,"height":77,"position":"DE","birth_place":"Snellville, GA, USA","high_school":"Shiloh (GA)","college":"Vanderbilt","college_conf":"Southeastern Conference","rookie_year":2016,"status":"A01","sr_id":"sr:player:1074150","draft":{"year":2016,"round":7,"number":227,"team":{"id":"33405046-04ee-4058-a950-d606f8c30852","name":"Vikings","market":"Minnesota","alias":"MIN","sr_id":"sr:competitor:4423"}},"references":[{"id":"43516","origin":"nflx"},{"id":"00-0032448","origin":"gsis"}]},{"id":"70eae82c-30ea-491f-b71c-aa11f47af476","name":"Tahir Whitehead","jersey":"52","last_name":"Whitehead","first_name":"Tahir","abbr_name":"T.Whitehead","preferred_name":"Tahir","birth_date":"1990-04-02","weight":241.0,"height":74,"position":"MLB","birth_place":"Jersey City, NJ, USA","high_school":"West Side (NJ)","college":"Temple","college_conf":"Mid-American Conference","rookie_year":2012,"status":"A01","sr_id":"sr:player:827597","draft":{"year":2012,"round":5,"number":138,"team":{"id":"c5a59daa-53a7-4de0-851f-fb12be893e9e","name":"Lions","market":"Detroit","alias":"DET","sr_id":"sr:competitor:4419"}},"references":[{"id":"38668","origin":"nflx"},{"id":"00-0029212","origin":"gsis"}]},{"id":"7905e9be-2f66-4ff5-a6e9-dbe281bf4822","name":"Will Grier","jersey":"7","last_name":"Grier","first_name":"Will","abbr_name":"W.Grier","preferred_name":"Will","birth_date":"1995-04-03","weight":220.0,"height":73,"position":"QB","birth_place":"Davidson, NC, USA","high_school":"Davidson Day School (NC)","college":"West Virginia","college_conf":"Big Twelve Conference","rookie_year":2019,"status":"A01","sr_id":"sr:player:1194126","draft":{"year":2019,"round":3,"number":100,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"47883","origin":"nflx"},{"id":"00-0035251","origin":"gsis"}]},{"id":"7c7b5515-7786-4e24-9ce0-34e6a8bd5727","name":"Chris Manhertz","jersey":"82","last_name":"Manhertz","first_name":"Chris","abbr_name":"C.Manhertz","preferred_name":"Chris","birth_date":"1992-04-10","weight":255.0,"height":78,"position":"TE","birth_place":"New York, NY, USA","high_school":"Cardinal Spellman (NY)","college":"Canisius","college_conf":"NO FOOTBALL","rookie_year":2015,"status":"A01","sr_id":"sr:player:830049","references":[{"id":"42302","origin":"nflx"},{"id":"00-0031484","origin":"gsis"}]},{"id":"7d7aae3c-c186-4ded-bbaa-df05f697ef29","name":"Efe Obada","jersey":"94","last_name":"Obada","first_name":"Efe","abbr_name":"E.Obada","preferred_name":"Efe","birth_date":"1992-04-13","weight":265.0,"height":78,"position":"DE","birth_place":",, NGA","high_school":"Lambeth College (GBR)","college":"No College","college_conf":"NO COLLEGE","rookie_year":2015,"status":"A01","sr_id":"sr:player:855844","references":[{"id":"42331","origin":"nflx"},{"id":"00-0031500","origin":"gsis"}]},{"id":"829c836e-8040-48ca-aa20-5ad24f0ff37f","name":"Jermaine Carter","jersey":"56","last_name":"Carter","first_name":"Jermaine","abbr_name":"J.Carter","preferred_name":"Jermaine","birth_date":"1995-01-14","weight":225.0,"height":72,"position":"OLB","birth_place":"Rockville, MD, USA","high_school":"Friendship Collegiate Academy (DC)","college":"Maryland","college_conf":"Big Ten Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1524099","draft":{"year":2018,"round":5,"number":161,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"00-0034396","origin":"gsis"},{"id":"46230","origin":"nflx"}]},{"id":"85325fdc-da47-4992-af60-a20d0b1ec980","name":"Ventell Bryant","jersey":"83","last_name":"Bryant","first_name":"Ventell","abbr_name":"V.Bryant","preferred_name":"Ventell","birth_date":"1996-08-24","weight":205.0,"height":75,"position":"WR","birth_place":"Tampa, FL, USA","high_school":"Jefferson (FL)","college":"Temple","college_conf":"American Athletic Conference","rookie_year":2019,"status":"A01","sr_id":"sr:player:1209834","references":[{"id":"48684","origin":"nflx"},{"id":"00-0035548","origin":"gsis"}]},{"id":"87e59fe7-8744-4318-a41e-53a18d1f9647","name":"Myles Hartsfield","jersey":"38","last_name":"Hartsfield","first_name":"Myles","abbr_name":"M.Hartsfield","preferred_name":"Myles","birth_date":"1997-08-05","weight":211.0,"height":71,"position":"FS","birth_place":"Sayreville, NJ, USA","high_school":"East Coast Prep (NJ)","college":"Mississippi","college_conf":"Southeastern Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:1227636","references":[{"id":"52852","origin":"nflx"},{"id":"00-0035950","origin":"gsis"}]},{"id":"88f31a44-caae-4e5b-a786-8a229374a19d","name":"Sean Chandler","jersey":"34","last_name":"Chandler","first_name":"Sean","abbr_name":"S.Chandler","preferred_name":"Sean","birth_date":"1996-04-27","weight":205.0,"height":70,"position":"FS","birth_place":"Camden, NJ, USA","high_school":"Camden (NJ)","college":"Temple","college_conf":"American Athletic Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1188428","references":[{"id":"00-0034496","origin":"gsis"},{"id":"46680","origin":"nflx"}]},{"id":"8a60686b-fdf6-4293-846e-92c1b1d586b9","name":"Marquis Haynes","jersey":"98","last_name":"Haynes","first_name":"Marquis","abbr_name":"M.Haynes","preferred_name":"Marquis","birth_date":"1993-12-16","weight":235.0,"height":74,"position":"DE","birth_place":"Jacksonville, FL, USA","high_school":"University Christian (FL)","college":"Mississippi","college_conf":"Southeastern Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1224360","draft":{"year":2018,"round":4,"number":136,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"00-0034382","origin":"gsis"},{"id":"46205","origin":"nflx"}]},{"id":"91aac0f7-60ed-4333-8aee-15bd56764464","name":"Amara Darboh","jersey":"82","last_name":"Darboh","first_name":"Amara","abbr_name":"A.Darboh","preferred_name":"Amara","birth_date":"1994-02-01","weight":219.0,"height":74,"position":"WR","birth_place":"Freetown,, SLE","high_school":"Dowling Catholic (IA)","college":"Michigan","college_conf":"Big Ten Conference","rookie_year":2017,"status":"A01","sr_id":"sr:player:1129831","draft":{"year":2017,"round":3,"number":106,"team":{"id":"3d08af9e-c767-4f88-a7dc-b920c6d2b4a8","name":"Seahawks","market":"Seattle","alias":"SEA","sr_id":"sr:competitor:4430"}},"references":[{"id":"44918","origin":"nflx"},{"id":"00-0033937","origin":"gsis"}]},{"id":"93a1f2fd-fd5e-4b06-8086-476028d83eed","name":"Tommy Stevens","jersey":"15","last_name":"Stevens","first_name":"Tommy","abbr_name":"T.Stevens","preferred_name":"Tommy","birth_date":"1996-12-15","weight":235.0,"height":77,"position":"QB","birth_place":"Indianapolis, IN, USA","high_school":"Decatur Central (IN)","college":"Mississippi State","college_conf":"Southeastern Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040311","draft":{"year":2020,"round":7,"number":240,"team":{"id":"0d855753-ea21-4953-89f9-0e20aff9eb73","name":"Saints","market":"New Orleans","alias":"NO","sr_id":"sr:competitor:4425"}},"references":[{"id":"00-0036433","origin":"gsis"},{"id":"52648","origin":"nflx"}]},{"id":"943a818d-074a-4243-9d54-f91ada96923b","name":"Matt Kaskey","jersey":"63","last_name":"Kaskey","first_name":"Matt","abbr_name":"M.Kaskey","preferred_name":"Matt","birth_date":"1997-03-17","weight":325.0,"height":79,"position":"T","birth_place":"Winnetka, IL, USA","high_school":"New Trier (IL)","college":"Dartmouth","college_conf":"Ivy League","rookie_year":2019,"status":"A01","sr_id":"sr:player:1186804","references":[{"id":"00-0035613","origin":"gsis"},{"id":"48776","origin":"nflx"}]},{"id":"9a76c690-1946-4860-9564-a0b7b9bbaf0a","name":"Joseph Charlton","jersey":"3","last_name":"Charlton","first_name":"Joseph","abbr_name":"J.Charlton","preferred_name":"Joseph","birth_date":"1997-04-07","weight":190.0,"height":77,"position":"P","birth_place":"Columbia, SC, USA","high_school":"A.C. Flora","college":"South Carolina","college_conf":"Southeastern Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2059379","references":[{"id":"00-0036320","origin":"gsis"},{"id":"53146","origin":"nflx"}]},{"id":"9c8292c7-b406-4a31-a781-7c72aac6b053","name":"Derrick Brown","jersey":"95","last_name":"Brown","first_name":"Derrick","abbr_name":"D.Brown","preferred_name":"Derrick","birth_date":"1998-04-15","weight":318.0,"height":77,"position":"DT","birth_place":"Sugar Hill, GA, USA","high_school":"Lanier (GA)","college":"Auburn","college_conf":"Southeastern Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040683","draft":{"year":2020,"round":1,"number":7,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"52415","origin":"nflx"},{"id":"00-0036220","origin":"gsis"}]},{"id":"9dc1308a-5cf2-45c1-b5ad-fc64fff3e94f","name":"Donte Jackson","jersey":"26","last_name":"Jackson","first_name":"Donte","abbr_name":"D.Jackson","preferred_name":"Donte","birth_date":"1995-11-08","weight":180.0,"height":70,"position":"CB","birth_place":"New Orleans, LA, USA","high_school":"Riverdale (LA)","college":"Louisiana State","college_conf":"Southeastern Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1218614","draft":{"year":2018,"round":2,"number":55,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"46124","origin":"nflx"},{"id":"00-0034356","origin":"gsis"}]},{"id":"9fe70732-0c55-42ff-a79c-9d234fbc995c","name":"Austin Larkin","jersey":"96","last_name":"Larkin","first_name":"Austin","abbr_name":"A.Larkin","preferred_name":"Austin","birth_date":"1995-04-06","weight":265.0,"height":75,"position":"DE","birth_place":"San Ramon, CA, USA","high_school":"Dougherty Valley (CA)","college":"Purdue","college_conf":"Big Ten Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1223448","references":[{"id":"00-0034559","origin":"gsis"},{"id":"46743","origin":"nflx"}]},{"id":"a41b8454-0326-4c56-87a2-f2aac3814961","name":"Stephen Sullivan","jersey":"48","last_name":"Sullivan","first_name":"Stephen","abbr_name":"S.Sullivan","preferred_name":"Stephen","birth_date":"1996-11-28","weight":242.0,"height":77,"position":"TE","birth_place":"Donaldsonville, LA, USA","high_school":"Donaldsonville (LA)","college":"Louisiana State","college_conf":"Southeastern Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040287","draft":{"year":2020,"round":7,"number":251,"team":{"id":"3d08af9e-c767-4f88-a7dc-b920c6d2b4a8","name":"Seahawks","market":"Seattle","alias":"SEA","sr_id":"sr:competitor:4430"}},"references":[{"id":"52659","origin":"nflx"},{"id":"00-0036438","origin":"gsis"}]},{"id":"b35211e2-a35f-41e1-b32b-3b31b70330b7","name":"Matt Paradis","jersey":"61","last_name":"Paradis","first_name":"Matt","abbr_name":"M.Paradis","preferred_name":"Matt","birth_date":"1989-10-12","weight":300.0,"height":75,"position":"C","birth_place":"Council, ID, USA","high_school":"Council (ID)","college":"Boise State","college_conf":"Mountain West Conference","rookie_year":2014,"status":"A01","sr_id":"sr:player:853450","draft":{"year":2014,"round":6,"number":207,"team":{"id":"ce92bd47-93d5-4fe9-ada4-0fc681e6caa0","name":"Broncos","market":"Denver","alias":"DEN","sr_id":"sr:competitor:4418"}},"references":[{"id":"41436","origin":"nflx"},{"id":"00-0031349","origin":"gsis"}]},{"id":"b3beb95a-c1e7-4d03-b61a-097199528816","name":"Woodrow Hamilton IV","jersey":"78","last_name":"Hamilton","first_name":"Woodrow","abbr_name":"W.Hamilton","preferred_name":"Woodrow","birth_date":"1992-12-20","weight":315.0,"height":75,"position":"DT","birth_place":"Raleigh, MS, USA","high_school":"Raleigh (MS)","college":"Mississippi","college_conf":"Southeastern Conference","rookie_year":2016,"status":"A01","sr_id":"sr:player:990969","name_suffix":"IV","references":[{"id":"43698","origin":"nflx"},{"id":"00-0032578","origin":"gsis"}]},{"id":"b84b415e-a7a5-4d3c-8128-9e58f002578c","name":"Aaron Monteiro","jersey":"62","last_name":"Monteiro","first_name":"Aaron","abbr_name":"A.Monteiro","preferred_name":"Aaron","birth_date":"1997-03-25","weight":315.0,"height":78,"position":"G","birth_place":"Brockton, MA, USA","high_school":"Brockton (MA)","college":"Boston College","college_conf":"Atlantic Coast Conference","rookie_year":2019,"status":"A01","sr_id":"sr:player:1226504","references":[{"id":"00-0035344","origin":"gsis"},{"id":"48474","origin":"nflx"}]},{"id":"b89c853a-6bd8-42ec-ae52-a11831923631","name":"Trenton Cannon","jersey":"36","last_name":"Cannon","first_name":"Trenton","abbr_name":"T.Cannon","preferred_name":"Trenton","birth_date":"1994-07-23","weight":185.0,"height":71,"position":"RB","birth_place":"Hampton, VA, USA","high_school":"Kecoughtan (VA)","college":"Virginia State","college_conf":"Central Intercollegiate Athletic Association","rookie_year":2018,"status":"A01","sr_id":"sr:player:1474854","draft":{"year":2018,"round":6,"number":204,"team":{"id":"5fee86ae-74ab-4bdd-8416-42a9dd9964f3","name":"Jets","market":"New York","alias":"NYJ","sr_id":"sr:competitor:4427"}},"references":[{"id":"46273","origin":"nflx"},{"id":"00-0034164","origin":"gsis"}]},{"id":"cbe71aae-2475-487f-a78d-c1d7f021c097","name":"Taylor Moton","jersey":"72","last_name":"Moton","first_name":"Taylor","abbr_name":"T.Moton","preferred_name":"Taylor","birth_date":"1994-08-18","weight":325.0,"height":77,"position":"T","birth_place":"Lansing, MI, USA","high_school":"Okemos (MI)","college":"Western Michigan","college_conf":"Mid-American Conference","rookie_year":2017,"status":"A01","sr_id":"sr:player:1129849","draft":{"year":2017,"round":2,"number":64,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"44876","origin":"nflx"},{"id":"00-0033284","origin":"gsis"}]},{"id":"d0ca076f-a25d-436b-837e-07dde16be635","name":"Greg Little","jersey":"74","last_name":"Little","first_name":"Greg","abbr_name":"G.Little","preferred_name":"Greg","birth_date":"1997-11-04","weight":310.0,"height":77,"position":"T","birth_place":"Allen, TX, USA","high_school":"Allen (TX)","college":"Mississippi","college_conf":"Southeastern Conference","rookie_year":2019,"status":"A01","sr_id":"sr:player:1229898","draft":{"year":2019,"round":2,"number":37,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"00-0035694","origin":"gsis"},{"id":"47820","origin":"nflx"}]},{"id":"d4acfff4-7bee-49f7-abc2-3847a8b85dce","name":"Mike Horton","jersey":"66","last_name":"Horton","first_name":"Mike","abbr_name":"M.Horton","preferred_name":"Mike","birth_date":"1996-10-07","weight":325.0,"height":76,"position":"G","birth_place":"Atlanta, GA, USA","high_school":"Lakeside (GA)","college":"Auburn","college_conf":"Southeastern Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:1226482","references":[{"id":"00-0035952","origin":"gsis"},{"id":"52854","origin":"nflx"}]},{"id":"d4cb52a9-f6b4-42ed-b40b-27bff5f1eea7","name":"Teddy Bridgewater","jersey":"5","last_name":"Bridgewater","first_name":"Teddy","abbr_name":"T.Bridgewater","preferred_name":"Teddy","birth_date":"1992-11-10","weight":215.0,"height":74,"position":"QB","birth_place":"Miami, FL, USA","high_school":"Miami Northwestern (FL)","college":"Louisville","college_conf":"American Athletic Conference","rookie_year":2014,"status":"A01","sr_id":"sr:player:831153","draft":{"year":2014,"round":1,"number":32,"team":{"id":"33405046-04ee-4058-a950-d606f8c30852","name":"Vikings","market":"Minnesota","alias":"MIN","sr_id":"sr:competitor:4423"}},"references":[{"id":"00-0031237","origin":"gsis"},{"id":"41258","origin":"nflx"}]},{"id":"d6ce86bc-7c3c-42c5-82eb-c8bc51e7e94d","name":"Clay Johnston","jersey":"47","last_name":"Johnston","first_name":"Clay","abbr_name":"C.Johnston","preferred_name":"Clay","birth_date":"1996-08-08","weight":232.0,"height":73,"position":"OLB","birth_place":"Abilene, TX, USA","high_school":"Wylie (TX)","college":"Baylor","college_conf":"Big Twelve Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040451","draft":{"year":2020,"round":7,"number":234,"team":{"id":"2eff2a03-54d4-46ba-890e-2bc3925548f3","name":"Rams","market":"Los Angeles","alias":"LA","sr_id":"sr:competitor:4387"}},"references":[{"id":"52642","origin":"nflx"},{"id":"00-0036432","origin":"gsis"}]},{"id":"d8202e6d-d03b-4cd1-a793-ff8fd39d9755","name":"D.J. Moore","jersey":"12","last_name":"Moore","first_name":"D.J.","abbr_name":"D.Moore","preferred_name":"D.J.","birth_date":"1997-04-14","weight":215.0,"height":71,"position":"WR","birth_place":"Philadelphia, PA, USA","high_school":"Imhotep Institute Charter (PA)","college":"Maryland","college_conf":"Big Ten Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1222502","draft":{"year":2018,"round":1,"number":24,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"00-0034827","origin":"gsis"},{"id":"46093","origin":"nflx"}]},{"id":"d96afcfe-32fb-4a59-b75c-94a6184d3136","name":"Yetur Gross-Matos","jersey":"97","last_name":"Gross-Matos","first_name":"Yetur","abbr_name":"Y.Gross-Matos","preferred_name":"Yetur","birth_date":"1998-02-26","weight":264.0,"height":77,"position":"DE","birth_place":"Spotsylvania, VA, USA","high_school":"Chancellor (VA)","college":"Penn State","college_conf":"Big Ten Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040073","draft":{"year":2020,"round":2,"number":38,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"52446","origin":"nflx"},{"id":"00-0036288","origin":"gsis"}]},{"id":"dbf199a9-542e-4279-8764-3341b9f80910","name":"Brian Burns","jersey":"53","last_name":"Burns","first_name":"Brian","abbr_name":"B.Burns","preferred_name":"Brian","birth_date":"1998-04-23","weight":250.0,"height":77,"position":"DE","birth_place":"Fort Lauderdale, FL, USA","high_school":"American Heritage (FL)","college":"Florida State","college_conf":"Atlantic Coast Conference","rookie_year":2019,"status":"A01","sr_id":"sr:player:1218922","draft":{"year":2019,"round":1,"number":16,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"47799","origin":"nflx"},{"id":"00-0035713","origin":"gsis"}]},{"id":"de3c68c3-9c11-4c0c-82ef-bc0d536820c2","name":"Trenton Scott","jersey":"73","last_name":"Scott","first_name":"Trenton","abbr_name":"T.Scott","preferred_name":"Trenton","birth_date":"1994-01-25","weight":320.0,"height":77,"position":"T","birth_place":"Huntsville, AL, USA","high_school":"Lee (AL)","college":"Grambling","college_conf":"Southwestern Athletic Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1475916","references":[{"id":"46755","origin":"nflx"},{"id":"00-0034571","origin":"gsis"}]},{"id":"e2ee3901-8de4-4585-a6ca-b7d77d271d9e","name":"J.J. Jansen","jersey":"44","last_name":"Jansen","first_name":"J.J.","abbr_name":"J.Jansen","preferred_name":"J.J.","birth_date":"1986-01-20","weight":235.0,"height":74,"position":"LS","birth_place":"Phoenix, AZ, USA","high_school":"Brophy Prep (AZ)","college":"Notre Dame","college_conf":"Independent","rookie_year":2008,"status":"A01","sr_id":"sr:player:831595","references":[{"id":"33557","origin":"nflx"},{"id":"00-0026027","origin":"gsis"}]},{"id":"e311a7a2-eddb-439c-86b4-b1f1984186bc","name":"Mike Davis","jersey":"28","last_name":"Davis","first_name":"Mike","abbr_name":"M.Davis","preferred_name":"Mike","birth_date":"1993-02-19","weight":221.0,"height":69,"position":"RB","birth_place":"Atlanta, GA, USA","high_school":"Stephenson (GA)","college":"South Carolina","college_conf":"Southeastern Conference","rookie_year":2015,"status":"A01","sr_id":"sr:player:835123","draft":{"year":2015,"round":4,"number":126,"team":{"id":"f0e724b0-4cbf-495a-be47-013907608da9","name":"49ers","market":"San Francisco","alias":"SF","sr_id":"sr:competitor:4389"}},"references":[{"id":"00-0032063","origin":"gsis"},{"id":"42469","origin":"nflx"}]},{"id":"e81fb788-1478-4936-ae12-f6ed7ec23476","name":"Robby Anderson","jersey":"11","last_name":"Anderson","first_name":"Robby","abbr_name":"R.Anderson","preferred_name":"Robby","birth_date":"1993-05-09","weight":190.0,"height":75,"position":"WR","birth_place":"Teaneck, NJ, USA","high_school":"Plantation (FL)","college":"Temple","college_conf":"American Athletic Conference","rookie_year":2016,"status":"A01","sr_id":"sr:player:1074168","references":[{"id":"00-0032688","origin":"gsis"},{"id":"43808","origin":"nflx"}]},{"id":"e98ed960-2119-4811-b863-d086ef4e1ddf","name":"Chris Reed","jersey":"64","last_name":"Reed","first_name":"Chris","abbr_name":"C.Reed","preferred_name":"Chris","birth_date":"1992-07-22","weight":320.0,"height":76,"position":"G","birth_place":"Omaha, NE, USA","high_school":"Central (NE)","college":"Minn. State-Mankato","college_conf":"Northern Sun Intercollegiate Conference","rookie_year":2015,"status":"A01","sr_id":"sr:player:860970","references":[{"id":"42765","origin":"nflx"},{"id":"00-0031734","origin":"gsis"}]},{"id":"ed8a8fd2-df67-45e7-a34f-984afb82f6ea","name":"Ian Thomas","jersey":"80","last_name":"Thomas","first_name":"Ian","abbr_name":"I.Thomas","preferred_name":"Ian","birth_date":"1996-06-06","weight":260.0,"height":75,"position":"TE","birth_place":"Baltimore, MD, USA","high_school":"Digital Harbor (MD)","college":"Indiana","college_conf":"Big Ten Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1216490","draft":{"year":2018,"round":4,"number":101,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"46170","origin":"nflx"},{"id":"00-0034365","origin":"gsis"}]},{"id":"ee29b5be-a126-4f1a-bb58-c051d7ba9c5e","name":"Daniel Bituli","jersey":"49d","last_name":"Bituli","first_name":"Daniel","abbr_name":"D.Bituli","preferred_name":"Daniel","birth_date":"1997-12-27","weight":252.0,"height":75,"position":"LB","birth_place":"Nashville, TN, USA","high_school":"Nashville Christian (TN)","college":"Tennessee","college_conf":"Southeastern Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040693","references":[{"id":"00-0035929","origin":"gsis"},{"id":"52831","origin":"nflx"}]},{"id":"ee96c74a-7a51-478a-99f9-97ddaaac1e34","name":"Rodney Smith","jersey":"35","last_name":"Smith","first_name":"Rodney","abbr_name":"R.Smith","preferred_name":"Rodney","birth_date":"1996-02-28","weight":210.0,"height":71,"position":"RB","birth_place":"Jonesboro, GA, USA","high_school":"Mundy's Mill (GA)","college":"Minnesota","college_conf":"Big Ten Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040205","references":[{"id":"00-0035957","origin":"gsis"},{"id":"52859","origin":"nflx"}]},{"id":"ef4998e0-c9ef-4afe-88ab-d09b48975a08","name":"Joey Slye","jersey":"4","last_name":"Slye","first_name":"Joey","abbr_name":"J.Slye","preferred_name":"Joey","birth_date":"1996-04-10","weight":213.0,"height":71,"position":"K","birth_place":"Albuquerque, NM, USA","high_school":"North Stafford (VA)","college":"Virginia Tech","college_conf":"Atlantic Coast Conference","rookie_year":2019,"status":"A01","sr_id":"sr:player:1738437","references":[{"id":"00-0035192","origin":"gsis"},{"id":"48337","origin":"nflx"}]},{"id":"f2f71ec1-cc13-4215-aa5d-1948c42c6b28","name":"Natrell Jamerson","jersey":"30","last_name":"Jamerson","first_name":"Natrell","abbr_name":"N.Jamerson","preferred_name":"Natrell","birth_date":"1995-12-15","weight":201.0,"height":71,"position":"CB","birth_place":"Ocala, FL, USA","high_school":"Vanguard (FL)","college":"Wisconsin","college_conf":"Big Ten Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1216252","draft":{"year":2018,"round":5,"number":164,"team":{"id":"0d855753-ea21-4953-89f9-0e20aff9eb73","name":"Saints","market":"New Orleans","alias":"NO","sr_id":"sr:competitor:4425"}},"references":[{"id":"00-0034398","origin":"gsis"},{"id":"46233","origin":"nflx"}]},{"id":"f96db0af-5e25-42d1-a07a-49b4e065b364","name":"Christian McCaffrey","jersey":"22","last_name":"McCaffrey","first_name":"Christian","abbr_name":"C.McCaffrey","preferred_name":"Christian","birth_date":"1996-06-07","weight":205.0,"height":71,"position":"RB","birth_place":"Castle Rock, CO, USA","high_school":"Valor Christian (CO)","college":"Stanford","college_conf":"Pacific Twelve Conference","rookie_year":2017,"status":"A01","sr_id":"sr:player:1129507","draft":{"year":2017,"round":1,"number":8,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"44820","origin":"nflx"},{"id":"00-0033280","origin":"gsis"}]},{"id":"fa7983c1-408c-4aa5-9723-efbf039db351","name":"Marken Michel","jersey":"19","last_name":"Michel","first_name":"Marken","abbr_name":"M.Michel","preferred_name":"Marken","birth_date":"1993-07-06","weight":190.0,"height":71,"position":"WR","birth_place":"Plantation, FL, USA","high_school":"American Heritage (FL)","college":"Massachusetts","college_conf":"Mid-American Conference","rookie_year":2016,"status":"A01","sr_id":"sr:player:989595","references":[{"id":"43729","origin":"nflx"},{"id":"00-0032609","origin":"gsis"}]},{"id":"fde0f790-29a9-4212-a357-17657055c1db","name":"Corn Elder","jersey":"29","last_name":"Elder","first_name":"Corn","abbr_name":"C.Elder","preferred_name":"Corn","birth_date":"1994-10-09","weight":185.0,"height":70,"position":"CB","birth_place":"Nashville, TN, USA","high_school":"The Ensworth School (TN)","college":"Miami","college_conf":"Atlantic Coast Conference","rookie_year":2017,"status":"A01","sr_id":"sr:player:1130013","draft":{"year":2017,"round":5,"number":152,"team":{"id":"f14bf5cc-9a82-4a38-bc15-d39f75ed5314","name":"Panthers","market":"Carolina","alias":"CAR","sr_id":"sr:competitor:4415"}},"references":[{"id":"00-0033289","origin":"gsis"},{"id":"44965","origin":"nflx"}]},{"id":"ff73bcec-6f22-4a26-a179-56f7556dc5a2","name":"Chris Orr","jersey":"45","last_name":"Orr","first_name":"Chris","abbr_name":"C.Orr","preferred_name":"Chris","birth_date":"1997-06-17","weight":224.0,"height":72,"position":"OLB","birth_place":"DeSoto, TX, USA","high_school":"DeSoto (TX)","college":"Wisconsin","college_conf":"Big Ten Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:1216958","references":[{"id":"52856","origin":"nflx"},{"id":"00-0035954","origin":"gsis"}]},{"id":"ff89ab1d-4c9c-4e8b-943d-6a9305c5793e","name":"Rasul Douglas","jersey":"24","last_name":"Douglas","first_name":"Rasul","abbr_name":"R.Douglas","preferred_name":"Rasul","birth_date":"1994-08-29","weight":209.0,"height":74,"position":"CB","birth_place":"East Orange, NJ, USA","high_school":"East Orange (NJ)","college":"West Virginia","college_conf":"Big Twelve Conference","rookie_year":2017,"status":"A01","sr_id":"sr:player:1129797","draft":{"year":2017,"round":3,"number":99,"team":{"id":"386bdbf9-9eea-4869-bb9a-274b0bc66e80","name":"Eagles","market":"Philadelphia","alias":"PHI","sr_id":"sr:competitor:4428"}},"references":[{"id":"00-0033551","origin":"gsis"},{"id":"44911","origin":"nflx"}]}],"_comment":"Generation started @ 2021-02-12 17:53:32 UTC ended @ 2021-02-12 17:53:32 UTC"}
+{
+    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+    "name": "Panthers",
+    "market": "Carolina",
+    "alias": "CAR",
+    "sr_id": "sr:competitor:4415",
+    "franchise": {
+        "id": "ab08c41f-7e6d-4399-9750-7ef1c6d6d4e0",
+        "name": "Panthers",
+        "alias": "CAR",
+        "references": [
+            {
+                "id": "32",
+                "origin": "gsis"
+            }
+        ]
+    },
+    "venue": {
+        "id": "39be9ed4-3292-49ac-8699-a381de3a4969",
+        "name": "Bank of America Stadium",
+        "city": "Charlotte",
+        "state": "NC",
+        "country": "USA",
+        "zip": "28202",
+        "address": "800 South Mint Street",
+        "capacity": 75419,
+        "surface": "turf",
+        "roof_type": "outdoor",
+        "sr_id": "sr:venue:8173",
+        "location": {
+            "lat": "35.225937",
+            "lng": "-80.853133"
+        }
+    },
+    "division": {
+        "id": "2a46bf95-b036-4c6c-b69f-a80c4b6c46bf",
+        "name": "NFC South",
+        "alias": "NFC_SOUTH"
+    },
+    "conference": {
+        "id": "b1808e5f-d40b-47c0-8af8-5175c0fdcd26",
+        "name": "NFC",
+        "alias": "NFC"
+    },
+    "references": [
+        {
+            "id": "CAR",
+            "origin": "gsis"
+        }
+    ],
+    "coaches": [
+        {
+            "id": "2546eccb-38e4-486d-9c69-c7d5215eaf34",
+            "full_name": "Joe Brady",
+            "first_name": "Joe",
+            "last_name": "Brady",
+            "position": "Offensive Coordinator"
+        },
+        {
+            "id": "c8f37d4a-81fc-4649-a9d9-9cdbc5c3e64b",
+            "full_name": "Matt Rhule",
+            "first_name": "Matt",
+            "last_name": "Rhule",
+            "position": "Head Coach"
+        },
+        {
+            "id": "d3a2546c-b25a-4146-951f-411e727f9c12",
+            "full_name": "Phil Snow",
+            "first_name": "Phil",
+            "last_name": "Snow",
+            "position": "Defensive Coordinator"
+        }
+    ],
+    "team_colors": [
+        {
+            "type": "primary",
+            "hex_color": "#0085ca",
+            "alpha": 0.0,
+            "rgb_color": {
+                "red": 0,
+                "green": 133,
+                "blue": 202
+            }
+        },
+        {
+            "type": "secondary",
+            "hex_color": "#101820",
+            "alpha": 0.0,
+            "rgb_color": {
+                "red": 16,
+                "green": 24,
+                "blue": 32
+            }
+        }
+    ],
+    "players": [
+        {
+            "id": "00484794-97e8-443b-876f-d192722cd70c",
+            "name": "Jordan Mack",
+            "jersey": "47",
+            "last_name": "Mack",
+            "first_name": "Jordan",
+            "abbr_name": "J.Mack",
+            "preferred_name": "Jordan",
+            "birth_date": "1998-02-07",
+            "weight": 230.0,
+            "height": 74,
+            "position": "OLB",
+            "birth_place": "Lithonia, GA, USA",
+            "high_school": "Wesleyan (GA)",
+            "college": "Virginia",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2020,
+            "status": "R62",
+            "sr_id": "sr:player:1200872",
+            "references": [
+                {
+                    "id": "52674",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035772",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "05640572-1b4d-40d5-b584-d79bdd7d5c5f",
+            "name": "Julian Stanford",
+            "jersey": "50",
+            "last_name": "Stanford",
+            "first_name": "Julian",
+            "abbr_name": "J.Stanford",
+            "preferred_name": "Julian",
+            "birth_date": "1990-09-02",
+            "weight": 230.0,
+            "height": 73,
+            "position": "OLB",
+            "birth_place": "Bloomfield, CT, USA",
+            "high_school": "Bloomfield (CT)",
+            "college": "Wagner",
+            "college_conf": "Northeast Conference",
+            "rookie_year": 2012,
+            "status": "A01",
+            "sr_id": "sr:player:829649",
+            "references": [
+                {
+                    "id": "39008",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0029061",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "0666e6c6-42d9-40ab-83bd-7bbf81e9ac9c",
+            "name": "Phillip Walker",
+            "jersey": "6",
+            "last_name": "Walker",
+            "first_name": "Phillip",
+            "abbr_name": "P.Walker",
+            "preferred_name": "Phillip",
+            "birth_date": "1995-02-26",
+            "weight": 212.0,
+            "height": 71,
+            "position": "QB",
+            "birth_place": "Elizabeth, NJ, USA",
+            "high_school": "Elizabeth (NJ)",
+            "college": "Temple",
+            "college_conf": "American Athletic Conference",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1132245",
+            "references": [
+                {
+                    "id": "00-0033275",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "45159",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "06f3a0fc-2a07-4ecc-b5c3-873b2f615809",
+            "name": "Dennis Daley",
+            "jersey": "65",
+            "last_name": "Daley",
+            "first_name": "Dennis",
+            "abbr_name": "D.Daley",
+            "preferred_name": "Dennis",
+            "birth_date": "1996-08-07",
+            "weight": 324.0,
+            "height": 78,
+            "position": "G",
+            "birth_place": "Columbia, SC, USA",
+            "high_school": "Ridge View (SC)",
+            "college": "South Carolina",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1269286",
+            "draft": {
+                "year": 2019,
+                "round": 6,
+                "number": 212,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0035300",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "47995",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "0d226e62-3a43-4a9f-a985-05214182146f",
+            "name": "Kenny Robinson",
+            "jersey": "27",
+            "last_name": "Robinson",
+            "first_name": "Kenny",
+            "abbr_name": "K.Robinson",
+            "preferred_name": "Kenny",
+            "birth_date": "1999-01-08",
+            "weight": 202.0,
+            "height": 74,
+            "position": "FS",
+            "birth_place": "Wilkinsburg, PA, USA",
+            "high_school": "Imani Christian (PA)",
+            "college": "West Virginia",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040251",
+            "draft": {
+                "year": 2020,
+                "round": 5,
+                "number": 152,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "50756",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0036283",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "0e4e082e-6dc7-41c4-baa1-2c1367f8f9f9",
+            "name": "Troy Pride Jr.",
+            "jersey": "25",
+            "last_name": "Pride",
+            "first_name": "Troy",
+            "abbr_name": "T.Pride",
+            "preferred_name": "Troy",
+            "birth_date": "1998-01-19",
+            "weight": 194.0,
+            "height": 71,
+            "position": "CB",
+            "birth_place": "Greer, SC, USA",
+            "high_school": "Greer (SC)",
+            "college": "Notre Dame",
+            "college_conf": "Independent",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040463",
+            "name_suffix": "Jr.",
+            "draft": {
+                "year": 2020,
+                "round": 4,
+                "number": 113,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "52521",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0036299",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "123f0733-0afb-4291-8e57-9970e229309b",
+            "name": "Kawann Short",
+            "jersey": "99",
+            "last_name": "Short",
+            "first_name": "Kawann",
+            "abbr_name": "K.Short",
+            "preferred_name": "Kawann",
+            "birth_date": "1989-02-02",
+            "weight": 315.0,
+            "height": 75,
+            "position": "DT",
+            "birth_place": "East Chicago, IN, USA",
+            "high_school": "Central (IN)",
+            "college": "Purdue",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2013,
+            "status": "A01",
+            "sr_id": "sr:player:830173",
+            "draft": {
+                "year": 2013,
+                "round": 2,
+                "number": 44,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "39992",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0030448",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "1a7ff6d7-85c8-4ef1-8db7-b629b451e368",
+            "name": "John Miller",
+            "jersey": "67",
+            "last_name": "Miller",
+            "first_name": "John",
+            "abbr_name": "J.Miller",
+            "preferred_name": "John",
+            "birth_date": "1993-08-12",
+            "weight": 315.0,
+            "height": 75,
+            "position": "G",
+            "birth_place": "Miami, FL, USA",
+            "high_school": "Central (FL)",
+            "college": "Louisville",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2015,
+            "status": "A01",
+            "sr_id": "sr:player:834763",
+            "draft": {
+                "year": 2015,
+                "round": 3,
+                "number": 81,
+                "team": {
+                    "id": "768c92aa-75ff-4a43-bcc0-f2798c2e1724",
+                    "name": "Bills",
+                    "market": "Buffalo",
+                    "alias": "BUF",
+                    "sr_id": "sr:competitor:4376"
+                }
+            },
+            "references": [
+                {
+                    "id": "42424",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0032149",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "1b1e5bef-13e9-4814-b7ef-7970cbf103b8",
+            "name": "Tyler Larsen",
+            "jersey": "69",
+            "last_name": "Larsen",
+            "first_name": "Tyler",
+            "abbr_name": "T.Larsen",
+            "preferred_name": "Tyler",
+            "birth_date": "1991-07-08",
+            "weight": 325.0,
+            "height": 76,
+            "position": "C",
+            "birth_place": "Salt Lake City, UT, USA",
+            "high_school": "Jordan (UT)",
+            "college": "Utah State",
+            "college_conf": "Mountain West Conference",
+            "rookie_year": 2014,
+            "status": "A01",
+            "sr_id": "sr:player:833639",
+            "references": [
+                {
+                    "id": "41707",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0030869",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "1d55ba37-c09e-4945-b7ae-8d84e2357283",
+            "name": "Colin Thompson",
+            "jersey": "86",
+            "last_name": "Thompson",
+            "first_name": "Colin",
+            "abbr_name": "C.Thompson",
+            "preferred_name": "Colin",
+            "birth_date": "1993-12-15",
+            "weight": 255.0,
+            "height": 76,
+            "position": "TE",
+            "birth_place": "Doylestown, PA, USA",
+            "high_school": "Archbishop Wood (PA)",
+            "college": "Temple",
+            "college_conf": "American Athletic Conference",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1250288",
+            "references": [
+                {
+                    "id": "00-0033720",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "45594",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "1db9d170-d0cf-4b2c-a160-fe828a7339eb",
+            "name": "Adarius Taylor",
+            "jersey": "57",
+            "last_name": "Taylor",
+            "first_name": "Adarius",
+            "abbr_name": "A.Taylor",
+            "preferred_name": "Adarius",
+            "birth_date": "1990-09-21",
+            "weight": 230.0,
+            "height": 72,
+            "position": "MLB",
+            "birth_place": "Lakeland, FL, USA",
+            "high_school": "Lake Gibson (FL)",
+            "college": "Florida Atlantic",
+            "college_conf": "Conference USA",
+            "rookie_year": 2014,
+            "status": "A01",
+            "sr_id": "sr:player:829343",
+            "references": [
+                {
+                    "id": "41937",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0031120",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "2d16fcef-89b8-4a92-844f-a92c4e20b5c9",
+            "name": "Reggie Bonnafon",
+            "jersey": "39",
+            "last_name": "Bonnafon",
+            "first_name": "Reggie",
+            "abbr_name": "R.Bonnafon",
+            "preferred_name": "Reggie",
+            "birth_date": "1996-01-04",
+            "weight": 215.0,
+            "height": 72,
+            "position": "RB",
+            "birth_place": "Louisville, KY, USA",
+            "high_school": "Trinity (KY)",
+            "college": "Louisville",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1475976",
+            "references": [
+                {
+                    "id": "46762",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034578",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "305c4a34-6428-418e-adf6-09f60e83c674",
+            "name": "Michael Schofield",
+            "jersey": "75",
+            "last_name": "Schofield",
+            "first_name": "Michael",
+            "abbr_name": "M.Schofield",
+            "preferred_name": "Michael",
+            "birth_date": "1990-11-15",
+            "weight": 301.0,
+            "height": 78,
+            "position": "G",
+            "birth_place": "Orland Park, IL, USA",
+            "high_school": "Carl Sandburg (IL)",
+            "college": "Michigan",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2014,
+            "status": "A01",
+            "sr_id": "sr:player:830417",
+            "draft": {
+                "year": 2014,
+                "round": 3,
+                "number": 95,
+                "team": {
+                    "id": "ce92bd47-93d5-4fe9-ada4-0fc681e6caa0",
+                    "name": "Broncos",
+                    "market": "Denver",
+                    "alias": "DEN",
+                    "sr_id": "sr:competitor:4418"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0031353",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "41324",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "38293bdb-87d5-4219-be46-44fea6741483",
+            "name": "Russell Okung",
+            "jersey": "76",
+            "last_name": "Okung",
+            "first_name": "Russell",
+            "abbr_name": "R.Okung",
+            "preferred_name": "Russell",
+            "birth_date": "1988-10-07",
+            "weight": 310.0,
+            "height": 77,
+            "position": "T",
+            "birth_place": "Fort Bend, TX, USA",
+            "high_school": "George Bush (TX)",
+            "college": "Oklahoma State",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2010,
+            "status": "A01",
+            "sr_id": "sr:player:831347",
+            "draft": {
+                "year": 2010,
+                "round": 1,
+                "number": 6,
+                "team": {
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "sr_id": "sr:competitor:4430"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0027859",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "35445",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "3885b40b-c31b-4cd6-a0fd-3d24bede2771",
+            "name": "Brandon Zylstra",
+            "jersey": "16",
+            "last_name": "Zylstra",
+            "first_name": "Brandon",
+            "abbr_name": "B.Zylstra",
+            "preferred_name": "Brandon",
+            "birth_date": "1993-03-25",
+            "weight": 215.0,
+            "height": 74,
+            "position": "WR",
+            "birth_place": "Spicer, MN, USA",
+            "high_school": "New London Spicer (MN)",
+            "college": "Concordia, Minn",
+            "college_conf": "Minnesota Intercollegiate Athletic Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1388269",
+            "references": [
+                {
+                    "id": "44123",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034052",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "3b1bb0da-607a-4502-8855-8ab5095334da",
+            "name": "Sam Franklin Jr.",
+            "jersey": "42",
+            "last_name": "Franklin",
+            "first_name": "Sam",
+            "abbr_name": "S.Franklin",
+            "preferred_name": "Sam",
+            "birth_date": "1996-02-02",
+            "weight": 210.0,
+            "height": 75,
+            "position": "SS",
+            "birth_place": "Crystal River, FL, USA",
+            "high_school": "Citrus (FL)",
+            "college": "Temple",
+            "college_conf": "American Athletic Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1198366",
+            "name_suffix": "Jr.",
+            "references": [
+                {
+                    "id": "52939",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0036037",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "3bf0711c-793a-47e7-bcbd-a0ddf350fef4",
+            "name": "Shaq Thompson",
+            "jersey": "54",
+            "last_name": "Thompson",
+            "first_name": "Shaq",
+            "abbr_name": "S.Thompson",
+            "preferred_name": "Shaq",
+            "birth_date": "1994-04-21",
+            "weight": 230.0,
+            "height": 72,
+            "position": "OLB",
+            "birth_place": "Sacramento, CA, USA",
+            "high_school": "Grant Union (CA)",
+            "college": "Washington",
+            "college_conf": "Pacific Twelve Conference",
+            "rookie_year": 2015,
+            "status": "A01",
+            "sr_id": "sr:player:834533",
+            "draft": {
+                "year": 2015,
+                "round": 1,
+                "number": 25,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0031550",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "42368",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "430446f6-a74c-496b-8f49-4464e7d8149d",
+            "name": "Keith Kirkwood",
+            "jersey": "18",
+            "last_name": "Kirkwood",
+            "first_name": "Keith",
+            "abbr_name": "K.Kirkwood",
+            "preferred_name": "Keith",
+            "birth_date": "1993-12-26",
+            "weight": 210.0,
+            "height": 75,
+            "position": "WR",
+            "birth_place": "Neptune, NJ, USA",
+            "high_school": "Neptune (NJ)",
+            "college": "Temple",
+            "college_conf": "American Athletic Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1476902",
+            "references": [
+                {
+                    "id": "00-0034317",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "46542",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "47dedc0e-a2fd-415c-8619-5a46867d83e2",
+            "name": "Bravvion Roy",
+            "jersey": "93",
+            "last_name": "Roy",
+            "first_name": "Bravvion",
+            "abbr_name": "B.Roy",
+            "preferred_name": "Bravvion",
+            "birth_date": "1996-10-18",
+            "weight": 333.0,
+            "height": 73,
+            "position": "DT",
+            "birth_place": "Spring, TX, USA",
+            "high_school": "Spring (TX)",
+            "college": "Baylor",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040467",
+            "draft": {
+                "year": 2020,
+                "round": 6,
+                "number": 184,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0036311",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52592",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "488cf673-fb92-4701-abd0-4641987642ee",
+            "name": "Omar Bayless",
+            "jersey": "17",
+            "last_name": "Bayless",
+            "first_name": "Omar",
+            "abbr_name": "O.Bayless",
+            "preferred_name": "Omar",
+            "birth_date": "1996-12-15",
+            "weight": 207.0,
+            "height": 75,
+            "position": "WR",
+            "birth_place": "Laurel, MS, USA",
+            "high_school": "Laurel (MS)",
+            "college": "Arkansas State",
+            "college_conf": "Sun Belt Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040137",
+            "references": [
+                {
+                    "id": "52849",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035947",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "4ca2f25d-7a0c-42e2-9b35-c9b9a025990b",
+            "name": "Tre Boston",
+            "jersey": "33",
+            "last_name": "Boston",
+            "first_name": "Tre",
+            "abbr_name": "T.Boston",
+            "preferred_name": "Tre",
+            "birth_date": "1992-06-25",
+            "weight": 205.0,
+            "height": 73,
+            "position": "FS",
+            "birth_place": "Fort Myers, FL, USA",
+            "high_school": "North Fort Myers (FL)",
+            "college": "North Carolina",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2014,
+            "status": "A01",
+            "sr_id": "sr:player:828471",
+            "draft": {
+                "year": 2014,
+                "round": 4,
+                "number": 128,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0031261",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "41357",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "4f115bb3-1468-4bfb-a239-e55e6dc7ce3f",
+            "name": "Mike Panasiuk",
+            "jersey": "91",
+            "last_name": "Panasiuk",
+            "first_name": "Mike",
+            "abbr_name": "M.Panasiuk",
+            "preferred_name": "Mike",
+            "birth_date": "1997-10-13",
+            "weight": 300.0,
+            "height": 76,
+            "position": "DT",
+            "birth_place": "Roselle, IL, USA",
+            "high_school": "Lake Park West (IL)",
+            "college": "Michigan State",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040653",
+            "references": [
+                {
+                    "id": "00-0036170",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "53062",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "4f724338-aa8c-436d-90b2-45299572c53e",
+            "name": "Pharoh Cooper",
+            "jersey": "14",
+            "last_name": "Cooper",
+            "first_name": "Pharoh",
+            "abbr_name": "P.Cooper",
+            "preferred_name": "Pharoh",
+            "birth_date": "1995-03-07",
+            "weight": 207.0,
+            "height": 71,
+            "position": "WR",
+            "birth_place": "Havelock, NC, USA",
+            "high_school": "Havelock (NC)",
+            "college": "South Carolina",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2016,
+            "status": "A01",
+            "sr_id": "sr:player:988723",
+            "draft": {
+                "year": 2016,
+                "round": 4,
+                "number": 117,
+                "team": {
+                    "id": "2eff2a03-54d4-46ba-890e-2bc3925548f3",
+                    "name": "Rams",
+                    "market": "Los Angeles",
+                    "alias": "LA",
+                    "sr_id": "sr:competitor:4387"
+                }
+            },
+            "references": [
+                {
+                    "id": "43406",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0033111",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "5165ce25-382b-4809-83b7-8c66d93c2aef",
+            "name": "Zach Kerr",
+            "jersey": "92",
+            "last_name": "Kerr",
+            "first_name": "Zach",
+            "abbr_name": "Z.Kerr",
+            "preferred_name": "Zach",
+            "birth_date": "1990-08-29",
+            "weight": 334.0,
+            "height": 74,
+            "position": "DT",
+            "birth_place": "Virginia Beach, VA, USA",
+            "high_school": "Quince Orchard (MD)",
+            "college": "Delaware",
+            "college_conf": "Colonial Athletic Association",
+            "rookie_year": 2014,
+            "status": "A01",
+            "sr_id": "sr:player:855782",
+            "references": [
+                {
+                    "id": "00-0031105",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "41919",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "5a09de36-5fac-4053-b3a0-2b56d2519a9b",
+            "name": "Lirim Hajrullahu",
+            "jersey": "3",
+            "last_name": "Hajrullahu",
+            "first_name": "Lirim",
+            "abbr_name": "L.Hajrullahu",
+            "preferred_name": "Lirim",
+            "birth_date": "1990-04-24",
+            "weight": 215.0,
+            "height": 71,
+            "position": "K",
+            "birth_place": "Gjilan,, MLT",
+            "high_school": "Governor Simcoe Secondary School (ON)",
+            "college": "Western Ontario, Can.",
+            "college_conf": "Ontario Universities Athletic Association",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2039987",
+            "references": [
+                {
+                    "id": "00-0035758",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "42259",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "5cc69b4f-6ac4-4854-b3ab-5f669e0d8239",
+            "name": "Sam Tecklenburg",
+            "jersey": "71",
+            "last_name": "Tecklenburg",
+            "first_name": "Sam",
+            "abbr_name": "S.Tecklenburg",
+            "preferred_name": "Sam",
+            "birth_date": "1997-01-31",
+            "weight": 310.0,
+            "height": 76,
+            "position": "C",
+            "birth_place": "Plano, TX, USA",
+            "high_school": "Plano (TX)",
+            "college": "Baylor",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040425",
+            "references": [
+                {
+                    "id": "52860",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035958",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "5f3a60b9-64ac-41f0-877b-cfd2cdfe23c9",
+            "name": "Juston Burris",
+            "jersey": "31",
+            "last_name": "Burris",
+            "first_name": "Juston",
+            "abbr_name": "J.Burris",
+            "preferred_name": "Juston",
+            "birth_date": "1993-08-04",
+            "weight": 212.0,
+            "height": 72,
+            "position": "SS",
+            "birth_place": "Raleigh, NC, USA",
+            "high_school": "Broughton (NC)",
+            "college": "North Carolina State",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2016,
+            "status": "A01",
+            "sr_id": "sr:player:1073956",
+            "draft": {
+                "year": 2016,
+                "round": 4,
+                "number": 118,
+                "team": {
+                    "id": "5fee86ae-74ab-4bdd-8416-42a9dd9964f3",
+                    "name": "Jets",
+                    "market": "New York",
+                    "alias": "NYJ",
+                    "sr_id": "sr:competitor:4427"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0032403",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "43407",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "5f3cc875-e802-46b2-81ad-3ffb7a3a1662",
+            "name": "Michael Palardy",
+            "jersey": "2",
+            "last_name": "Palardy",
+            "first_name": "Michael",
+            "abbr_name": "M.Palardy",
+            "preferred_name": "Michael",
+            "birth_date": "1992-07-06",
+            "weight": 200.0,
+            "height": 71,
+            "position": "P",
+            "birth_place": "Margate, FL, USA",
+            "high_school": "St. Thomas Aquinas (FL)",
+            "college": "Tennessee",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2014,
+            "status": "A01",
+            "sr_id": "sr:player:854778",
+            "references": [
+                {
+                    "id": "00-0031363",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "42098",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "5f623fbc-415e-4035-b423-7850cf1153b4",
+            "name": "Jeremy Chinn",
+            "jersey": "21",
+            "last_name": "Chinn",
+            "first_name": "Jeremy",
+            "abbr_name": "J.Chinn",
+            "preferred_name": "Jeremy",
+            "birth_date": "1998-02-26",
+            "weight": 212.0,
+            "height": 75,
+            "position": "FS",
+            "birth_place": "Fishers, IN, USA",
+            "high_school": "Fishers (IN)",
+            "college": "Southern Illinois",
+            "college_conf": "Missouri Valley Football Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040685",
+            "draft": {
+                "year": 2020,
+                "round": 2,
+                "number": 64,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "52472",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0036293",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "634dcf96-92ca-474a-8a09-e26a12a7bafa",
+            "name": "Ishmael Hyman",
+            "jersey": "13",
+            "last_name": "Hyman",
+            "first_name": "Ishmael",
+            "abbr_name": "I.Hyman",
+            "preferred_name": "Ishmael",
+            "birth_date": "1995-08-23",
+            "weight": 196.0,
+            "height": 72,
+            "position": "WR",
+            "birth_place": "Manalapan, NJ, USA",
+            "high_school": "St. John Vianney (NJ)",
+            "college": "James Madison",
+            "college_conf": "Colonial Athletic Association",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1226190",
+            "references": [
+                {
+                    "id": "00-0034922",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "47243",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "66a21b6d-97e5-4732-8bb0-062145d6bbc6",
+            "name": "Curtis Samuel",
+            "jersey": "10",
+            "last_name": "Samuel",
+            "first_name": "Curtis",
+            "abbr_name": "C.Samuel",
+            "preferred_name": "Curtis",
+            "birth_date": "1996-08-11",
+            "weight": 195.0,
+            "height": 71,
+            "position": "WR",
+            "birth_place": "Brooklyn, NY, USA",
+            "high_school": "Erasmus Hall (NY)",
+            "college": "Ohio State",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1129833",
+            "draft": {
+                "year": 2017,
+                "round": 2,
+                "number": 40,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0033282",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "44852",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "686cab35-6da0-4e10-ba65-0d1f97e0bc8b",
+            "name": "Alex Armah",
+            "jersey": "40",
+            "last_name": "Armah",
+            "first_name": "Alex",
+            "abbr_name": "A.Armah",
+            "preferred_name": "Alex",
+            "birth_date": "1994-05-17",
+            "weight": 255.0,
+            "height": 74,
+            "position": "FB",
+            "birth_place": "Lawrenceville, GA, USA",
+            "high_school": "Dacula (GA)",
+            "college": "West Georgia",
+            "college_conf": "Gulf South Conference",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1130107",
+            "draft": {
+                "year": 2017,
+                "round": 6,
+                "number": 192,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "45005",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0033296",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "689de342-1d99-4a4d-976d-f6573ef3a8c2",
+            "name": "Giovanni Ricci",
+            "jersey": "85",
+            "last_name": "Ricci",
+            "first_name": "Giovanni",
+            "abbr_name": "G.Ricci",
+            "preferred_name": "Giovanni",
+            "birth_date": "1996-10-16",
+            "weight": 240.0,
+            "height": 75,
+            "position": "TE",
+            "birth_place": "Loveland, OH, USA",
+            "high_school": "Loveland (OH)",
+            "college": "Western Michigan",
+            "college_conf": "Mid-American Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1228746",
+            "references": [
+                {
+                    "id": "00-0035956",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52858",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "6c162e60-0d39-46b4-bd8d-d2f3c6d6c7e5",
+            "name": "Stantley Thomas-Oliver III",
+            "jersey": "23",
+            "last_name": "Thomas-Oliver",
+            "first_name": "Stantley",
+            "abbr_name": "S.Thomas-Oliver III",
+            "preferred_name": "Stantley",
+            "birth_date": "1998-06-04",
+            "weight": 184.0,
+            "height": 74,
+            "position": "CB",
+            "birth_place": "Punta Gorda, FL, USA",
+            "high_school": "Charlotte (FL)",
+            "college": "Florida International",
+            "college_conf": "Conference USA",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040667",
+            "name_suffix": "III",
+            "draft": {
+                "year": 2020,
+                "round": 7,
+                "number": 221,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "52629",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0036315",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "6c1cd007-fea3-47bb-a8b1-4e4c040a2d94",
+            "name": "Christian Miller",
+            "jersey": "55",
+            "last_name": "Miller",
+            "first_name": "Christian",
+            "abbr_name": "C.Miller",
+            "preferred_name": "Christian",
+            "birth_date": "1996-06-16",
+            "weight": 244.0,
+            "height": 75,
+            "position": "DE",
+            "birth_place": "Columbia, SC, USA",
+            "high_school": "Spring Valley (SC)",
+            "college": "Alabama",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2019,
+            "status": "R62",
+            "sr_id": "sr:player:1769324",
+            "draft": {
+                "year": 2019,
+                "round": 4,
+                "number": 115,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "47898",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035257",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "6ef5045f-9215-4354-a1af-3f86e4c4a03d",
+            "name": "Stephen Weatherly",
+            "jersey": "91",
+            "last_name": "Weatherly",
+            "first_name": "Stephen",
+            "abbr_name": "S.Weatherly",
+            "preferred_name": "Stephen",
+            "birth_date": "1994-03-19",
+            "weight": 265.0,
+            "height": 77,
+            "position": "DE",
+            "birth_place": "Snellville, GA, USA",
+            "high_school": "Shiloh (GA)",
+            "college": "Vanderbilt",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2016,
+            "status": "A01",
+            "sr_id": "sr:player:1074150",
+            "draft": {
+                "year": 2016,
+                "round": 7,
+                "number": 227,
+                "team": {
+                    "id": "33405046-04ee-4058-a950-d606f8c30852",
+                    "name": "Vikings",
+                    "market": "Minnesota",
+                    "alias": "MIN",
+                    "sr_id": "sr:competitor:4423"
+                }
+            },
+            "references": [
+                {
+                    "id": "43516",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0032448",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "70eae82c-30ea-491f-b71c-aa11f47af476",
+            "name": "Tahir Whitehead",
+            "jersey": "52",
+            "last_name": "Whitehead",
+            "first_name": "Tahir",
+            "abbr_name": "T.Whitehead",
+            "preferred_name": "Tahir",
+            "birth_date": "1990-04-02",
+            "weight": 241.0,
+            "height": 74,
+            "position": "MLB",
+            "birth_place": "Jersey City, NJ, USA",
+            "high_school": "West Side (NJ)",
+            "college": "Temple",
+            "college_conf": "Mid-American Conference",
+            "rookie_year": 2012,
+            "status": "A01",
+            "sr_id": "sr:player:827597",
+            "draft": {
+                "year": 2012,
+                "round": 5,
+                "number": 138,
+                "team": {
+                    "id": "c5a59daa-53a7-4de0-851f-fb12be893e9e",
+                    "name": "Lions",
+                    "market": "Detroit",
+                    "alias": "DET",
+                    "sr_id": "sr:competitor:4419"
+                }
+            },
+            "references": [
+                {
+                    "id": "38668",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0029212",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "7905e9be-2f66-4ff5-a6e9-dbe281bf4822",
+            "name": "Will Grier",
+            "jersey": "7",
+            "last_name": "Grier",
+            "first_name": "Will",
+            "abbr_name": "W.Grier",
+            "preferred_name": "Will",
+            "birth_date": "1995-04-03",
+            "weight": 220.0,
+            "height": 73,
+            "position": "QB",
+            "birth_place": "Davidson, NC, USA",
+            "high_school": "Davidson Day School (NC)",
+            "college": "West Virginia",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1194126",
+            "draft": {
+                "year": 2019,
+                "round": 3,
+                "number": 100,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "47883",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035251",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "7c7b5515-7786-4e24-9ce0-34e6a8bd5727",
+            "name": "Chris Manhertz",
+            "jersey": "82",
+            "last_name": "Manhertz",
+            "first_name": "Chris",
+            "abbr_name": "C.Manhertz",
+            "preferred_name": "Chris",
+            "birth_date": "1992-04-10",
+            "weight": 255.0,
+            "height": 78,
+            "position": "TE",
+            "birth_place": "New York, NY, USA",
+            "high_school": "Cardinal Spellman (NY)",
+            "college": "Canisius",
+            "college_conf": "NO FOOTBALL",
+            "rookie_year": 2015,
+            "status": "A01",
+            "sr_id": "sr:player:830049",
+            "references": [
+                {
+                    "id": "42302",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0031484",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "7d7aae3c-c186-4ded-bbaa-df05f697ef29",
+            "name": "Efe Obada",
+            "jersey": "94",
+            "last_name": "Obada",
+            "first_name": "Efe",
+            "abbr_name": "E.Obada",
+            "preferred_name": "Efe",
+            "birth_date": "1992-04-13",
+            "weight": 265.0,
+            "height": 78,
+            "position": "DE",
+            "birth_place": ",, NGA",
+            "high_school": "Lambeth College (GBR)",
+            "college": "No College",
+            "college_conf": "NO COLLEGE",
+            "rookie_year": 2015,
+            "status": "A01",
+            "sr_id": "sr:player:855844",
+            "references": [
+                {
+                    "id": "42331",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0031500",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "829c836e-8040-48ca-aa20-5ad24f0ff37f",
+            "name": "Jermaine Carter",
+            "jersey": "56",
+            "last_name": "Carter",
+            "first_name": "Jermaine",
+            "abbr_name": "J.Carter",
+            "preferred_name": "Jermaine",
+            "birth_date": "1995-01-14",
+            "weight": 225.0,
+            "height": 72,
+            "position": "OLB",
+            "birth_place": "Rockville, MD, USA",
+            "high_school": "Friendship Collegiate Academy (DC)",
+            "college": "Maryland",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1524099",
+            "draft": {
+                "year": 2018,
+                "round": 5,
+                "number": 161,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0034396",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "46230",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "85325fdc-da47-4992-af60-a20d0b1ec980",
+            "name": "Ventell Bryant",
+            "jersey": "83",
+            "last_name": "Bryant",
+            "first_name": "Ventell",
+            "abbr_name": "V.Bryant",
+            "preferred_name": "Ventell",
+            "birth_date": "1996-08-24",
+            "weight": 205.0,
+            "height": 75,
+            "position": "WR",
+            "birth_place": "Tampa, FL, USA",
+            "high_school": "Jefferson (FL)",
+            "college": "Temple",
+            "college_conf": "American Athletic Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1209834",
+            "references": [
+                {
+                    "id": "48684",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035548",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "87e59fe7-8744-4318-a41e-53a18d1f9647",
+            "name": "Myles Hartsfield",
+            "jersey": "38",
+            "last_name": "Hartsfield",
+            "first_name": "Myles",
+            "abbr_name": "M.Hartsfield",
+            "preferred_name": "Myles",
+            "birth_date": "1997-08-05",
+            "weight": 211.0,
+            "height": 71,
+            "position": "FS",
+            "birth_place": "Sayreville, NJ, USA",
+            "high_school": "East Coast Prep (NJ)",
+            "college": "Mississippi",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1227636",
+            "references": [
+                {
+                    "id": "52852",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035950",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "88f31a44-caae-4e5b-a786-8a229374a19d",
+            "name": "Sean Chandler",
+            "jersey": "34",
+            "last_name": "Chandler",
+            "first_name": "Sean",
+            "abbr_name": "S.Chandler",
+            "preferred_name": "Sean",
+            "birth_date": "1996-04-27",
+            "weight": 205.0,
+            "height": 70,
+            "position": "FS",
+            "birth_place": "Camden, NJ, USA",
+            "high_school": "Camden (NJ)",
+            "college": "Temple",
+            "college_conf": "American Athletic Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1188428",
+            "references": [
+                {
+                    "id": "00-0034496",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "46680",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "8a60686b-fdf6-4293-846e-92c1b1d586b9",
+            "name": "Marquis Haynes",
+            "jersey": "98",
+            "last_name": "Haynes",
+            "first_name": "Marquis",
+            "abbr_name": "M.Haynes",
+            "preferred_name": "Marquis",
+            "birth_date": "1993-12-16",
+            "weight": 235.0,
+            "height": 74,
+            "position": "DE",
+            "birth_place": "Jacksonville, FL, USA",
+            "high_school": "University Christian (FL)",
+            "college": "Mississippi",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1224360",
+            "draft": {
+                "year": 2018,
+                "round": 4,
+                "number": 136,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0034382",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "46205",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "91aac0f7-60ed-4333-8aee-15bd56764464",
+            "name": "Amara Darboh",
+            "jersey": "82",
+            "last_name": "Darboh",
+            "first_name": "Amara",
+            "abbr_name": "A.Darboh",
+            "preferred_name": "Amara",
+            "birth_date": "1994-02-01",
+            "weight": 219.0,
+            "height": 74,
+            "position": "WR",
+            "birth_place": "Freetown,, SLE",
+            "high_school": "Dowling Catholic (IA)",
+            "college": "Michigan",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1129831",
+            "draft": {
+                "year": 2017,
+                "round": 3,
+                "number": 106,
+                "team": {
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "sr_id": "sr:competitor:4430"
+                }
+            },
+            "references": [
+                {
+                    "id": "44918",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0033937",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "93a1f2fd-fd5e-4b06-8086-476028d83eed",
+            "name": "Tommy Stevens",
+            "jersey": "15",
+            "last_name": "Stevens",
+            "first_name": "Tommy",
+            "abbr_name": "T.Stevens",
+            "preferred_name": "Tommy",
+            "birth_date": "1996-12-15",
+            "weight": 235.0,
+            "height": 77,
+            "position": "QB",
+            "birth_place": "Indianapolis, IN, USA",
+            "high_school": "Decatur Central (IN)",
+            "college": "Mississippi State",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040311",
+            "draft": {
+                "year": 2020,
+                "round": 7,
+                "number": 240,
+                "team": {
+                    "id": "0d855753-ea21-4953-89f9-0e20aff9eb73",
+                    "name": "Saints",
+                    "market": "New Orleans",
+                    "alias": "NO",
+                    "sr_id": "sr:competitor:4425"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0036433",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52648",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "943a818d-074a-4243-9d54-f91ada96923b",
+            "name": "Matt Kaskey",
+            "jersey": "63",
+            "last_name": "Kaskey",
+            "first_name": "Matt",
+            "abbr_name": "M.Kaskey",
+            "preferred_name": "Matt",
+            "birth_date": "1997-03-17",
+            "weight": 325.0,
+            "height": 79,
+            "position": "T",
+            "birth_place": "Winnetka, IL, USA",
+            "high_school": "New Trier (IL)",
+            "college": "Dartmouth",
+            "college_conf": "Ivy League",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1186804",
+            "references": [
+                {
+                    "id": "00-0035613",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "48776",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "9a76c690-1946-4860-9564-a0b7b9bbaf0a",
+            "name": "Joseph Charlton",
+            "jersey": "3",
+            "last_name": "Charlton",
+            "first_name": "Joseph",
+            "abbr_name": "J.Charlton",
+            "preferred_name": "Joseph",
+            "birth_date": "1997-04-07",
+            "weight": 190.0,
+            "height": 77,
+            "position": "P",
+            "birth_place": "Columbia, SC, USA",
+            "high_school": "A.C. Flora",
+            "college": "South Carolina",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2059379",
+            "references": [
+                {
+                    "id": "00-0036320",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "53146",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "9c8292c7-b406-4a31-a781-7c72aac6b053",
+            "name": "Derrick Brown",
+            "jersey": "95",
+            "last_name": "Brown",
+            "first_name": "Derrick",
+            "abbr_name": "D.Brown",
+            "preferred_name": "Derrick",
+            "birth_date": "1998-04-15",
+            "weight": 318.0,
+            "height": 77,
+            "position": "DT",
+            "birth_place": "Sugar Hill, GA, USA",
+            "high_school": "Lanier (GA)",
+            "college": "Auburn",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040683",
+            "draft": {
+                "year": 2020,
+                "round": 1,
+                "number": 7,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "52415",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0036220",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "9dc1308a-5cf2-45c1-b5ad-fc64fff3e94f",
+            "name": "Donte Jackson",
+            "jersey": "26",
+            "last_name": "Jackson",
+            "first_name": "Donte",
+            "abbr_name": "D.Jackson",
+            "preferred_name": "Donte",
+            "birth_date": "1995-11-08",
+            "weight": 180.0,
+            "height": 70,
+            "position": "CB",
+            "birth_place": "New Orleans, LA, USA",
+            "high_school": "Riverdale (LA)",
+            "college": "Louisiana State",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1218614",
+            "draft": {
+                "year": 2018,
+                "round": 2,
+                "number": 55,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "46124",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034356",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "9fe70732-0c55-42ff-a79c-9d234fbc995c",
+            "name": "Austin Larkin",
+            "jersey": "96",
+            "last_name": "Larkin",
+            "first_name": "Austin",
+            "abbr_name": "A.Larkin",
+            "preferred_name": "Austin",
+            "birth_date": "1995-04-06",
+            "weight": 265.0,
+            "height": 75,
+            "position": "DE",
+            "birth_place": "San Ramon, CA, USA",
+            "high_school": "Dougherty Valley (CA)",
+            "college": "Purdue",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1223448",
+            "references": [
+                {
+                    "id": "00-0034559",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "46743",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "a41b8454-0326-4c56-87a2-f2aac3814961",
+            "name": "Stephen Sullivan",
+            "jersey": "48",
+            "last_name": "Sullivan",
+            "first_name": "Stephen",
+            "abbr_name": "S.Sullivan",
+            "preferred_name": "Stephen",
+            "birth_date": "1996-11-28",
+            "weight": 242.0,
+            "height": 77,
+            "position": "TE",
+            "birth_place": "Donaldsonville, LA, USA",
+            "high_school": "Donaldsonville (LA)",
+            "college": "Louisiana State",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040287",
+            "draft": {
+                "year": 2020,
+                "round": 7,
+                "number": 251,
+                "team": {
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "sr_id": "sr:competitor:4430"
+                }
+            },
+            "references": [
+                {
+                    "id": "52659",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0036438",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "b35211e2-a35f-41e1-b32b-3b31b70330b7",
+            "name": "Matt Paradis",
+            "jersey": "61",
+            "last_name": "Paradis",
+            "first_name": "Matt",
+            "abbr_name": "M.Paradis",
+            "preferred_name": "Matt",
+            "birth_date": "1989-10-12",
+            "weight": 300.0,
+            "height": 75,
+            "position": "C",
+            "birth_place": "Council, ID, USA",
+            "high_school": "Council (ID)",
+            "college": "Boise State",
+            "college_conf": "Mountain West Conference",
+            "rookie_year": 2014,
+            "status": "A01",
+            "sr_id": "sr:player:853450",
+            "draft": {
+                "year": 2014,
+                "round": 6,
+                "number": 207,
+                "team": {
+                    "id": "ce92bd47-93d5-4fe9-ada4-0fc681e6caa0",
+                    "name": "Broncos",
+                    "market": "Denver",
+                    "alias": "DEN",
+                    "sr_id": "sr:competitor:4418"
+                }
+            },
+            "references": [
+                {
+                    "id": "41436",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0031349",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "b3beb95a-c1e7-4d03-b61a-097199528816",
+            "name": "Woodrow Hamilton IV",
+            "jersey": "78",
+            "last_name": "Hamilton",
+            "first_name": "Woodrow",
+            "abbr_name": "W.Hamilton",
+            "preferred_name": "Woodrow",
+            "birth_date": "1992-12-20",
+            "weight": 315.0,
+            "height": 75,
+            "position": "DT",
+            "birth_place": "Raleigh, MS, USA",
+            "high_school": "Raleigh (MS)",
+            "college": "Mississippi",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2016,
+            "status": "A01",
+            "sr_id": "sr:player:990969",
+            "name_suffix": "IV",
+            "references": [
+                {
+                    "id": "43698",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0032578",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "b84b415e-a7a5-4d3c-8128-9e58f002578c",
+            "name": "Aaron Monteiro",
+            "jersey": "62",
+            "last_name": "Monteiro",
+            "first_name": "Aaron",
+            "abbr_name": "A.Monteiro",
+            "preferred_name": "Aaron",
+            "birth_date": "1997-03-25",
+            "weight": 315.0,
+            "height": 78,
+            "position": "G",
+            "birth_place": "Brockton, MA, USA",
+            "high_school": "Brockton (MA)",
+            "college": "Boston College",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1226504",
+            "references": [
+                {
+                    "id": "00-0035344",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "48474",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "b89c853a-6bd8-42ec-ae52-a11831923631",
+            "name": "Trenton Cannon",
+            "jersey": "36",
+            "last_name": "Cannon",
+            "first_name": "Trenton",
+            "abbr_name": "T.Cannon",
+            "preferred_name": "Trenton",
+            "birth_date": "1994-07-23",
+            "weight": 185.0,
+            "height": 71,
+            "position": "RB",
+            "birth_place": "Hampton, VA, USA",
+            "high_school": "Kecoughtan (VA)",
+            "college": "Virginia State",
+            "college_conf": "Central Intercollegiate Athletic Association",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1474854",
+            "draft": {
+                "year": 2018,
+                "round": 6,
+                "number": 204,
+                "team": {
+                    "id": "5fee86ae-74ab-4bdd-8416-42a9dd9964f3",
+                    "name": "Jets",
+                    "market": "New York",
+                    "alias": "NYJ",
+                    "sr_id": "sr:competitor:4427"
+                }
+            },
+            "references": [
+                {
+                    "id": "46273",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034164",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "cbe71aae-2475-487f-a78d-c1d7f021c097",
+            "name": "Taylor Moton",
+            "jersey": "72",
+            "last_name": "Moton",
+            "first_name": "Taylor",
+            "abbr_name": "T.Moton",
+            "preferred_name": "Taylor",
+            "birth_date": "1994-08-18",
+            "weight": 325.0,
+            "height": 77,
+            "position": "T",
+            "birth_place": "Lansing, MI, USA",
+            "high_school": "Okemos (MI)",
+            "college": "Western Michigan",
+            "college_conf": "Mid-American Conference",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1129849",
+            "draft": {
+                "year": 2017,
+                "round": 2,
+                "number": 64,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "44876",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0033284",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "d0ca076f-a25d-436b-837e-07dde16be635",
+            "name": "Greg Little",
+            "jersey": "74",
+            "last_name": "Little",
+            "first_name": "Greg",
+            "abbr_name": "G.Little",
+            "preferred_name": "Greg",
+            "birth_date": "1997-11-04",
+            "weight": 310.0,
+            "height": 77,
+            "position": "T",
+            "birth_place": "Allen, TX, USA",
+            "high_school": "Allen (TX)",
+            "college": "Mississippi",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1229898",
+            "draft": {
+                "year": 2019,
+                "round": 2,
+                "number": 37,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0035694",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "47820",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "d4acfff4-7bee-49f7-abc2-3847a8b85dce",
+            "name": "Mike Horton",
+            "jersey": "66",
+            "last_name": "Horton",
+            "first_name": "Mike",
+            "abbr_name": "M.Horton",
+            "preferred_name": "Mike",
+            "birth_date": "1996-10-07",
+            "weight": 325.0,
+            "height": 76,
+            "position": "G",
+            "birth_place": "Atlanta, GA, USA",
+            "high_school": "Lakeside (GA)",
+            "college": "Auburn",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1226482",
+            "references": [
+                {
+                    "id": "00-0035952",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52854",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "d4cb52a9-f6b4-42ed-b40b-27bff5f1eea7",
+            "name": "Teddy Bridgewater",
+            "jersey": "5",
+            "last_name": "Bridgewater",
+            "first_name": "Teddy",
+            "abbr_name": "T.Bridgewater",
+            "preferred_name": "Teddy",
+            "birth_date": "1992-11-10",
+            "weight": 215.0,
+            "height": 74,
+            "position": "QB",
+            "birth_place": "Miami, FL, USA",
+            "high_school": "Miami Northwestern (FL)",
+            "college": "Louisville",
+            "college_conf": "American Athletic Conference",
+            "rookie_year": 2014,
+            "status": "A01",
+            "sr_id": "sr:player:831153",
+            "draft": {
+                "year": 2014,
+                "round": 1,
+                "number": 32,
+                "team": {
+                    "id": "33405046-04ee-4058-a950-d606f8c30852",
+                    "name": "Vikings",
+                    "market": "Minnesota",
+                    "alias": "MIN",
+                    "sr_id": "sr:competitor:4423"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0031237",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "41258",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "d6ce86bc-7c3c-42c5-82eb-c8bc51e7e94d",
+            "name": "Clay Johnston",
+            "jersey": "47",
+            "last_name": "Johnston",
+            "first_name": "Clay",
+            "abbr_name": "C.Johnston",
+            "preferred_name": "Clay",
+            "birth_date": "1996-08-08",
+            "weight": 232.0,
+            "height": 73,
+            "position": "OLB",
+            "birth_place": "Abilene, TX, USA",
+            "high_school": "Wylie (TX)",
+            "college": "Baylor",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040451",
+            "draft": {
+                "year": 2020,
+                "round": 7,
+                "number": 234,
+                "team": {
+                    "id": "2eff2a03-54d4-46ba-890e-2bc3925548f3",
+                    "name": "Rams",
+                    "market": "Los Angeles",
+                    "alias": "LA",
+                    "sr_id": "sr:competitor:4387"
+                }
+            },
+            "references": [
+                {
+                    "id": "52642",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0036432",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "d8202e6d-d03b-4cd1-a793-ff8fd39d9755",
+            "name": "D.J. Moore",
+            "jersey": "12",
+            "last_name": "Moore",
+            "first_name": "D.J.",
+            "abbr_name": "D.Moore",
+            "preferred_name": "D.J.",
+            "birth_date": "1997-04-14",
+            "weight": 215.0,
+            "height": 71,
+            "position": "WR",
+            "birth_place": "Philadelphia, PA, USA",
+            "high_school": "Imhotep Institute Charter (PA)",
+            "college": "Maryland",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1222502",
+            "draft": {
+                "year": 2018,
+                "round": 1,
+                "number": 24,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0034827",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "46093",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "d96afcfe-32fb-4a59-b75c-94a6184d3136",
+            "name": "Yetur Gross-Matos",
+            "jersey": "97",
+            "last_name": "Gross-Matos",
+            "first_name": "Yetur",
+            "abbr_name": "Y.Gross-Matos",
+            "preferred_name": "Yetur",
+            "birth_date": "1998-02-26",
+            "weight": 264.0,
+            "height": 77,
+            "position": "DE",
+            "birth_place": "Spotsylvania, VA, USA",
+            "high_school": "Chancellor (VA)",
+            "college": "Penn State",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040073",
+            "draft": {
+                "year": 2020,
+                "round": 2,
+                "number": 38,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "52446",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0036288",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "dbf199a9-542e-4279-8764-3341b9f80910",
+            "name": "Brian Burns",
+            "jersey": "53",
+            "last_name": "Burns",
+            "first_name": "Brian",
+            "abbr_name": "B.Burns",
+            "preferred_name": "Brian",
+            "birth_date": "1998-04-23",
+            "weight": 250.0,
+            "height": 77,
+            "position": "DE",
+            "birth_place": "Fort Lauderdale, FL, USA",
+            "high_school": "American Heritage (FL)",
+            "college": "Florida State",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1218922",
+            "draft": {
+                "year": 2019,
+                "round": 1,
+                "number": 16,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "47799",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035713",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "de3c68c3-9c11-4c0c-82ef-bc0d536820c2",
+            "name": "Trenton Scott",
+            "jersey": "73",
+            "last_name": "Scott",
+            "first_name": "Trenton",
+            "abbr_name": "T.Scott",
+            "preferred_name": "Trenton",
+            "birth_date": "1994-01-25",
+            "weight": 320.0,
+            "height": 77,
+            "position": "T",
+            "birth_place": "Huntsville, AL, USA",
+            "high_school": "Lee (AL)",
+            "college": "Grambling",
+            "college_conf": "Southwestern Athletic Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1475916",
+            "references": [
+                {
+                    "id": "46755",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034571",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "e2ee3901-8de4-4585-a6ca-b7d77d271d9e",
+            "name": "J.J. Jansen",
+            "jersey": "44",
+            "last_name": "Jansen",
+            "first_name": "J.J.",
+            "abbr_name": "J.Jansen",
+            "preferred_name": "J.J.",
+            "birth_date": "1986-01-20",
+            "weight": 235.0,
+            "height": 74,
+            "position": "LS",
+            "birth_place": "Phoenix, AZ, USA",
+            "high_school": "Brophy Prep (AZ)",
+            "college": "Notre Dame",
+            "college_conf": "Independent",
+            "rookie_year": 2008,
+            "status": "A01",
+            "sr_id": "sr:player:831595",
+            "references": [
+                {
+                    "id": "33557",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0026027",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "e311a7a2-eddb-439c-86b4-b1f1984186bc",
+            "name": "Mike Davis",
+            "jersey": "28",
+            "last_name": "Davis",
+            "first_name": "Mike",
+            "abbr_name": "M.Davis",
+            "preferred_name": "Mike",
+            "birth_date": "1993-02-19",
+            "weight": 221.0,
+            "height": 69,
+            "position": "RB",
+            "birth_place": "Atlanta, GA, USA",
+            "high_school": "Stephenson (GA)",
+            "college": "South Carolina",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2015,
+            "status": "A01",
+            "sr_id": "sr:player:835123",
+            "draft": {
+                "year": 2015,
+                "round": 4,
+                "number": 126,
+                "team": {
+                    "id": "f0e724b0-4cbf-495a-be47-013907608da9",
+                    "name": "49ers",
+                    "market": "San Francisco",
+                    "alias": "SF",
+                    "sr_id": "sr:competitor:4389"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0032063",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "42469",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "e81fb788-1478-4936-ae12-f6ed7ec23476",
+            "name": "Robby Anderson",
+            "jersey": "11",
+            "last_name": "Anderson",
+            "first_name": "Robby",
+            "abbr_name": "R.Anderson",
+            "preferred_name": "Robby",
+            "birth_date": "1993-05-09",
+            "weight": 190.0,
+            "height": 75,
+            "position": "WR",
+            "birth_place": "Teaneck, NJ, USA",
+            "high_school": "Plantation (FL)",
+            "college": "Temple",
+            "college_conf": "American Athletic Conference",
+            "rookie_year": 2016,
+            "status": "A01",
+            "sr_id": "sr:player:1074168",
+            "references": [
+                {
+                    "id": "00-0032688",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "43808",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "e98ed960-2119-4811-b863-d086ef4e1ddf",
+            "name": "Chris Reed",
+            "jersey": "64",
+            "last_name": "Reed",
+            "first_name": "Chris",
+            "abbr_name": "C.Reed",
+            "preferred_name": "Chris",
+            "birth_date": "1992-07-22",
+            "weight": 320.0,
+            "height": 76,
+            "position": "G",
+            "birth_place": "Omaha, NE, USA",
+            "high_school": "Central (NE)",
+            "college": "Minn. State-Mankato",
+            "college_conf": "Northern Sun Intercollegiate Conference",
+            "rookie_year": 2015,
+            "status": "A01",
+            "sr_id": "sr:player:860970",
+            "references": [
+                {
+                    "id": "42765",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0031734",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "ed8a8fd2-df67-45e7-a34f-984afb82f6ea",
+            "name": "Ian Thomas",
+            "jersey": "80",
+            "last_name": "Thomas",
+            "first_name": "Ian",
+            "abbr_name": "I.Thomas",
+            "preferred_name": "Ian",
+            "birth_date": "1996-06-06",
+            "weight": 260.0,
+            "height": 75,
+            "position": "TE",
+            "birth_place": "Baltimore, MD, USA",
+            "high_school": "Digital Harbor (MD)",
+            "college": "Indiana",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1216490",
+            "draft": {
+                "year": 2018,
+                "round": 4,
+                "number": 101,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "46170",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034365",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "ee29b5be-a126-4f1a-bb58-c051d7ba9c5e",
+            "name": "Daniel Bituli",
+            "jersey": "49d",
+            "last_name": "Bituli",
+            "first_name": "Daniel",
+            "abbr_name": "D.Bituli",
+            "preferred_name": "Daniel",
+            "birth_date": "1997-12-27",
+            "weight": 252.0,
+            "height": 75,
+            "position": "LB",
+            "birth_place": "Nashville, TN, USA",
+            "high_school": "Nashville Christian (TN)",
+            "college": "Tennessee",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040693",
+            "references": [
+                {
+                    "id": "00-0035929",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52831",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "ee96c74a-7a51-478a-99f9-97ddaaac1e34",
+            "name": "Rodney Smith",
+            "jersey": "35",
+            "last_name": "Smith",
+            "first_name": "Rodney",
+            "abbr_name": "R.Smith",
+            "preferred_name": "Rodney",
+            "birth_date": "1996-02-28",
+            "weight": 210.0,
+            "height": 71,
+            "position": "RB",
+            "birth_place": "Jonesboro, GA, USA",
+            "high_school": "Mundy's Mill (GA)",
+            "college": "Minnesota",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040205",
+            "references": [
+                {
+                    "id": "00-0035957",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52859",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "ef4998e0-c9ef-4afe-88ab-d09b48975a08",
+            "name": "Joey Slye",
+            "jersey": "4",
+            "last_name": "Slye",
+            "first_name": "Joey",
+            "abbr_name": "J.Slye",
+            "preferred_name": "Joey",
+            "birth_date": "1996-04-10",
+            "weight": 213.0,
+            "height": 71,
+            "position": "K",
+            "birth_place": "Albuquerque, NM, USA",
+            "high_school": "North Stafford (VA)",
+            "college": "Virginia Tech",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1738437",
+            "references": [
+                {
+                    "id": "00-0035192",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "48337",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "f2f71ec1-cc13-4215-aa5d-1948c42c6b28",
+            "name": "Natrell Jamerson",
+            "jersey": "30",
+            "last_name": "Jamerson",
+            "first_name": "Natrell",
+            "abbr_name": "N.Jamerson",
+            "preferred_name": "Natrell",
+            "birth_date": "1995-12-15",
+            "weight": 201.0,
+            "height": 71,
+            "position": "CB",
+            "birth_place": "Ocala, FL, USA",
+            "high_school": "Vanguard (FL)",
+            "college": "Wisconsin",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1216252",
+            "draft": {
+                "year": 2018,
+                "round": 5,
+                "number": 164,
+                "team": {
+                    "id": "0d855753-ea21-4953-89f9-0e20aff9eb73",
+                    "name": "Saints",
+                    "market": "New Orleans",
+                    "alias": "NO",
+                    "sr_id": "sr:competitor:4425"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0034398",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "46233",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "f96db0af-5e25-42d1-a07a-49b4e065b364",
+            "name": "Christian McCaffrey",
+            "jersey": "22",
+            "last_name": "McCaffrey",
+            "first_name": "Christian",
+            "abbr_name": "C.McCaffrey",
+            "preferred_name": "Christian",
+            "birth_date": "1996-06-07",
+            "weight": 205.0,
+            "height": 71,
+            "position": "RB",
+            "birth_place": "Castle Rock, CO, USA",
+            "high_school": "Valor Christian (CO)",
+            "college": "Stanford",
+            "college_conf": "Pacific Twelve Conference",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1129507",
+            "draft": {
+                "year": 2017,
+                "round": 1,
+                "number": 8,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "44820",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0033280",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "fa7983c1-408c-4aa5-9723-efbf039db351",
+            "name": "Marken Michel",
+            "jersey": "19",
+            "last_name": "Michel",
+            "first_name": "Marken",
+            "abbr_name": "M.Michel",
+            "preferred_name": "Marken",
+            "birth_date": "1993-07-06",
+            "weight": 190.0,
+            "height": 71,
+            "position": "WR",
+            "birth_place": "Plantation, FL, USA",
+            "high_school": "American Heritage (FL)",
+            "college": "Massachusetts",
+            "college_conf": "Mid-American Conference",
+            "rookie_year": 2016,
+            "status": "A01",
+            "sr_id": "sr:player:989595",
+            "references": [
+                {
+                    "id": "43729",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0032609",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "fde0f790-29a9-4212-a357-17657055c1db",
+            "name": "Corn Elder",
+            "jersey": "29",
+            "last_name": "Elder",
+            "first_name": "Corn",
+            "abbr_name": "C.Elder",
+            "preferred_name": "Corn",
+            "birth_date": "1994-10-09",
+            "weight": 185.0,
+            "height": 70,
+            "position": "CB",
+            "birth_place": "Nashville, TN, USA",
+            "high_school": "The Ensworth School (TN)",
+            "college": "Miami",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1130013",
+            "draft": {
+                "year": 2017,
+                "round": 5,
+                "number": 152,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0033289",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "44965",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "ff73bcec-6f22-4a26-a179-56f7556dc5a2",
+            "name": "Chris Orr",
+            "jersey": "45",
+            "last_name": "Orr",
+            "first_name": "Chris",
+            "abbr_name": "C.Orr",
+            "preferred_name": "Chris",
+            "birth_date": "1997-06-17",
+            "weight": 224.0,
+            "height": 72,
+            "position": "OLB",
+            "birth_place": "DeSoto, TX, USA",
+            "high_school": "DeSoto (TX)",
+            "college": "Wisconsin",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1216958",
+            "references": [
+                {
+                    "id": "52856",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035954",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "ff89ab1d-4c9c-4e8b-943d-6a9305c5793e",
+            "name": "Rasul Douglas",
+            "jersey": "24",
+            "last_name": "Douglas",
+            "first_name": "Rasul",
+            "abbr_name": "R.Douglas",
+            "preferred_name": "Rasul",
+            "birth_date": "1994-08-29",
+            "weight": 209.0,
+            "height": 74,
+            "position": "CB",
+            "birth_place": "East Orange, NJ, USA",
+            "high_school": "East Orange (NJ)",
+            "college": "West Virginia",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1129797",
+            "draft": {
+                "year": 2017,
+                "round": 3,
+                "number": 99,
+                "team": {
+                    "id": "386bdbf9-9eea-4869-bb9a-274b0bc66e80",
+                    "name": "Eagles",
+                    "market": "Philadelphia",
+                    "alias": "PHI",
+                    "sr_id": "sr:competitor:4428"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0033551",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "44911",
+                    "origin": "nflx"
+                }
+            ]
+        }
+    ],
+    "_comment": "Generation started @ 2021-02-12 17:53:32 UTC ended @ 2021-02-12 17:53:32 UTC"
+}

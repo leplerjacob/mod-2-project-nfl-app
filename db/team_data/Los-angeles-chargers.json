@@ -1,0 +1,2861 @@
+{
+    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+    "name": "Chargers",
+    "market": "Los Angeles",
+    "alias": "LAC",
+    "sr_id": "sr:competitor:4429",
+    "franchise": {
+        "id": "a74d513a-dd7f-440d-a366-249f8f8dd97d",
+        "name": "Chargers",
+        "alias": "LAC",
+        "references": [
+            {
+                "id": "24",
+                "origin": "gsis"
+            }
+        ]
+    },
+    "venue": {
+        "id": "790c1f04-73c6-4f6f-8b1e-78a62260be90",
+        "name": "SoFi Stadium",
+        "city": "Inglewood",
+        "state": "CA",
+        "country": "USA",
+        "zip": "90301",
+        "address": "1000 S Prairie Ave",
+        "capacity": 70240,
+        "surface": "artificial",
+        "roof_type": "outdoor",
+        "sr_id": "sr:venue:52183",
+        "location": {
+            "lat": "42.687551",
+            "lng": "23.335223"
+        }
+    },
+    "division": {
+        "id": "324decdd-aa1b-4074-8958-c009d8fac31a",
+        "name": "AFC West",
+        "alias": "AFC_WEST"
+    },
+    "conference": {
+        "id": "1bdefe12-6cb2-4d6a-b208-b04602ae79c3",
+        "name": "AFC",
+        "alias": "AFC"
+    },
+    "references": [
+        {
+            "id": "LAC",
+            "origin": "gsis"
+        }
+    ],
+    "coaches": [
+        {
+            "id": "109f7f41-490e-4adf-a6cb-2591bf886a97",
+            "full_name": "Brandon Staley",
+            "first_name": "Brandon",
+            "last_name": "Staley",
+            "position": "Head Coach"
+        },
+        {
+            "id": "1e790489-f669-42e8-8c5e-f3767c4c8ae3",
+            "full_name": "Joe Lombardi",
+            "first_name": "Joe",
+            "last_name": "Lombardi",
+            "position": "Offensive Coordinator"
+        },
+        {
+            "id": "b4f57fbc-bb81-4d36-ab33-d4b44ad3f456",
+            "full_name": "Renaldo Hill",
+            "first_name": "Renaldo",
+            "last_name": "Hill",
+            "position": "Defensive Coordinator"
+        }
+    ],
+    "team_colors": [
+        {
+            "type": "primary",
+            "hex_color": "#002a5e",
+            "alpha": 0.0,
+            "rgb_color": {
+                "red": 0,
+                "green": 42,
+                "blue": 94
+            }
+        },
+        {
+            "type": "secondary",
+            "hex_color": "#ffc20e",
+            "alpha": 0.0,
+            "rgb_color": {
+                "red": 255,
+                "green": 194,
+                "blue": 14
+            }
+        }
+    ],
+    "players": [
+        {
+            "id": "01c52412-7257-4213-b8b3-effa7c5dd5c7",
+            "name": "Derwin James",
+            "jersey": "33",
+            "last_name": "James",
+            "first_name": "Derwin",
+            "abbr_name": "D.James",
+            "preferred_name": "Derwin",
+            "birth_date": "1996-08-03",
+            "weight": 215.0,
+            "height": 74,
+            "position": "FS",
+            "birth_place": "Auburndale, FL, USA",
+            "high_school": "Haines City (FL)",
+            "college": "Florida State",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1218060",
+            "draft": {
+                "year": 2018,
+                "round": 1,
+                "number": 17,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "46086",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034790",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "041c36ad-0d7d-4ed1-8157-95092b3027a4",
+            "name": "Mike Pouncey",
+            "jersey": "53",
+            "last_name": "Pouncey",
+            "first_name": "Mike",
+            "abbr_name": "M.Pouncey",
+            "preferred_name": "Mike",
+            "birth_date": "1989-07-24",
+            "weight": 298.0,
+            "height": 77,
+            "position": "C",
+            "birth_place": "Ardmore, OK, USA",
+            "high_school": "Lakeland (FL)",
+            "college": "Florida",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2011,
+            "status": "A01",
+            "sr_id": "sr:player:831377",
+            "draft": {
+                "year": 2011,
+                "round": 1,
+                "number": 15,
+                "team": {
+                    "id": "4809ecb0-abd3-451d-9c4a-92a90b83ca06",
+                    "name": "Dolphins",
+                    "market": "Miami",
+                    "alias": "MIA",
+                    "sr_id": "sr:competitor:4287"
+                }
+            },
+            "references": [
+                {
+                    "id": "37088",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0027953",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "064c4eda-1b10-40ac-a9d2-66caf76a213a",
+            "name": "Tyron Johnson",
+            "jersey": "83",
+            "last_name": "Johnson",
+            "first_name": "Tyron",
+            "abbr_name": "T.Johnson",
+            "preferred_name": "Tyron",
+            "birth_date": "1996-01-08",
+            "weight": 193.0,
+            "height": 73,
+            "position": "WR",
+            "birth_place": "New Orleans, LA, USA",
+            "high_school": "Warren Easton (LA)",
+            "college": "Oklahoma State",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1220712",
+            "references": [
+                {
+                    "id": "00-0035457",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "48601",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "06f3e98d-7d73-4007-b673-4a74ed72bda3",
+            "name": "Darius Bradwell",
+            "jersey": "34",
+            "last_name": "Bradwell",
+            "first_name": "Darius",
+            "abbr_name": "D.Bradwell",
+            "preferred_name": "Darius",
+            "birth_date": "1997-05-15",
+            "weight": 230.0,
+            "height": 73,
+            "position": "RB",
+            "birth_place": "Tallahassee, FL, USA",
+            "high_school": "Godby (FL)",
+            "college": "Tulane",
+            "college_conf": "American Athletic Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1198610",
+            "references": [
+                {
+                    "id": "52800",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035898",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "0b699477-6801-4154-ad51-e8352a3bdac4",
+            "name": "Forrest Lamp",
+            "jersey": "76",
+            "last_name": "Lamp",
+            "first_name": "Forrest",
+            "abbr_name": "F.Lamp",
+            "preferred_name": "Forrest",
+            "birth_date": "1994-02-20",
+            "weight": 309.0,
+            "height": 76,
+            "position": "G",
+            "birth_place": "Venice, FL, USA",
+            "high_school": "Venice (FL)",
+            "college": "Western Kentucky",
+            "college_conf": "Conference USA",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1129757",
+            "draft": {
+                "year": 2017,
+                "round": 2,
+                "number": 38,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0033542",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "44850",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "12f27311-7cd6-4ca5-ba7d-571e9de5e1eb",
+            "name": "Mike Williams",
+            "jersey": "81",
+            "last_name": "Williams",
+            "first_name": "Mike",
+            "abbr_name": "M.Williams",
+            "preferred_name": "Mike",
+            "birth_date": "1994-10-04",
+            "weight": 218.0,
+            "height": 76,
+            "position": "WR",
+            "birth_place": "Vance, SC, USA",
+            "high_school": "Santee Lake Marion (SC)",
+            "college": "Clemson",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1129505",
+            "draft": {
+                "year": 2017,
+                "round": 1,
+                "number": 7,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "44819",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0033536",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "18f174c9-a956-4c14-bd23-9e799fef6dc7",
+            "name": "Rayshawn Jenkins",
+            "jersey": "23",
+            "last_name": "Jenkins",
+            "first_name": "Rayshawn",
+            "abbr_name": "R.Jenkins",
+            "preferred_name": "Rayshawn",
+            "birth_date": "1994-01-25",
+            "weight": 220.0,
+            "height": 73,
+            "position": "SS",
+            "birth_place": "St. Petersburg, FL, USA",
+            "high_school": "Admiral Farragut Academy (FL)",
+            "college": "Miami",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1130113",
+            "draft": {
+                "year": 2017,
+                "round": 4,
+                "number": 113,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0033941",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "44926",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "1ce88c74-024e-4288-94ee-5dca10362153",
+            "name": "Joey Bosa",
+            "jersey": "97",
+            "last_name": "Bosa",
+            "first_name": "Joey",
+            "abbr_name": "J.Bosa",
+            "preferred_name": "Joey",
+            "birth_date": "1995-07-11",
+            "weight": 280.0,
+            "height": 77,
+            "position": "DE",
+            "birth_place": "Fort Lauderdale, FL, USA",
+            "high_school": "St. Thomas Aquinas (FL)",
+            "college": "Ohio State",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2016,
+            "status": "A01",
+            "sr_id": "sr:player:986877",
+            "draft": {
+                "year": 2016,
+                "round": 1,
+                "number": 3,
+                "team": {
+                    "id": "9dbb9060-ba0f-4920-829e-16d4d9246b5d",
+                    "name": "Chargers",
+                    "market": "San Diego",
+                    "alias": "SD"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0033156",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "43292",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "1d1d59bc-ed91-4ed6-adf3-f40d0e296554",
+            "name": "B.J. Bello",
+            "jersey": "58",
+            "last_name": "Bello",
+            "first_name": "B.J.",
+            "abbr_name": "B.Bello",
+            "preferred_name": "B.J.",
+            "birth_date": "1994-10-31",
+            "weight": 229.0,
+            "height": 75,
+            "position": "MLB",
+            "birth_place": "New Lenox, IL, USA",
+            "high_school": "Lincoln-Way West (IL)",
+            "college": "Illinois State",
+            "college_conf": "Missouri Valley Football Conference",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1133569",
+            "references": [
+                {
+                    "id": "45516",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0033642",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "2154a63e-279e-42bc-b6f9-5a849cc02cfc",
+            "name": "Nathan Gilliam",
+            "jersey": "63",
+            "last_name": "Gilliam",
+            "first_name": "Nathan",
+            "abbr_name": "N.Gilliam",
+            "preferred_name": "Nathan",
+            "birth_date": "1997-07-06",
+            "weight": 300.0,
+            "height": 77,
+            "position": "G",
+            "birth_place": "Knoxville, TN, USA",
+            "high_school": "Farragut (TN)",
+            "college": "Wake Forest",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040009",
+            "references": [
+                {
+                    "id": "00-0035904",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52806",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "21a33144-63ee-4125-ac44-3fc911a39d50",
+            "name": "Matt Sokol",
+            "jersey": "48",
+            "last_name": "Sokol",
+            "first_name": "Matt",
+            "abbr_name": "M.Sokol",
+            "preferred_name": "Matt",
+            "birth_date": "1995-11-09",
+            "weight": 260.0,
+            "height": 78,
+            "position": "TE",
+            "birth_place": "Rochester, MI, USA",
+            "high_school": "Adams (MI)",
+            "college": "Michigan State",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1736077",
+            "references": [
+                {
+                    "id": "00-0035436",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "48580",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "279be739-bfd5-47aa-8302-fc58bcba37d5",
+            "name": "Nasir Adderley",
+            "jersey": "24",
+            "last_name": "Adderley",
+            "first_name": "Nasir",
+            "abbr_name": "N.Adderley",
+            "preferred_name": "Nasir",
+            "birth_date": "1997-05-31",
+            "weight": 206.0,
+            "height": 72,
+            "position": "FS",
+            "birth_place": "Philadelphia, PA, USA",
+            "high_school": "Great Valley (PA)",
+            "college": "Delaware",
+            "college_conf": "Colonial Athletic Association",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1220714",
+            "draft": {
+                "year": 2019,
+                "round": 2,
+                "number": 60,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "47843",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035677",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "2b129eab-b967-4d0d-bc6e-28c0781bcdd3",
+            "name": "Ty Long",
+            "jersey": "1",
+            "last_name": "Long",
+            "first_name": "Ty",
+            "abbr_name": "T.Long",
+            "preferred_name": "Ty",
+            "birth_date": "1993-04-06",
+            "weight": 205.0,
+            "height": 74,
+            "position": "P",
+            "birth_place": "Roswell, GA, USA",
+            "high_school": "Roswell (GA)",
+            "college": "Alabama-Birmingham",
+            "college_conf": "Conference USA",
+            "rookie_year": 2015,
+            "status": "A01",
+            "sr_id": "sr:player:853740",
+            "references": [
+                {
+                    "id": "00-0031543",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "42663",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "2cae991f-878e-434e-9f76-fad263fad23c",
+            "name": "Melvin Ingram",
+            "jersey": "54",
+            "last_name": "Ingram",
+            "first_name": "Melvin",
+            "abbr_name": "M.Ingram",
+            "preferred_name": "Melvin",
+            "birth_date": "1989-04-26",
+            "weight": 247.0,
+            "height": 74,
+            "position": "DE",
+            "birth_place": "Hamlet, NC, USA",
+            "high_school": "Richmond (NC)",
+            "college": "South Carolina",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2012,
+            "status": "A01",
+            "sr_id": "sr:player:830097",
+            "draft": {
+                "year": 2012,
+                "round": 1,
+                "number": 18,
+                "team": {
+                    "id": "9dbb9060-ba0f-4920-829e-16d4d9246b5d",
+                    "name": "Chargers",
+                    "market": "San Diego",
+                    "alias": "SD"
+                }
+            },
+            "references": [
+                {
+                    "id": "38548",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0029249",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "2d28c7f5-21e8-40cb-afb4-a8391a5923e7",
+            "name": "Jaylen Watkins",
+            "jersey": "20",
+            "last_name": "Watkins",
+            "first_name": "Jaylen",
+            "abbr_name": "J.Watkins",
+            "preferred_name": "Jaylen",
+            "birth_date": "1991-11-27",
+            "weight": 194.0,
+            "height": 71,
+            "position": "SS",
+            "birth_place": "Cape Coral, FL, USA",
+            "high_school": "Cape Coral (FL)",
+            "college": "Florida",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2014,
+            "status": "A01",
+            "sr_id": "sr:player:855770",
+            "draft": {
+                "year": 2014,
+                "round": 4,
+                "number": 101,
+                "team": {
+                    "id": "386bdbf9-9eea-4869-bb9a-274b0bc66e80",
+                    "name": "Eagles",
+                    "market": "Philadelphia",
+                    "alias": "PHI",
+                    "sr_id": "sr:competitor:4428"
+                }
+            },
+            "references": [
+                {
+                    "id": "41330",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0031173",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "2f80e90d-dbff-4395-81c9-4e61c247d0f1",
+            "name": "Bryan Bulaga",
+            "jersey": "75",
+            "last_name": "Bulaga",
+            "first_name": "Bryan",
+            "abbr_name": "B.Bulaga",
+            "preferred_name": "Bryan",
+            "birth_date": "1989-03-21",
+            "weight": 314.0,
+            "height": 77,
+            "position": "T",
+            "birth_place": "Barrington, IL, USA",
+            "high_school": "Marian Central Central (IL)",
+            "college": "Iowa",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2010,
+            "status": "A01",
+            "sr_id": "sr:player:829757",
+            "draft": {
+                "year": 2010,
+                "round": 1,
+                "number": 23,
+                "team": {
+                    "id": "a20471b4-a8d9-40c7-95ad-90cc30e46932",
+                    "name": "Packers",
+                    "market": "Green Bay",
+                    "alias": "GB",
+                    "sr_id": "sr:competitor:4420"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0027875",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "35462",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "323db6a2-c9bd-4598-920b-480c102902d3",
+            "name": "Donte Vaughn",
+            "jersey": "39",
+            "last_name": "Vaughn",
+            "first_name": "Donte",
+            "abbr_name": "D.Vaughn",
+            "preferred_name": "Donte",
+            "birth_date": "1997-10-12",
+            "weight": 212.0,
+            "height": 74,
+            "position": "DB",
+            "birth_place": "Memphis, TN, USA",
+            "high_school": "Whitehaven (TN)",
+            "college": "Notre Dame",
+            "college_conf": "Independent",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1203778",
+            "references": [
+                {
+                    "id": "00-0035911",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52813",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "375b0d7f-8d03-4111-8c1b-62907f0326a1",
+            "name": "Michael Badgley",
+            "jersey": "4",
+            "last_name": "Badgley",
+            "first_name": "Michael",
+            "abbr_name": "M.Badgley",
+            "preferred_name": "Michael",
+            "birth_date": "1995-07-28",
+            "weight": 183.0,
+            "height": 70,
+            "position": "K",
+            "birth_place": "Summit, NJ, USA",
+            "high_school": "Summit (NJ)",
+            "college": "Miami",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1216784",
+            "references": [
+                {
+                    "id": "00-0034084",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "46342",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "39fd7f0b-4be2-4fe4-b228-65c9e5442552",
+            "name": "T.J. Smith",
+            "jersey": "77",
+            "last_name": "Smith",
+            "first_name": "T.J.",
+            "abbr_name": "T.Smith",
+            "preferred_name": "T.J.",
+            "birth_date": "1997-04-19",
+            "weight": 290.0,
+            "height": 75,
+            "position": "DT",
+            "birth_place": "Moultrie, GA, USA",
+            "high_school": "Colquitt County (GA)",
+            "college": "Arkansas",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1194304",
+            "references": [
+                {
+                    "id": "52812",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035910",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "3a212660-0028-47dd-8ef2-362edd1ea2b2",
+            "name": "Cole Mazza",
+            "jersey": "45",
+            "last_name": "Mazza",
+            "first_name": "Cole",
+            "abbr_name": "C.Mazza",
+            "preferred_name": "Cole",
+            "birth_date": "1995-02-14",
+            "weight": 247.0,
+            "height": 73,
+            "position": "LS",
+            "birth_place": "Bakersfield, CA, USA",
+            "high_school": "Liberty (CA)",
+            "college": "Alabama",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1189964",
+            "references": [
+                {
+                    "id": "00-0034917",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "47606",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "3d169c3f-93fe-44b5-8495-681241f285bb",
+            "name": "Storm Norton",
+            "jersey": "74",
+            "last_name": "Norton",
+            "first_name": "Storm",
+            "abbr_name": "S.Norton",
+            "preferred_name": "Storm",
+            "birth_date": "1994-05-16",
+            "weight": 317.0,
+            "height": 79,
+            "position": "T",
+            "birth_place": "Toledo, OH, USA",
+            "high_school": "Whitmer (OH)",
+            "college": "Toledo",
+            "college_conf": "Mid-American Conference",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1134115",
+            "references": [
+                {
+                    "id": "45630",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0033752",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "3e061410-a4e0-4e16-8043-2f63842410a6",
+            "name": "Cole Toner",
+            "jersey": "64",
+            "last_name": "Toner",
+            "first_name": "Cole",
+            "abbr_name": "C.Toner",
+            "preferred_name": "Cole",
+            "birth_date": "1994-03-13",
+            "weight": 300.0,
+            "height": 79,
+            "position": "C",
+            "birth_place": "Greenwood, IN, USA",
+            "high_school": "Roncalli (IN)",
+            "college": "Harvard",
+            "college_conf": "Ivy League",
+            "rookie_year": 2016,
+            "status": "A01",
+            "sr_id": "sr:player:1074062",
+            "draft": {
+                "year": 2016,
+                "round": 5,
+                "number": 170,
+                "team": {
+                    "id": "de760528-1dc0-416a-a978-b510d20692ff",
+                    "name": "Cardinals",
+                    "market": "Arizona",
+                    "alias": "ARI",
+                    "sr_id": "sr:competitor:4412"
+                }
+            },
+            "references": [
+                {
+                    "id": "43459",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0032787",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "40941261-cfd0-4e8d-b895-21fb7e20b407",
+            "name": "Uchenna Nwosu",
+            "jersey": "42",
+            "last_name": "Nwosu",
+            "first_name": "Uchenna",
+            "abbr_name": "U.Nwosu",
+            "preferred_name": "Uchenna",
+            "birth_date": "1996-12-28",
+            "weight": 251.0,
+            "height": 74,
+            "position": "DE",
+            "birth_place": "Los Angeles, CA, USA",
+            "high_school": "Narbonne (CA)",
+            "college": "Southern California",
+            "college_conf": "Pacific Twelve Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1473936",
+            "draft": {
+                "year": 2018,
+                "round": 2,
+                "number": 48,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "46117",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034350",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "42931961-6deb-4e33-bbe9-bf8f77d29da0",
+            "name": "Trey Pipkins",
+            "jersey": "79",
+            "last_name": "Pipkins",
+            "first_name": "Trey",
+            "abbr_name": "T.Pipkins",
+            "preferred_name": "Trey",
+            "birth_date": "1996-09-05",
+            "weight": 307.0,
+            "height": 78,
+            "position": "T",
+            "birth_place": "Apple Valley, MN, USA",
+            "high_school": "Apple Valley (MN)",
+            "college": "Sioux Falls",
+            "college_conf": "Northern Sun Intercollegiate Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1768546",
+            "draft": {
+                "year": 2019,
+                "round": 3,
+                "number": 91,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "47874",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035688",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "4c449f2b-a566-4c9c-882c-a70991d1aa54",
+            "name": "Joe Reed",
+            "jersey": "12",
+            "last_name": "Reed",
+            "first_name": "Joe",
+            "abbr_name": "J.Reed",
+            "preferred_name": "Joe",
+            "birth_date": "1998-01-04",
+            "weight": 215.0,
+            "height": 73,
+            "position": "WR",
+            "birth_place": "Charlotte Court House, VA, USA",
+            "high_school": "Randolph-Henry (VA)",
+            "college": "Virginia",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040537",
+            "draft": {
+                "year": 2020,
+                "round": 5,
+                "number": 151,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "52559",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0036377",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "4f246e92-3d21-450f-977a-dc16892c7238",
+            "name": "Donald Parham Jr.",
+            "jersey": "89",
+            "last_name": "Parham",
+            "first_name": "Donald",
+            "abbr_name": "D.Parham",
+            "preferred_name": "Donald",
+            "birth_date": "1997-08-16",
+            "weight": 237.0,
+            "height": 80,
+            "position": "TE",
+            "birth_place": "Lakeland, FL, USA",
+            "high_school": "Lake Gibson (FL)",
+            "college": "Stetson University",
+            "college_conf": "Pioneer Football League",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1200226",
+            "name_suffix": "Jr.",
+            "references": [
+                {
+                    "id": "00-0035329",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "48456",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "538cf938-8f65-435f-b8fd-2856ce5c4e6d",
+            "name": "Gabe Nabers",
+            "jersey": "40",
+            "last_name": "Nabers",
+            "first_name": "Gabe",
+            "abbr_name": "G.Nabers",
+            "preferred_name": "Gabe",
+            "birth_date": "1997-11-05",
+            "weight": 243.0,
+            "height": 75,
+            "position": "RB",
+            "birth_place": "Hahira, GA, USA",
+            "high_school": "Lowndes (GA)",
+            "college": "Florida State",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1217400",
+            "references": [
+                {
+                    "id": "00-0035908",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52810",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "5cb0bf9c-03b4-4201-97c5-a59c6db50841",
+            "name": "Stephen Anderson",
+            "jersey": "82",
+            "last_name": "Anderson",
+            "first_name": "Stephen",
+            "abbr_name": "S.Anderson",
+            "preferred_name": "Stephen",
+            "birth_date": "1993-01-30",
+            "weight": 230.0,
+            "height": 75,
+            "position": "TE",
+            "birth_place": "San Jose, CA, USA",
+            "high_school": "Piedmont Hills (CA)",
+            "college": "California",
+            "college_conf": "Pacific Twelve Conference",
+            "rookie_year": 2016,
+            "status": "A01",
+            "sr_id": "sr:player:990755",
+            "references": [
+                {
+                    "id": "43845",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0032725",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "5f424505-f29f-433c-b3f2-1a143a04a010",
+            "name": "Keenan Allen",
+            "jersey": "13",
+            "last_name": "Allen",
+            "first_name": "Keenan",
+            "abbr_name": "K.Allen",
+            "preferred_name": "Keenan",
+            "birth_date": "1992-04-27",
+            "weight": 211.0,
+            "height": 74,
+            "position": "WR",
+            "birth_place": "Greensboro, NC, USA",
+            "high_school": "Northern Guilford (NC)",
+            "college": "California",
+            "college_conf": "Pacific Twelve Conference",
+            "rookie_year": 2013,
+            "status": "A01",
+            "sr_id": "sr:player:831275",
+            "draft": {
+                "year": 2013,
+                "round": 3,
+                "number": 76,
+                "team": {
+                    "id": "9dbb9060-ba0f-4920-829e-16d4d9246b5d",
+                    "name": "Chargers",
+                    "market": "San Diego",
+                    "alias": "SD"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0030279",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "40024",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "62542e04-3c44-4b75-8165-be674c8be75f",
+            "name": "Joshua Kelley",
+            "jersey": "27",
+            "last_name": "Kelley",
+            "first_name": "Joshua",
+            "abbr_name": "J.Kelley",
+            "preferred_name": "Joshua",
+            "birth_date": "1997-11-20",
+            "weight": 219.0,
+            "height": 71,
+            "position": "RB",
+            "birth_place": "Lancaster, CA, USA",
+            "high_school": "Eastside (CA)",
+            "college": "UCLA",
+            "college_conf": "Pacific Twelve Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040609",
+            "draft": {
+                "year": 2020,
+                "round": 4,
+                "number": 112,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0036370",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52520",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "65bfa813-7bcb-461e-8716-7072e4705ad1",
+            "name": "Ryan Hunter",
+            "jersey": "60",
+            "last_name": "Hunter",
+            "first_name": "Ryan",
+            "abbr_name": "R.Hunter",
+            "preferred_name": "Ryan",
+            "birth_date": "1995-01-01",
+            "weight": 316.0,
+            "height": 75,
+            "position": "G",
+            "birth_place": "North Bay, ON, CAN",
+            "high_school": "Canisius (NY)",
+            "college": "Bowling Green",
+            "college_conf": "Mid-American Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1476880",
+            "references": [
+                {
+                    "id": "00-0034289",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "46514",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "68b3f7e5-cc33-41e1-833c-8f48cb70bf72",
+            "name": "Tevaughn Campbell",
+            "jersey": "37",
+            "last_name": "Campbell",
+            "first_name": "Tevaughn",
+            "abbr_name": "T.Campbell",
+            "preferred_name": "Tevaughn",
+            "birth_date": "1993-06-14",
+            "weight": 200.0,
+            "height": 72,
+            "position": "CB",
+            "birth_place": "Scarborough, ON, CAN",
+            "college": "Regina, Can.",
+            "college_conf": "Canada West Universities Athletic Association",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1720344",
+            "references": [
+                {
+                    "id": "44202",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034903",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "6c48b2a7-924e-43ec-bcd9-f1cda06b2332",
+            "name": "Linval Joseph",
+            "jersey": "95",
+            "last_name": "Joseph",
+            "first_name": "Linval",
+            "abbr_name": "L.Joseph",
+            "preferred_name": "Linval",
+            "birth_date": "1988-10-10",
+            "weight": 329.0,
+            "height": 76,
+            "position": "NT",
+            "birth_place": "St. Croix,, VIR",
+            "high_school": "Santa Fe (FL)",
+            "college": "East Carolina",
+            "college_conf": "Conference USA",
+            "rookie_year": 2010,
+            "status": "A01",
+            "sr_id": "sr:player:828809",
+            "draft": {
+                "year": 2010,
+                "round": 2,
+                "number": 46,
+                "team": {
+                    "id": "04aa1c9d-66da-489d-b16a-1dee3f2eec4d",
+                    "name": "Giants",
+                    "market": "New York",
+                    "alias": "NYG",
+                    "sr_id": "sr:competitor:4426"
+                }
+            },
+            "references": [
+                {
+                    "id": "35485",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0027885",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "6ee96e28-60b0-4e30-b014-6962e7d1c3db",
+            "name": "Cortez Broughton",
+            "jersey": "91",
+            "last_name": "Broughton",
+            "first_name": "Cortez",
+            "abbr_name": "C.Broughton",
+            "preferred_name": "Cortez",
+            "birth_date": "1996-09-02",
+            "weight": 293.0,
+            "height": 74,
+            "position": "DT",
+            "birth_place": "Warner Robins, GA, USA",
+            "high_school": "Veterans (GA)",
+            "college": "Cincinnati",
+            "college_conf": "American Athletic Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1833948",
+            "draft": {
+                "year": 2019,
+                "round": 7,
+                "number": 242,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "48025",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035315",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "6ef43c53-53d7-4b0f-ad99-17664d663ae8",
+            "name": "Virgil Green",
+            "jersey": "88",
+            "last_name": "Green",
+            "first_name": "Virgil",
+            "abbr_name": "V.Green",
+            "preferred_name": "Virgil",
+            "birth_date": "1988-08-03",
+            "weight": 255.0,
+            "height": 77,
+            "position": "TE",
+            "birth_place": "Tulare, CA, USA",
+            "high_school": "Tulare Union (CA)",
+            "college": "Nevada",
+            "college_conf": "Western Athletic Conference",
+            "rookie_year": 2011,
+            "status": "A01",
+            "sr_id": "sr:player:829353",
+            "draft": {
+                "year": 2011,
+                "round": 7,
+                "number": 204,
+                "team": {
+                    "id": "ce92bd47-93d5-4fe9-ada4-0fc681e6caa0",
+                    "name": "Broncos",
+                    "market": "Denver",
+                    "alias": "DEN",
+                    "sr_id": "sr:competitor:4418"
+                }
+            },
+            "references": [
+                {
+                    "id": "37279",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0028142",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "705899da-3c20-4bc3-b5d0-2e6e40655131",
+            "name": "Hunter Henry",
+            "jersey": "86",
+            "last_name": "Henry",
+            "first_name": "Hunter",
+            "abbr_name": "H.Henry",
+            "preferred_name": "Hunter",
+            "birth_date": "1994-12-07",
+            "weight": 250.0,
+            "height": 77,
+            "position": "TE",
+            "birth_place": "Little Rock, AR, USA",
+            "high_school": "Pulaski (AR)",
+            "college": "Arkansas",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2016,
+            "status": "A01",
+            "sr_id": "sr:player:987633",
+            "draft": {
+                "year": 2016,
+                "round": 2,
+                "number": 35,
+                "team": {
+                    "id": "9dbb9060-ba0f-4920-829e-16d4d9246b5d",
+                    "name": "Chargers",
+                    "market": "San Diego",
+                    "alias": "SD"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0033090",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "43324",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "79bf0ca5-a8db-4c39-a40b-67674ccb60d0",
+            "name": "Kenneth Murray",
+            "jersey": "56",
+            "last_name": "Murray",
+            "first_name": "Kenneth",
+            "abbr_name": "K.Murray",
+            "preferred_name": "Kenneth",
+            "birth_date": "1998-11-16",
+            "weight": 234.0,
+            "height": 75,
+            "position": "OLB",
+            "birth_place": "Missouri City, TX, USA",
+            "high_school": "Elkins (TX)",
+            "college": "Oklahoma",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040117",
+            "draft": {
+                "year": 2020,
+                "round": 1,
+                "number": 23,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0036441",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52431",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "7f3ef024-eb34-46af-8b9e-544cdf09378f",
+            "name": "Tyrod Taylor",
+            "jersey": "5",
+            "last_name": "Taylor",
+            "first_name": "Tyrod",
+            "abbr_name": "T.Taylor",
+            "preferred_name": "Tyrod",
+            "birth_date": "1989-08-03",
+            "weight": 215.0,
+            "height": 73,
+            "position": "QB",
+            "birth_place": "Hampton, VA, USA",
+            "high_school": "Hampton (VA)",
+            "college": "Virginia Tech",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2011,
+            "status": "A01",
+            "sr_id": "sr:player:828519",
+            "draft": {
+                "year": 2011,
+                "round": 6,
+                "number": 180,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0028118",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "37255",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "8346e196-ce56-4cfd-8438-f3c39131b327",
+            "name": "Jason Moore",
+            "jersey": "11",
+            "last_name": "Moore",
+            "first_name": "Jason",
+            "abbr_name": "J.Moore",
+            "preferred_name": "Jason",
+            "birth_date": "1995-06-23",
+            "weight": 215.0,
+            "height": 75,
+            "position": "WR",
+            "birth_place": "Oberlin, OH, USA",
+            "high_school": "Oberlin (OH)",
+            "college": "Findlay",
+            "college_conf": "Great Lakes Intercollegiate Athletic Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1736047",
+            "references": [
+                {
+                    "id": "48576",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035432",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "850b8283-0a1d-4a47-8586-8398df905c58",
+            "name": "Tyree St. Louis",
+            "jersey": "73",
+            "last_name": "St. Louis",
+            "first_name": "Tyree",
+            "abbr_name": "T.St. Louis",
+            "preferred_name": "Tyree",
+            "birth_date": "1997-08-05",
+            "weight": 315.0,
+            "height": 77,
+            "position": "T",
+            "birth_place": "Tampa, FL, USA",
+            "high_school": "IMG Academy (FL)",
+            "college": "Miami",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1218160",
+            "references": [
+                {
+                    "id": "48095",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034958",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "86099301-67d0-4370-8e42-d14f34bbbb91",
+            "name": "Michael Davis",
+            "jersey": "43",
+            "last_name": "Davis",
+            "first_name": "Michael",
+            "abbr_name": "M.Davis",
+            "preferred_name": "Michael",
+            "birth_date": "1995-01-06",
+            "weight": 196.0,
+            "height": 74,
+            "position": "CB",
+            "birth_place": "Glendale, CA, USA",
+            "high_school": "Glendale (CA)",
+            "college": "Brigham Young",
+            "college_conf": "Independent",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1131777",
+            "references": [
+                {
+                    "id": "45571",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0033697",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "92c2dfb2-6929-4192-94cb-9ae6845dd2f6",
+            "name": "Dan Feeney",
+            "jersey": "66",
+            "last_name": "Feeney",
+            "first_name": "Dan",
+            "abbr_name": "D.Feeney",
+            "preferred_name": "Dan",
+            "birth_date": "1994-05-29",
+            "weight": 310.0,
+            "height": 76,
+            "position": "G",
+            "birth_place": "Orland Park, IL, USA",
+            "high_school": "Sandburg (IL)",
+            "college": "Indiana",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1129739",
+            "draft": {
+                "year": 2017,
+                "round": 3,
+                "number": 71,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0033910",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "44883",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "96341b4d-152a-4020-b68a-3ff93e1baba5",
+            "name": "Trai Turner",
+            "jersey": "70",
+            "last_name": "Turner",
+            "first_name": "Trai",
+            "abbr_name": "T.Turner",
+            "preferred_name": "Trai",
+            "birth_date": "1993-06-14",
+            "weight": 315.0,
+            "height": 75,
+            "position": "G",
+            "birth_place": "New Orleans, LA, USA",
+            "high_school": "St. Augustine (LA)",
+            "college": "Louisiana State",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2014,
+            "status": "A01",
+            "sr_id": "sr:player:827499",
+            "draft": {
+                "year": 2014,
+                "round": 3,
+                "number": 92,
+                "team": {
+                    "id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+                    "name": "Panthers",
+                    "market": "Carolina",
+                    "alias": "CAR",
+                    "sr_id": "sr:competitor:4415"
+                }
+            },
+            "references": [
+                {
+                    "id": "41321",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0031362",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "9da6119d-b135-4b90-9f9d-7d08ab00b15d",
+            "name": "Jerry Tillery",
+            "jersey": "99",
+            "last_name": "Tillery",
+            "first_name": "Jerry",
+            "abbr_name": "J.Tillery",
+            "preferred_name": "Jerry",
+            "birth_date": "1996-10-08",
+            "weight": 295.0,
+            "height": 78,
+            "position": "DT",
+            "birth_place": "Shreveport, LA, USA",
+            "high_school": "Evangel Christian Academy (LA)",
+            "college": "Notre Dame",
+            "college_conf": "Independent",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1188426",
+            "draft": {
+                "year": 2019,
+                "round": 1,
+                "number": 28,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "47811",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035674",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "9fc6e49f-c863-419d-9dca-8f0da3f3c9c7",
+            "name": "Denzel Perryman",
+            "jersey": "52",
+            "last_name": "Perryman",
+            "first_name": "Denzel",
+            "abbr_name": "D.Perryman",
+            "preferred_name": "Denzel",
+            "birth_date": "1992-12-05",
+            "weight": 240.0,
+            "height": 71,
+            "position": "ILB",
+            "birth_place": "Coral Gables, FL, USA",
+            "high_school": "Coral Gables (FL)",
+            "college": "Miami",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2015,
+            "status": "A01",
+            "sr_id": "sr:player:834649",
+            "draft": {
+                "year": 2015,
+                "round": 2,
+                "number": 48,
+                "team": {
+                    "id": "9dbb9060-ba0f-4920-829e-16d4d9246b5d",
+                    "name": "Chargers",
+                    "market": "San Diego",
+                    "alias": "SD"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0032103",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "42391",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "a278c39e-7d4d-48c2-8145-2f8ad882ebeb",
+            "name": "Casey Hayward",
+            "jersey": "26",
+            "last_name": "Hayward",
+            "first_name": "Casey",
+            "abbr_name": "C.Hayward",
+            "preferred_name": "Casey",
+            "birth_date": "1989-09-09",
+            "weight": 192.0,
+            "height": 71,
+            "position": "CB",
+            "birth_place": "Perry, GA, USA",
+            "high_school": "Perry (GA)",
+            "college": "Vanderbilt",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2012,
+            "status": "A01",
+            "sr_id": "sr:player:827655",
+            "draft": {
+                "year": 2012,
+                "round": 2,
+                "number": 62,
+                "team": {
+                    "id": "a20471b4-a8d9-40c7-95ad-90cc30e46932",
+                    "name": "Packers",
+                    "market": "Green Bay",
+                    "alias": "GB",
+                    "sr_id": "sr:competitor:4420"
+                }
+            },
+            "references": [
+                {
+                    "id": "38592",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0029261",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "a2e26ea7-db98-4611-8947-692b0cedb541",
+            "name": "Ryan Groy",
+            "jersey": "72",
+            "last_name": "Groy",
+            "first_name": "Ryan",
+            "abbr_name": "R.Groy",
+            "preferred_name": "Ryan",
+            "birth_date": "1990-09-30",
+            "weight": 320.0,
+            "height": 77,
+            "position": "G",
+            "birth_place": "Middleton, WI, USA",
+            "high_school": "Middleton (WI)",
+            "college": "Wisconsin",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2014,
+            "status": "A01",
+            "sr_id": "sr:player:852672",
+            "references": [
+                {
+                    "id": "00-0031128",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "41945",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "a42da2a1-42c0-4d45-85f0-ab5c9af37e6f",
+            "name": "K.J. Hill",
+            "jersey": "84",
+            "last_name": "Hill",
+            "first_name": "K.J.",
+            "abbr_name": "K.Hill",
+            "preferred_name": "K.J.",
+            "birth_date": "1997-09-15",
+            "weight": 197.0,
+            "height": 72,
+            "position": "WR",
+            "birth_place": "Little Rock, AR, USA",
+            "high_school": "North Little Rock (AR)",
+            "college": "Ohio State",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040115",
+            "draft": {
+                "year": 2020,
+                "round": 7,
+                "number": 220,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0036382",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52628",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "ae372a9d-6f85-4e37-a910-47fd77483ebc",
+            "name": "Cole Christiansen",
+            "jersey": "50",
+            "last_name": "Christiansen",
+            "first_name": "Cole",
+            "abbr_name": "C.Christiansen",
+            "preferred_name": "Cole",
+            "birth_date": "1997-07-30",
+            "weight": 225.0,
+            "height": 74,
+            "position": "LB",
+            "birth_place": "Suffolk, VA, USA",
+            "high_school": "Nansemond-Suffolk Academy (VA)",
+            "college": "Army",
+            "college_conf": "Independent",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1203386",
+            "references": [
+                {
+                    "id": "52802",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035900",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "ae9495b2-4c62-4e14-8e43-beb53e1ae28a",
+            "name": "Jalen Guyton",
+            "jersey": "15",
+            "last_name": "Guyton",
+            "first_name": "Jalen",
+            "abbr_name": "J.Guyton",
+            "preferred_name": "Jalen",
+            "birth_date": "1997-06-07",
+            "weight": 212.0,
+            "height": 73,
+            "position": "WR",
+            "birth_place": "Allen, TX, USA",
+            "high_school": "Allen (TX)",
+            "college": "North Texas",
+            "college_conf": "Conference USA",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1233634",
+            "references": [
+                {
+                    "id": "00-0035414",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "48556",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "af291d43-a51f-44ce-b8ac-430ec68c78c8",
+            "name": "Easton Stick",
+            "jersey": "2",
+            "last_name": "Stick",
+            "first_name": "Easton",
+            "abbr_name": "E.Stick",
+            "preferred_name": "Easton",
+            "birth_date": "1995-09-15",
+            "weight": 224.0,
+            "height": 73,
+            "position": "QB",
+            "birth_place": "Omaha, NE, USA",
+            "high_school": "Creighton Prep (NE)",
+            "college": "North Dakota State",
+            "college_conf": "Missouri Valley Football Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1211000",
+            "draft": {
+                "year": 2019,
+                "round": 5,
+                "number": 166,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "47949",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035282",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "b04382c6-7138-4dd4-8ad8-3e10ce8403aa",
+            "name": "Scott Quessenberry",
+            "jersey": "61",
+            "last_name": "Quessenberry",
+            "first_name": "Scott",
+            "abbr_name": "S.Quessenberry",
+            "preferred_name": "Scott",
+            "birth_date": "1995-03-23",
+            "weight": 310.0,
+            "height": 75,
+            "position": "G",
+            "birth_place": "Carlsbad, CA, USA",
+            "high_school": "La Costa Canyon (CA)",
+            "college": "UCLA",
+            "college_conf": "Pacific Twelve Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1474866",
+            "draft": {
+                "year": 2018,
+                "round": 5,
+                "number": 155,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "46224",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034392",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "ba760d2d-a35a-4f9c-912d-05217aff53ab",
+            "name": "Jessie Lemonier",
+            "jersey": "90",
+            "last_name": "Lemonier",
+            "first_name": "Jessie",
+            "abbr_name": "J.Lemonier",
+            "preferred_name": "Jessie",
+            "birth_date": "1997-01-31",
+            "weight": 240.0,
+            "height": 75,
+            "position": "DE",
+            "birth_place": "Hialeah, FL, USA",
+            "high_school": "Hialeah (FL)",
+            "college": "Liberty",
+            "college_conf": "Independent",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1513429",
+            "references": [
+                {
+                    "id": "52808",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035906",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "bab100c6-1a6c-4411-9286-f719244f5d35",
+            "name": "Joe Gaziano",
+            "jersey": "92",
+            "last_name": "Gaziano",
+            "first_name": "Joe",
+            "abbr_name": "J.Gaziano",
+            "preferred_name": "Joe",
+            "birth_date": "1996-09-27",
+            "weight": 275.0,
+            "height": 76,
+            "position": "DE",
+            "birth_place": "Scituate, MA, USA",
+            "high_school": "Xaverian Brothers (MA)",
+            "college": "Northwestern",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1223350",
+            "references": [
+                {
+                    "id": "52805",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035903",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "c3e579cc-6693-47c4-91a9-b688935ae048",
+            "name": "Malik Jefferson",
+            "jersey": "46",
+            "last_name": "Jefferson",
+            "first_name": "Malik",
+            "abbr_name": "M.Jefferson",
+            "preferred_name": "Malik",
+            "birth_date": "1996-11-15",
+            "weight": 240.0,
+            "height": 74,
+            "position": "OLB",
+            "birth_place": "Mesquite, TX, USA",
+            "high_school": "Poteet (TX)",
+            "college": "Texas",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1220908",
+            "draft": {
+                "year": 2018,
+                "round": 3,
+                "number": 78,
+                "team": {
+                    "id": "ad4ae08f-d808-42d5-a1e6-e9bc4e34d123",
+                    "name": "Bengals",
+                    "market": "Cincinnati",
+                    "alias": "CIN",
+                    "sr_id": "sr:competitor:4416"
+                }
+            },
+            "references": [
+                {
+                    "id": "46147",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034835",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "c44b31cd-0480-4aa0-b500-12e9ba0765ac",
+            "name": "Nick Vigil",
+            "jersey": "59",
+            "last_name": "Vigil",
+            "first_name": "Nick",
+            "abbr_name": "N.Vigil",
+            "preferred_name": "Nick",
+            "birth_date": "1993-08-20",
+            "weight": 235.0,
+            "height": 74,
+            "position": "OLB",
+            "birth_place": "Plain City, UT, USA",
+            "high_school": "Fremont (UT)",
+            "college": "Utah State",
+            "college_conf": "Mountain West Conference",
+            "rookie_year": 2016,
+            "status": "A01",
+            "sr_id": "sr:player:1074088",
+            "draft": {
+                "year": 2016,
+                "round": 3,
+                "number": 87,
+                "team": {
+                    "id": "ad4ae08f-d808-42d5-a1e6-e9bc4e34d123",
+                    "name": "Bengals",
+                    "market": "Cincinnati",
+                    "alias": "CIN",
+                    "sr_id": "sr:competitor:4416"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0032892",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "43376",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "c5e24b59-cafa-4174-b5dc-e02f5934fb2d",
+            "name": "Emeke Egbule",
+            "jersey": "51",
+            "last_name": "Egbule",
+            "first_name": "Emeke",
+            "abbr_name": "E.Egbule",
+            "preferred_name": "Emeke",
+            "birth_date": "1996-10-13",
+            "weight": 245.0,
+            "height": 74,
+            "position": "OLB",
+            "birth_place": "Galena Park, TX, USA",
+            "high_school": "North Shore (TX)",
+            "college": "Houston",
+            "college_conf": "American Athletic Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1220710",
+            "draft": {
+                "year": 2019,
+                "round": 6,
+                "number": 200,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0035538",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "47983",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "c6303f3b-9c18-4afe-b0bf-d8270ca9db21",
+            "name": "Kyzir White",
+            "jersey": "44",
+            "last_name": "White",
+            "first_name": "Kyzir",
+            "abbr_name": "K.White",
+            "preferred_name": "Kyzir",
+            "birth_date": "1996-03-24",
+            "weight": 216.0,
+            "height": 74,
+            "position": "OLB",
+            "birth_place": "Macungie, PA, USA",
+            "high_school": "Emmaus (PA)",
+            "college": "West Virginia",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1474798",
+            "draft": {
+                "year": 2018,
+                "round": 4,
+                "number": 119,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0034375",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "46188",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "c6728282-0648-4926-a07c-be64f3ff5e0d",
+            "name": "Kalen Ballage",
+            "jersey": "31",
+            "last_name": "Ballage",
+            "first_name": "Kalen",
+            "abbr_name": "K.Ballage",
+            "preferred_name": "Kalen",
+            "birth_date": "1995-12-22",
+            "weight": 230.0,
+            "height": 74,
+            "position": "RB",
+            "birth_place": "Peyton, CO, USA",
+            "high_school": "Falcon (CO)",
+            "college": "Arizona State",
+            "college_conf": "Pacific Twelve Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1475118",
+            "draft": {
+                "year": 2018,
+                "round": 4,
+                "number": 131,
+                "team": {
+                    "id": "4809ecb0-abd3-451d-9c4a-92a90b83ca06",
+                    "name": "Dolphins",
+                    "market": "Miami",
+                    "alias": "MIA",
+                    "sr_id": "sr:competitor:4287"
+                }
+            },
+            "references": [
+                {
+                    "id": "46200",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034799",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "c82a3f67-90b7-4cc8-ac3b-e6cf469cc541",
+            "name": "Justin Jones",
+            "jersey": "93",
+            "last_name": "Jones",
+            "first_name": "Justin",
+            "abbr_name": "J.Jones",
+            "preferred_name": "Justin",
+            "birth_date": "1996-08-28",
+            "weight": 309.0,
+            "height": 75,
+            "position": "DT",
+            "birth_place": "Austell, GA, USA",
+            "high_school": "South Cobb (GA)",
+            "college": "North Carolina State",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1473992",
+            "draft": {
+                "year": 2018,
+                "round": 3,
+                "number": 84,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0034677",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "46153",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "d468dfe5-8ad2-4c8b-b7ba-0962316a2156",
+            "name": "Drue Tranquill",
+            "jersey": "49",
+            "last_name": "Tranquill",
+            "first_name": "Drue",
+            "abbr_name": "D.Tranquill",
+            "preferred_name": "Drue",
+            "birth_date": "1995-08-15",
+            "weight": 234.0,
+            "height": 74,
+            "position": "ILB",
+            "birth_place": "Fort Wayne, IN, USA",
+            "high_school": "Carroll (IN)",
+            "college": "Notre Dame",
+            "college_conf": "Independent",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1205822",
+            "draft": {
+                "year": 2019,
+                "round": 4,
+                "number": 130,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0035262",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "47913",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "d57ef862-8cb9-4f27-a294-f86eb26b6cce",
+            "name": "Lachlan Edwards",
+            "jersey": "4",
+            "last_name": "Edwards",
+            "first_name": "Lachlan",
+            "abbr_name": "L.Edwards",
+            "preferred_name": "Lachlan",
+            "birth_date": "1992-04-27",
+            "weight": 209.0,
+            "height": 76,
+            "position": "P",
+            "birth_place": "Hastings,, AUS",
+            "high_school": "Mornington (VIC)",
+            "college": "Sam Houston State",
+            "college_conf": "Southland Conference",
+            "rookie_year": 2016,
+            "status": "A01",
+            "sr_id": "sr:player:988677",
+            "draft": {
+                "year": 2016,
+                "round": 7,
+                "number": 235,
+                "team": {
+                    "id": "5fee86ae-74ab-4bdd-8416-42a9dd9964f3",
+                    "name": "Jets",
+                    "market": "New York",
+                    "alias": "NYJ",
+                    "sr_id": "sr:competitor:4427"
+                }
+            },
+            "references": [
+                {
+                    "id": "43524",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0032449",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "de185684-3a02-4e63-b2b1-405e562b3a77",
+            "name": "Chris Harris Jr.",
+            "jersey": "25",
+            "last_name": "Harris",
+            "first_name": "Chris",
+            "abbr_name": "C.Harris",
+            "preferred_name": "Chris",
+            "birth_date": "1989-06-18",
+            "weight": 199.0,
+            "height": 70,
+            "position": "CB",
+            "birth_place": "Bixby, OK, USA",
+            "high_school": "Bixby (OK)",
+            "college": "Kansas",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2011,
+            "status": "A01",
+            "sr_id": "sr:player:831255",
+            "name_suffix": "Jr.",
+            "references": [
+                {
+                    "id": "00-0028224",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "37724",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "e005ee7b-3fb4-4219-8de3-a9b0302cb2dc",
+            "name": "Jahleel Addae",
+            "jersey": "36",
+            "last_name": "Addae",
+            "first_name": "Jahleel",
+            "abbr_name": "J.Addae",
+            "preferred_name": "Jahleel",
+            "birth_date": "1990-01-24",
+            "weight": 195.0,
+            "height": 70,
+            "position": "FS",
+            "birth_place": "Valrico, FL, USA",
+            "high_school": "Riverview (FL)",
+            "college": "Central Michigan",
+            "college_conf": "Mid-American Conference",
+            "rookie_year": 2013,
+            "status": "A01",
+            "sr_id": "sr:player:828855",
+            "references": [
+                {
+                    "id": "40755",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0030312",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "e11ce848-c797-460b-bb46-6b9ceae48542",
+            "name": "Brandon Facyson",
+            "jersey": "28",
+            "last_name": "Facyson",
+            "first_name": "Brandon",
+            "abbr_name": "B.Facyson",
+            "preferred_name": "Brandon",
+            "birth_date": "1994-09-08",
+            "weight": 197.0,
+            "height": 74,
+            "position": "CB",
+            "birth_place": "Jacksonville, FL, USA",
+            "high_school": "Northgate (GA)",
+            "college": "Virginia Tech",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1475788",
+            "references": [
+                {
+                    "id": "46729",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034545",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "e4edfc2e-c6f7-42fc-b8b1-8e5282457000",
+            "name": "John Hurst",
+            "jersey": "6",
+            "last_name": "Hurst",
+            "first_name": "John",
+            "abbr_name": "J.Hurst",
+            "preferred_name": "John",
+            "birth_date": "1996-11-02",
+            "weight": 190.0,
+            "height": 74,
+            "position": "WR",
+            "birth_place": "Milton, GA, USA",
+            "high_school": "Cambridge (GA)",
+            "college": "West Georgia",
+            "college_conf": "Gulf South Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2068431",
+            "references": [
+                {
+                    "id": "53008",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0036104",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "e5b8c439-a48a-4f83-b63b-1a4d30e04cd3",
+            "name": "Austin Ekeler",
+            "jersey": "30",
+            "last_name": "Ekeler",
+            "first_name": "Austin",
+            "abbr_name": "A.Ekeler",
+            "preferred_name": "Austin",
+            "birth_date": "1995-05-17",
+            "weight": 200.0,
+            "height": 70,
+            "position": "RB",
+            "birth_place": "Eaton, CO, USA",
+            "high_school": "Eaton (CO)",
+            "college": "Western State, Colo.",
+            "college_conf": "Rocky Mountain Athletic Conference",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1131789",
+            "references": [
+                {
+                    "id": "45573",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0033699",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "e6c3f896-0223-4fc2-be09-c959ea4a475c",
+            "name": "Justin Jackson",
+            "jersey": "22",
+            "last_name": "Jackson",
+            "first_name": "Justin",
+            "abbr_name": "J.Jackson",
+            "preferred_name": "Justin",
+            "birth_date": "1996-04-22",
+            "weight": 200.0,
+            "height": 72,
+            "position": "RB",
+            "birth_place": "Carol Stream, IL, USA",
+            "high_school": "Glenbard North (IL)",
+            "college": "Northwestern",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1475094",
+            "draft": {
+                "year": 2018,
+                "round": 7,
+                "number": 251,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0034440",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "46320",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "e735b2ad-8c89-450b-8241-3f602016b897",
+            "name": "Breiden Fehoko",
+            "jersey": "96",
+            "last_name": "Fehoko",
+            "first_name": "Breiden",
+            "abbr_name": "B.Fehoko",
+            "preferred_name": "Breiden",
+            "birth_date": "1996-10-15",
+            "weight": 295.0,
+            "height": 74,
+            "position": "NT",
+            "birth_place": "Honolulu, HI, USA",
+            "high_school": "Farrington (HI)",
+            "college": "Louisiana State",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040657",
+            "references": [
+                {
+                    "id": "00-0035927",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52829",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "ec7404cc-ff2c-4afb-aebc-3cde1322d5de",
+            "name": "Sam Tevi",
+            "jersey": "69",
+            "last_name": "Tevi",
+            "first_name": "Sam",
+            "abbr_name": "S.Tevi",
+            "preferred_name": "Sam",
+            "birth_date": "1994-11-15",
+            "weight": 315.0,
+            "height": 77,
+            "position": "T",
+            "birth_place": "Euless, TX, USA",
+            "high_school": "Trinity (TX)",
+            "college": "Utah",
+            "college_conf": "Pacific Twelve Conference",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1130099",
+            "draft": {
+                "year": 2017,
+                "round": 6,
+                "number": 190,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "45003",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0033578",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "f0a8f8e3-b9e9-46ed-85e4-eec6452a8a44",
+            "name": "Justin Herbert",
+            "jersey": "10",
+            "last_name": "Herbert",
+            "first_name": "Justin",
+            "abbr_name": "J.Herbert",
+            "preferred_name": "Justin",
+            "birth_date": "1998-03-10",
+            "weight": 237.0,
+            "height": 78,
+            "position": "QB",
+            "birth_place": "Eugene, OR, USA",
+            "high_school": "Sheldon (OR)",
+            "college": "Oregon",
+            "college_conf": "Pacific Twelve Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2039971",
+            "draft": {
+                "year": 2020,
+                "round": 1,
+                "number": 6,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "52414",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0036355",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "f3a7ab39-ead2-4dbf-b760-d652b8a26853",
+            "name": "Alohi Gilman",
+            "jersey": "32",
+            "last_name": "Gilman",
+            "first_name": "Alohi",
+            "abbr_name": "A.Gilman",
+            "preferred_name": "Alohi",
+            "birth_date": "1997-09-17",
+            "weight": 202.0,
+            "height": 71,
+            "position": "SS",
+            "birth_place": "Laie, HI, USA",
+            "high_school": "Kahuku (HI)",
+            "college": "Notre Dame",
+            "college_conf": "Independent",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040403",
+            "draft": {
+                "year": 2020,
+                "round": 6,
+                "number": 186,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0036380",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52594",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "f89332c7-decb-438a-bf7c-220d6c28e098",
+            "name": "Isaac Rochell",
+            "jersey": "98",
+            "last_name": "Rochell",
+            "first_name": "Isaac",
+            "abbr_name": "I.Rochell",
+            "preferred_name": "Isaac",
+            "birth_date": "1995-04-22",
+            "weight": 280.0,
+            "height": 76,
+            "position": "DE",
+            "birth_place": "McDonaugh, GA, USA",
+            "high_school": "Eagle's Landing Christian (GA)",
+            "college": "Notre Dame",
+            "college_conf": "Independent",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1129975",
+            "draft": {
+                "year": 2017,
+                "round": 7,
+                "number": 225,
+                "team": {
+                    "id": "1f6dcffb-9823-43cd-9ff4-e7a8466749b5",
+                    "name": "Chargers",
+                    "market": "Los Angeles",
+                    "alias": "LAC",
+                    "sr_id": "sr:competitor:4429"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0033588",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "45038",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "fc28047a-18cf-4431-9e1b-317db75c4495",
+            "name": "Damion Square",
+            "jersey": "71",
+            "last_name": "Square",
+            "first_name": "Damion",
+            "abbr_name": "D.Square",
+            "preferred_name": "Damion",
+            "birth_date": "1989-02-06",
+            "weight": 293.0,
+            "height": 74,
+            "position": "NT",
+            "birth_place": "Houston, TX, USA",
+            "high_school": "Yates (TX)",
+            "college": "Alabama",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2013,
+            "status": "A01",
+            "sr_id": "sr:player:831063",
+            "references": [
+                {
+                    "id": "00-0030148",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "40608",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "ffe9639a-7ce2-436a-a291-868e66e9dab8",
+            "name": "John Brannon",
+            "jersey": "38",
+            "last_name": "Brannon",
+            "first_name": "John",
+            "abbr_name": "J.Brannon",
+            "preferred_name": "John",
+            "birth_date": "1998-03-10",
+            "weight": 195.0,
+            "height": 74,
+            "position": "DB",
+            "birth_place": "Charlotte, NC, USA",
+            "high_school": "South Mecklenburg (NC)",
+            "college": "Western Carolina",
+            "college_conf": "Southern Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1205670",
+            "references": [
+                {
+                    "id": "52801",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035899",
+                    "origin": "gsis"
+                }
+            ]
+        }
+    ],
+    "_comment": "Generation started @ 2021-02-12 18:01:16 UTC ended @ 2021-02-12 18:01:16 UTC"
+}

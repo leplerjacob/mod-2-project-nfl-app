@@ -8,49 +8,71 @@
 
 require 'json'
 
-# Create array of file names to interpolate into File.read command below
-# example json_team_data = File.read("./db/team_data/#{<filename>}.json")
-["Arizona-cardinals"]
+Team.destroy_all
+Player.destroy_all
+Coach.destroy_all
+Stadium.destroy_all
 
-json_team_data = File.read("./db/team_data/Arizona-cardinals.json")
-team_data_as_hash = JSON.parse(json_team_data)
+def finder_create(team_hash)
 
-10.times do
-    team_data_as_hash["players"].each{|player|
+    stadium = Stadium.create(
+        city: team_hash["venue"]["city"],
+        state: team_hash["venue"]["state"],
+        capacity: team_hash["venue"]["capacity"]
+    )
+
+    team = Team.create(
+        name: team_hash["name"],
+        state: team_hash["market"],
+        division: team_hash["division"]["name"],
+        stadium_id: stadium.id
+    )
+
+    team_hash["players"].each{|player|
         Player.create(
-            first_name: player["name"].split(" ")[0],
-            last_name: player["name"].split(" ")[1],
-            birth_date: player[""],
-            age: player[""],
-            jersey: player[""],
-            position: player[""],
-            home_town: player[""],
-            college: player[""],
-            weight: player[""],
-            height: player[""],
-            bio: Faker::Lorem.paragraph
+            first_name: player["first_name"],
+            last_name: player["last_name"],
+            birth_date: player["birth_date"],
+            age: 0,
+            jersey: player["jersey"],
+            position: player["position"],
+            home_town: player["birth_place"],
+            college: player["college"],
+            weight: player["weight"],
+            height: player["height"],
+            bio: Faker::Lorem.paragraph,
+            team_id: team.id
         )
-        byebug
-}
+    }
+
+    team_hash["coaches"].each{|coach|
+        Coach.create(
+            first_name: coach["first_name"],
+            last_name: coach["last_name"],
+            position: coach["position"],
+            age: 0,
+            bio: Faker::Lorem.paragraph,
+            team_id: team.id
+        )
+    }
 end
 
-Player.destroy_all
-# create_table "players", force: :cascade do |t|
-#     t.string "username"
-#     t.string "password"
-#     t.string "first_name"
-#     t.string "last_name"
-#     t.string "birth_date"
-#     t.integer "age"
-#     t.string "jersey"
-#     t.string "position"
-#     t.string "home_town"
-#     t.string "college"
-#     t.float "weight"
-#     t.float "height"
-#     t.text "bio"
-#     t.integer "team_id"
-#     t.datetime "created_at", precision: 6, null: false
-#     t.datetime "updated_at", precision: 6, null: false
-#     t.index ["team_id"], name: "index_players_on_team_id"
-#   end
+# Create array of file names to interpolate into File.read command below
+# example json_team_data = File.read("./db/team_data/#{<filename>}.json")
+
+files = ["Arizona-cardinals", "Atlanta-falcons", "Baltimore-ravens",
+        "Buffalo-bills", "Carolina-panthers", "Chicago-bears", "Cincinnati-bengals",
+        "Cleveland-browns", "Dallas-cowboys", "Denver-broncos", "Detroit-lions", "Green-bay-packers",
+        "Houston-texans", "Indianapolis-colts", "Jacksonville-jaguars", "Kansas-city-chiefs",
+        "Las-vegas-raiders", "Los-angeles-chargers", "Los-angeles-rams", "Miami-dolphins",
+        "Minnesota-vikings", "New-england-patriots", "New-orleans-saints", "New-york-jets", "New-york-giants", 
+        "Philadelphia-eagles", "Pittsburgh-steelers", "San-francisco-49ers", "Seattle-seahawks",
+        "Tampa-bay-buccaneers", "Tennessee-titans", "Washington-football-team"]
+
+x = 0
+files.length.times do
+    json_team_data = File.read("./db/team_data/#{files[x]}.json")
+    team_data_as_hash = JSON.parse(json_team_data)
+    finder_create(team_data_as_hash)
+    x += 1
+end

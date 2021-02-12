@@ -1,1 +1,3005 @@
-{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413","franchise":{"id":"677f94d8-2228-47be-881f-6680fd0af994","name":"Ravens","alias":"BAL","references":[{"id":"5","origin":"gsis"}]},"venue":{"id":"d54faae0-0314-484f-8604-9d8dd08e1149","name":"M&T Bank Stadium","city":"Baltimore","state":"MD","country":"USA","zip":"21230","address":"1101 Russell Street","capacity":71008,"surface":"turf","roof_type":"outdoor","sr_id":"sr:venue:8169","location":{"lat":"39.277995","lng":"-76.622592"}},"division":{"id":"eb60da78-4eb5-4184-971e-2c5cd4ab4988","name":"AFC North","alias":"AFC_NORTH"},"conference":{"id":"1bdefe12-6cb2-4d6a-b208-b04602ae79c3","name":"AFC","alias":"AFC"},"references":[{"id":"BLT","origin":"gsis"}],"coaches":[{"id":"ae85f93d-f05e-4f8f-a056-05915e1b13d5","full_name":"Don Martindale","first_name":"Don","last_name":"Martindale","position":"Defensive Coordinator"},{"id":"bc38f5a5-bfc0-4ea2-b81a-198c5c796be9","full_name":"Greg Roman","first_name":"Greg","last_name":"Roman","position":"Offensive Coordinator"},{"id":"bf49a80f-9733-453e-8dca-7b0146e92cff","full_name":"John Harbaugh","first_name":"John","last_name":"Harbaugh","position":"Head Coach"}],"team_colors":[{"type":"secondary","hex_color":"#000000","alpha":0.0,"rgb_color":{"red":0,"green":0,"blue":0}},{"type":"primary","hex_color":"#1a195f","alpha":0.0,"rgb_color":{"red":26,"green":25,"blue":95}}],"players":[{"id":"0333b8f0-3aab-45aa-a684-6d402a309413","name":"Calais Campbell","jersey":"93","last_name":"Campbell","first_name":"Calais","abbr_name":"C.Campbell","preferred_name":"Calais","birth_date":"1986-09-01","weight":300.0,"height":80,"position":"DT","birth_place":"Denver, CO, USA","high_school":"Denver South (CO)","college":"Miami","college_conf":"Atlantic Coast Conference","rookie_year":2008,"status":"A01","sr_id":"sr:player:829847","draft":{"year":2008,"round":2,"number":50,"team":{"id":"de760528-1dc0-416a-a978-b510d20692ff","name":"Cardinals","market":"Arizona","alias":"ARI","sr_id":"sr:competitor:4412"}},"references":[{"id":"33131","origin":"nflx"},{"id":"00-0026190","origin":"gsis"}]},{"id":"04e8ea8f-8424-4196-a0fd-7dff3740c734","name":"Anthony Levine Sr.","jersey":"41","last_name":"Levine","first_name":"Anthony","abbr_name":"A.Levine","preferred_name":"Anthony","birth_date":"1987-03-27","weight":207.0,"height":71,"position":"SS","birth_place":"Abbeville, LA, USA","high_school":"Richard J. Reynolds (NC)","college":"Tennessee State","college_conf":"Ohio Valley Conference","rookie_year":2010,"status":"A01","sr_id":"sr:player:830337","name_suffix":"Sr.","references":[{"id":"36060","origin":"nflx"},{"id":"00-0027539","origin":"gsis"}]},{"id":"0618f387-9b72-4270-8b8f-dec4cccc9e4a","name":"Mark Andrews","jersey":"89","last_name":"Andrews","first_name":"Mark","abbr_name":"M.Andrews","preferred_name":"Mark","birth_date":"1995-09-06","weight":255.0,"height":77,"position":"TE","birth_place":"Scottsdale, AZ, USA","high_school":"Desert Mountain (AZ)","college":"Oklahoma","college_conf":"Big Twelve Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1219184","draft":{"year":2018,"round":3,"number":86,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"00-0034753","origin":"gsis"},{"id":"46155","origin":"nflx"}]},{"id":"07247409-1cf8-4e67-a05b-15de83ca1bf9","name":"Chris Board","jersey":"49","last_name":"Board","first_name":"Chris","abbr_name":"C.Board","preferred_name":"Chris","birth_date":"1995-07-23","weight":230.0,"height":74,"position":"OLB","birth_place":"Orlando, FL, USA","high_school":"Timber Creek (FL)","college":"North Dakota State","college_conf":"Missouri Valley Football Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1476006","references":[{"id":"46958","origin":"nflx"},{"id":"00-0034787","origin":"gsis"}]},{"id":"0782b3a2-9693-40f6-aff2-a21bc8fa4c5d","name":"Kristian Welch","jersey":"57","last_name":"Welch","first_name":"Kristian","abbr_name":"K.Welch","preferred_name":"Kristian","birth_date":"1998-05-24","weight":239.0,"height":75,"position":"LB","birth_place":"Iola, WI, USA","high_school":"Iola-Scandinavia (WI)","college":"Iowa","college_conf":"Big Ten Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:1229576","references":[{"id":"00-0036157","origin":"gsis"},{"id":"53059","origin":"nflx"}]},{"id":"0b504d67-639b-4ba8-979a-498a3086257b","name":"Chris Moore","jersey":"10","last_name":"Moore","first_name":"Chris","abbr_name":"C.Moore","preferred_name":"Chris","birth_date":"1993-06-16","weight":200.0,"height":73,"position":"WR","birth_place":"Tampa, FL, USA","high_school":"Thomas Jefferson (FL)","college":"Cincinnati","college_conf":"American Athletic Conference","rookie_year":2016,"status":"A01","sr_id":"sr:player:988781","draft":{"year":2016,"round":4,"number":107,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"43396","origin":"nflx"},{"id":"00-0032398","origin":"gsis"}]},{"id":"0b93712a-3c39-4d73-aca5-ca04ed05bd59","name":"Iman Marshall","jersey":"37","last_name":"Marshall","first_name":"Iman","abbr_name":"I.Marshall","preferred_name":"Iman","birth_date":"1997-02-27","weight":210.0,"height":73,"position":"CB","birth_place":"Long Beach, CA, USA","high_school":"Long Beach Poly (CA)","college":"Southern California","college_conf":"Pacific Twelve Conference","rookie_year":2019,"status":"A01","sr_id":"sr:player:1201270","draft":{"year":2019,"round":4,"number":127,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"00-0034979","origin":"gsis"},{"id":"47910","origin":"nflx"}]},{"id":"0cc99dff-5895-48ed-9f30-e70e916bb52a","name":"L.J. Fort","jersey":"58","last_name":"Fort","first_name":"L.J.","abbr_name":"L.Fort","preferred_name":"L.J.","birth_date":"1990-01-03","weight":232.0,"height":72,"position":"OLB","birth_place":"Waynesville, MO, USA","high_school":"Waynesville (MO)","college":"Northern Iowa","college_conf":"Missouri Valley Football Conference","rookie_year":2012,"status":"A01","sr_id":"sr:player:829565","references":[{"id":"00-0028932","origin":"gsis"},{"id":"38883","origin":"nflx"}]},{"id":"1105ae60-a4b6-4246-a77e-0849179b07b2","name":"Chuck Clark","jersey":"36","last_name":"Clark","first_name":"Chuck","abbr_name":"C.Clark","preferred_name":"Chuck","birth_date":"1995-04-19","weight":205.0,"height":72,"position":"SS","birth_place":"Suffolk, VA, USA","high_school":"King's Fork (VA)","college":"Virginia Tech","college_conf":"Atlantic Coast Conference","rookie_year":2017,"status":"A01","sr_id":"sr:player:1130051","draft":{"year":2017,"round":6,"number":186,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"00-0033294","origin":"gsis"},{"id":"44999","origin":"nflx"}]},{"id":"13f716fb-7249-4b0a-9858-8af8cb83f78b","name":"Jordan Richards","jersey":"28","last_name":"Richards","first_name":"Jordan","abbr_name":"J.Richards","preferred_name":"Jordan","birth_date":"1993-01-21","weight":215.0,"height":71,"position":"SS","birth_place":"Folsom, CA, USA","high_school":"Folsom (CA)","college":"Stanford","college_conf":"Pacific Twelve Conference","rookie_year":2015,"status":"A01","sr_id":"sr:player:834767","draft":{"year":2015,"round":2,"number":64,"team":{"id":"97354895-8c77-4fd4-a860-32e62ea7382a","name":"Patriots","market":"New England","alias":"NE","sr_id":"sr:competitor:4424"}},"references":[{"id":"42407","origin":"nflx"},{"id":"00-0031559","origin":"gsis"}]},{"id":"171e1cf6-8bcc-46f1-8afe-47756967611c","name":"Aaron Adeoye","jersey":"51","last_name":"Adeoye","first_name":"Aaron","abbr_name":"A.Adeoye","preferred_name":"Aaron","birth_date":"1993-08-26","weight":250.0,"height":78,"position":"OLB","birth_place":"Marion, IL, USA","high_school":"Marion (IL)","college":"Southeast Missouri","college_conf":"Ohio Valley Conference","rookie_year":2019,"status":"A01","sr_id":"sr:player:1739819","references":[{"id":"00-0035136","origin":"gsis"},{"id":"46032","origin":"nflx"}]},{"id":"17a056be-39c0-4913-bacf-1663f3ac4a56","name":"Andre Smith","jersey":"76","last_name":"Smith","first_name":"Andre","abbr_name":"A.Smith","preferred_name":"Andre","birth_date":"1987-01-25","weight":330.0,"height":76,"position":"T","birth_place":"Birmingham, AL, USA","high_school":"Huffman (AL)","college":"Alabama","college_conf":"Southeastern Conference","rookie_year":2009,"status":"R62","sr_id":"sr:player:831239","draft":{"year":2009,"round":1,"number":6,"team":{"id":"ad4ae08f-d808-42d5-a1e6-e9bc4e34d123","name":"Bengals","market":"Cincinnati","alias":"CIN","sr_id":"sr:competitor:4416"}},"references":[{"id":"00-0026982","origin":"gsis"},{"id":"34457","origin":"nflx"}]},{"id":"1880777d-9908-4a32-a492-264b4fec967d","name":"Tavon Young","jersey":"25","last_name":"Young","first_name":"Tavon","abbr_name":"T.Young","preferred_name":"Tavon","birth_date":"1994-03-14","weight":185.0,"height":69,"position":"CB","birth_place":"Oxon Hill, MD, USA","high_school":"Potomac (MD)","college":"Temple","college_conf":"American Athletic Conference","rookie_year":2016,"status":"A01","sr_id":"sr:player:988629","draft":{"year":2016,"round":4,"number":104,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"00-0032770","origin":"gsis"},{"id":"43393","origin":"nflx"}]},{"id":"1c1c956f-0f4c-4b22-98f2-6bbbd5e4a504","name":"Aaron Crawford","jersey":"69","last_name":"Crawford","first_name":"Aaron","abbr_name":"A.Crawford","preferred_name":"Aaron","birth_date":"1997-11-04","weight":290.0,"height":74,"position":"DT","birth_place":"Ashburn, VA, USA","high_school":"Stone Bridge (VA)","college":"North Carolina","college_conf":"Atlantic Coast Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2053023","references":[{"id":"53083","origin":"nflx"},{"id":"00-0036191","origin":"gsis"}]},{"id":"209307c5-8e39-44a6-8879-5e033e017eb4","name":"Otaro Alaka","jersey":"50","last_name":"Alaka","first_name":"Otaro","abbr_name":"O.Alaka","preferred_name":"Otaro","birth_date":"1996-05-18","weight":240.0,"height":75,"position":"MLB","birth_place":"Houston, TX, USA","high_school":"Cypress Falls (TX)","college":"Texas A&amp;M","college_conf":"Southeastern Conference","rookie_year":2019,"status":"A01","sr_id":"sr:player:1183336","references":[{"id":"48211","origin":"nflx"},{"id":"00-0035103","origin":"gsis"}]},{"id":"20a0bad2-d530-4ff4-a2df-5c0a21a1f5db","name":"Justin Tucker","jersey":"9","last_name":"Tucker","first_name":"Justin","abbr_name":"J.Tucker","preferred_name":"Justin","birth_date":"1989-11-21","weight":183.0,"height":73,"position":"K","birth_place":"Houston, TX, USA","high_school":"Westlake (TX)","college":"Texas","college_conf":"Big Twelve Conference","rookie_year":2012,"status":"A01","sr_id":"sr:player:829127","references":[{"id":"39470","origin":"nflx"},{"id":"00-0029597","origin":"gsis"}]},{"id":"20c1c6e8-509a-46a6-8edf-d402d56c20b2","name":"Bradley Bozeman","jersey":"77","last_name":"Bozeman","first_name":"Bradley","abbr_name":"B.Bozeman","preferred_name":"Bradley","birth_date":"1994-11-24","weight":317.0,"height":77,"position":"G","birth_place":"Roanoke, AL, USA","high_school":"Handley","college":"Alabama","college_conf":"Southeastern Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1218142","draft":{"year":2018,"round":6,"number":215,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"00-0034281","origin":"gsis"},{"id":"46284","origin":"nflx"}]},{"id":"2eb0706c-3017-4895-a207-71d6fe9e1549","name":"Johnny Townsend","jersey":"6","last_name":"Townsend","first_name":"Johnny","abbr_name":"J.Townsend","preferred_name":"Johnny","birth_date":"1995-02-14","weight":205.0,"height":73,"position":"P","birth_place":"Orlando, FL, USA","high_school":"Boone (FL)","college":"Florida","college_conf":"Southeastern Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1474678","draft":{"year":2018,"round":5,"number":173,"team":{"id":"1c1cec48-6352-4556-b789-35304c1a6ae1","name":"Raiders","market":"Oakland","alias":"OAK","sr_id":"sr:competitor:4390"}},"references":[{"id":"00-0034684","origin":"gsis"},{"id":"46242","origin":"nflx"}]},{"id":"30f98123-214c-4f32-b29c-ac6f3ff56f39","name":"Derek Wolfe","jersey":"95","last_name":"Wolfe","first_name":"Derek","abbr_name":"D.Wolfe","preferred_name":"Derek","birth_date":"1990-02-24","weight":285.0,"height":77,"position":"DE","birth_place":"Lisbon, OH, USA","high_school":"Beaver Local (OH)","college":"Cincinnati","college_conf":"Big East","rookie_year":2012,"status":"A01","sr_id":"sr:player:831597","draft":{"year":2012,"round":2,"number":36,"team":{"id":"ce92bd47-93d5-4fe9-ada4-0fc681e6caa0","name":"Broncos","market":"Denver","alias":"DEN","sr_id":"sr:competitor:4418"}},"references":[{"id":"00-0029586","origin":"gsis"},{"id":"38566","origin":"nflx"}]},{"id":"32575119-3aca-47cb-aaaf-162c48b7d372","name":"Malik Harrison","jersey":"40","last_name":"Harrison","first_name":"Malik","abbr_name":"M.Harrison","preferred_name":"Malik","birth_date":"1998-03-05","weight":245.0,"height":75,"position":"OLB","birth_place":"Columbus, OH, USA","high_school":"Walnut Ridge (OH)","college":"Ohio State","college_conf":"Big Ten Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040123","draft":{"year":2020,"round":3,"number":98,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"00-0036280","origin":"gsis"},{"id":"52506","origin":"nflx"}]},{"id":"32ad0298-bbc6-4b66-bd4d-e87a169ad27a","name":"Nick Moore","jersey":"60","last_name":"Moore","first_name":"Nick","abbr_name":"N.Moore","preferred_name":"Nick","birth_date":"1992-12-09","weight":250.0,"height":75,"position":"LS","birth_place":"Snellville, GA, USA","high_school":"Brookwood (GA)","college":"Georgia","college_conf":"Southeastern Conference","rookie_year":2019,"status":"A01","sr_id":"sr:player:1181260","references":[{"id":"48543","origin":"nflx"},{"id":"00-0035408","origin":"gsis"}]},{"id":"34cc08f0-53ee-4fc8-95a3-971e6620884c","name":"Jaylon Moore","jersey":"81","last_name":"Moore","first_name":"Jaylon","abbr_name":"J.Moore","preferred_name":"Jaylon","birth_date":"1997-07-01","weight":190.0,"height":74,"position":"WR","birth_place":"Memphis, TN, USA","high_school":"Mitchell (TN)","college":"Tennessee-Martin","college_conf":"Ohio Valley Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:1210354","references":[{"id":"00-0036125","origin":"gsis"},{"id":"53029","origin":"nflx"}]},{"id":"3da67e95-bd15-409f-b5de-b2feb54efda7","name":"Deon Cain","jersey":"17","last_name":"Cain","first_name":"Deon","abbr_name":"D.Cain","preferred_name":"Deon","birth_date":"1996-08-09","weight":202.0,"height":74,"position":"WR","birth_place":"Tampa, FL, USA","high_school":"Tampa Bay Tech (FL)","college":"Clemson","college_conf":"Atlantic Coast Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1218762","draft":{"year":2018,"round":6,"number":185,"team":{"id":"82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9","name":"Colts","market":"Indianapolis","alias":"IND","sr_id":"sr:competitor:4421"}},"references":[{"id":"46254","origin":"nflx"},{"id":"00-0034406","origin":"gsis"}]},{"id":"3ffc3993-461e-4477-9def-c9633b7feac1","name":"Gus Edwards","jersey":"35","last_name":"Edwards","first_name":"Gus","abbr_name":"G.Edwards","preferred_name":"Gus","birth_date":"1995-04-13","weight":238.0,"height":73,"position":"RB","birth_place":"Staten Island, NY, USA","high_school":"Tottenville (NY)","college":"Rutgers","college_conf":"Big Ten Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1475776","references":[{"id":"46437","origin":"nflx"},{"id":"00-0034184","origin":"gsis"}]},{"id":"402f063b-4703-4729-b6ea-3a9d45a314c7","name":"Marcus Peters","jersey":"24","last_name":"Peters","first_name":"Marcus","abbr_name":"M.Peters","preferred_name":"Marcus","birth_date":"1993-01-09","weight":197.0,"height":72,"position":"CB","birth_place":"Oakland, CA, USA","high_school":"McClymonds (CA)","college":"Washington","college_conf":"Pacific Twelve Conference","rookie_year":2015,"status":"A01","sr_id":"sr:player:834521","draft":{"year":2015,"round":1,"number":18,"team":{"id":"6680d28d-d4d2-49f6-aace-5292d3ec02c2","name":"Chiefs","market":"Kansas City","alias":"KC","sr_id":"sr:competitor:4422"}},"references":[{"id":"00-0032165","origin":"gsis"},{"id":"42361","origin":"nflx"}]},{"id":"41524c86-8ab6-42e9-871b-a00e29cd2705","name":"Yannick Ngakoue","jersey":"91","last_name":"Ngakoue","first_name":"Yannick","abbr_name":"Y.Ngakoue","preferred_name":"Yannick","birth_date":"1995-03-31","weight":246.0,"height":74,"position":"DE","birth_place":"Washington, DC, USA","high_school":"Friendship Collegiate Academy (DC)","college":"Maryland","college_conf":"Big Ten Conference","rookie_year":2016,"status":"A01","sr_id":"sr:player:1074184","draft":{"year":2016,"round":3,"number":69,"team":{"id":"f7ddd7fa-0bae-4f90-bc8e-669e4d6cf2de","name":"Jaguars","market":"Jacksonville","alias":"JAC","sr_id":"sr:competitor:4386"}},"references":[{"id":"43358","origin":"nflx"},{"id":"00-0033123","origin":"gsis"}]},{"id":"457123e2-aeb5-41c7-b2a8-ddc42c04f977","name":"Braxton Hoyett","jersey":"96","last_name":"Hoyett","first_name":"Braxton","abbr_name":"B.Hoyett","preferred_name":"Braxton","birth_date":"1996-02-05","weight":302.0,"height":74,"position":"DT","birth_place":"Alexander City, AL, USA","high_school":"Pelham (AL)","college":"Mississippi State","college_conf":"Southeastern Conference","rookie_year":2019,"status":"A01","sr_id":"sr:player:1735589","references":[{"id":"00-0035518","origin":"gsis"},{"id":"48668","origin":"nflx"}]},{"id":"45c926b6-0f2f-4d29-b806-d21e4ea89ba2","name":"Davontae Harris","jersey":"33","last_name":"Harris","first_name":"Davontae","abbr_name":"D.Harris","preferred_name":"Davontae","birth_date":"1995-01-21","weight":200.0,"height":71,"position":"CB","birth_place":"Wichita, KS, USA","high_school":"Wichita South (KS)","college":"Illinois State","college_conf":"Missouri Valley Football Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1204068","draft":{"year":2018,"round":5,"number":151,"team":{"id":"ad4ae08f-d808-42d5-a1e6-e9bc4e34d123","name":"Bengals","market":"Cincinnati","alias":"CIN","sr_id":"sr:competitor:4416"}},"references":[{"id":"00-0034388","origin":"gsis"},{"id":"46220","origin":"nflx"}]},{"id":"4706e72c-c7ef-4fa0-b16b-e864a1085dd7","name":"Jaylon Ferguson","jersey":"45","last_name":"Ferguson","first_name":"Jaylon","abbr_name":"J.Ferguson","preferred_name":"Jaylon","birth_date":"1995-12-14","weight":275.0,"height":77,"position":"OLB","birth_place":"Zachary, LA, USA","high_school":"West Feliciana (LA)","college":"Louisiana Tech","college_conf":"Conference USA","rookie_year":2019,"status":"A01","sr_id":"sr:player:1184968","draft":{"year":2019,"round":3,"number":85,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"00-0035651","origin":"gsis"},{"id":"47868","origin":"nflx"}]},{"id":"4b62138a-e222-408c-8595-936d1a194eca","name":"Pernell McPhee","jersey":"90","last_name":"McPhee","first_name":"Pernell","abbr_name":"P.McPhee","preferred_name":"Pernell","birth_date":"1988-12-17","weight":265.0,"height":75,"position":"OLB","birth_place":"Orlando, FL, USA","high_school":"Pahokee (FL)","college":"Mississippi State","college_conf":"Southeastern Conference","rookie_year":2011,"status":"A01","sr_id":"sr:player:828343","draft":{"year":2011,"round":5,"number":165,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"37240","origin":"nflx"},{"id":"00-0028103","origin":"gsis"}]},{"id":"513df09d-7d3a-44a8-873c-34f2fe46326b","name":"Morgan Cox","jersey":"46","last_name":"Cox","first_name":"Morgan","abbr_name":"M.Cox","preferred_name":"Morgan","birth_date":"1986-04-26","weight":233.0,"height":76,"position":"LS","birth_place":"Collierville, TN, USA","high_school":"Evangelical Christian (TN)","college":"Tennessee","college_conf":"Southeastern Conference","rookie_year":2010,"status":"A01","sr_id":"sr:player:828447","references":[{"id":"36086","origin":"nflx"},{"id":"00-0027557","origin":"gsis"}]},{"id":"528e71ec-8fb3-4928-ace5-fc5ffbf26eb3","name":"Justice Hill","jersey":"43","last_name":"Hill","first_name":"Justice","abbr_name":"J.Hill","preferred_name":"Justice","birth_date":"1997-11-14","weight":200.0,"height":70,"position":"RB","birth_place":"Tulsa, OK, USA","high_school":"Booker T. Washington (OK)","college":"Oklahoma State","college_conf":"Big Twelve Conference","rookie_year":2019,"status":"A01","sr_id":"sr:player:1734845","draft":{"year":2019,"round":4,"number":113,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"47896","origin":"nflx"},{"id":"00-0034975","origin":"gsis"}]},{"id":"544e4159-3da3-47ad-866c-bf48d7634f25","name":"Sam Koch","jersey":"4","last_name":"Koch","first_name":"Sam","abbr_name":"S.Koch","preferred_name":"Sam","birth_date":"1982-08-13","weight":222.0,"height":73,"position":"P","birth_place":"York, NE, USA","high_school":"Seward (NE)","college":"Nebraska","college_conf":"Big Twelve Conference","rookie_year":2006,"status":"A01","sr_id":"sr:player:828059","draft":{"year":2006,"round":6,"number":203,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"31018","origin":"nflx"},{"id":"00-0024417","origin":"gsis"}]},{"id":"630e6b5d-0486-4bc3-a919-1f02687c1291","name":"Binjimen Victor","jersey":"89","last_name":"Victor","first_name":"Binjimen","abbr_name":"B.Victor","preferred_name":"Binjimen","birth_date":"1997-01-15","weight":199.0,"height":76,"position":"WR","birth_place":"Pompano Beach, FL, USA","high_school":"Coconut Creek (FL)","college":"Ohio State","college_conf":"Big Ten Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:1216616","references":[{"id":"00-0035819","origin":"gsis"},{"id":"52721","origin":"nflx"}]},{"id":"6f695364-f31f-420d-8baa-434539e2b12d","name":"Broderick Washington","jersey":"96","last_name":"Washington","first_name":"Broderick","abbr_name":"B.Washington","preferred_name":"Broderick","birth_date":"1996-12-04","weight":305.0,"height":75,"position":"DT","birth_place":"Longview, TX, USA","high_school":"Longview (TX)","college":"Texas Tech","college_conf":"Big Twelve Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:1224906","draft":{"year":2020,"round":5,"number":170,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"00-0036081","origin":"gsis"},{"id":"52578","origin":"nflx"}]},{"id":"71c657d6-a2d9-48f3-b6db-dd4372e910f4","name":"Eli Wolf","jersey":"87","last_name":"Wolf","first_name":"Eli","abbr_name":"E.Wolf","preferred_name":"Eli","birth_date":"1997-03-11","weight":236.0,"height":76,"position":"TE","birth_place":"Minster, OH, USA","high_school":"Minster (OH)","college":"Georgia","college_conf":"Southeastern Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:1219356","references":[{"id":"00-0036129","origin":"gsis"},{"id":"53033","origin":"nflx"}]},{"id":"791b7f98-c5ff-4145-ab8c-c67e3ca801c4","name":"Anthony Averett","jersey":"23","last_name":"Averett","first_name":"Anthony","abbr_name":"A.Averett","preferred_name":"Anthony","birth_date":"1994-11-30","weight":178.0,"height":71,"position":"CB","birth_place":"Woodbury, NJ, USA","high_school":"Woodbury (NJ)","college":"Alabama","college_conf":"Southeastern Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1217622","draft":{"year":2018,"round":4,"number":118,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"00-0034265","origin":"gsis"},{"id":"46187","origin":"nflx"}]},{"id":"7963d8ea-c627-47cb-b46f-a917abb9e9d7","name":"Brandon Williams","jersey":"98","last_name":"Williams","first_name":"Brandon","abbr_name":"B.Williams","preferred_name":"Brandon","birth_date":"1989-02-21","weight":336.0,"height":73,"position":"NT","birth_place":"Kirkwood, MO, USA","high_school":"Rockwood Summit (MO)","college":"Missouri Southern","college_conf":"Mid-America Intercollegiate Athletic Association","rookie_year":2013,"status":"A01","sr_id":"sr:player:830151","draft":{"year":2013,"round":3,"number":94,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"00-0030511","origin":"gsis"},{"id":"40042","origin":"nflx"}]},{"id":"7c226f73-a59f-4db6-ad98-2766d05d4d5a","name":"Tyler Huntley","jersey":"2","last_name":"Huntley","first_name":"Tyler","abbr_name":"T.Huntley","preferred_name":"Tyler","birth_date":"1998-02-03","weight":205.0,"height":73,"position":"QB","birth_place":"Dania, FL, USA","high_school":"Hallandale (FL)","college":"Utah","college_conf":"Pacific Twelve Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:1223508","references":[{"id":"00-0035993","origin":"gsis"},{"id":"52895","origin":"nflx"}]},{"id":"7d58beec-bd16-475d-bf08-9137b86aef17","name":"Greg Mancz","jersey":"65","last_name":"Mancz","first_name":"Greg","abbr_name":"G.Mancz","preferred_name":"Greg","birth_date":"1992-04-23","weight":310.0,"height":76,"position":"C","birth_place":"Cincinnati, OH, USA","high_school":"Anderson (OH)","college":"Toledo","college_conf":"Mid-American Conference","rookie_year":2015,"status":"A01","sr_id":"sr:player:835477","references":[{"id":"00-0031923","origin":"gsis"},{"id":"42954","origin":"nflx"}]},{"id":"7e2c36bd-bae6-42e8-84fc-147106ed7270","name":"Justin Ellis","jersey":"71","last_name":"Ellis","first_name":"Justin","abbr_name":"J.Ellis","preferred_name":"Justin","birth_date":"1990-12-27","weight":350.0,"height":74,"position":"NT","birth_place":"Monroe, LA, USA","high_school":"Neville (LA)","college":"Louisiana Tech","college_conf":"Conference USA","rookie_year":2014,"status":"A01","sr_id":"sr:player:827817","draft":{"year":2014,"round":4,"number":107,"team":{"id":"7d4fcc64-9cb5-4d1b-8e75-8a906d1e1576","name":"Raiders","market":"Las Vegas","alias":"LV","sr_id":"sr:competitor:4390"}},"references":[{"id":"41336","origin":"nflx"},{"id":"00-0031346","origin":"gsis"}]},{"id":"7e7b5ec8-dcf4-409f-a0eb-99246b7493c5","name":"Matt Skura","jersey":"68","last_name":"Skura","first_name":"Matt","abbr_name":"M.Skura","preferred_name":"Matt","birth_date":"1993-02-17","weight":313.0,"height":75,"position":"C","birth_place":"Columbus, OH, USA","high_school":"Worthington Kilbourne (OH)","college":"Duke","college_conf":"Atlantic Coast Conference","rookie_year":2016,"status":"A01","sr_id":"sr:player:989361","references":[{"id":"00-0032575","origin":"gsis"},{"id":"43695","origin":"nflx"}]},{"id":"83128a20-392f-4ca7-878e-689c6e6dfbfc","name":"DeShon Elliott","jersey":"32","last_name":"Elliott","first_name":"DeShon","abbr_name":"D.Elliott","preferred_name":"DeShon","birth_date":"1997-04-21","weight":210.0,"height":73,"position":"FS","birth_place":"Dallas, TX, USA","high_school":"Rockwall-Heath (TX)","college":"Texas","college_conf":"Big Twelve Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1474982","draft":{"year":2018,"round":6,"number":190,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"46259","origin":"nflx"},{"id":"00-0034277","origin":"gsis"}]},{"id":"8482bc94-0eb0-4e92-8f99-ced135f3cd5d","name":"Willie Snead IV","jersey":"83","last_name":"Snead","first_name":"Willie","abbr_name":"W.Snead IV","preferred_name":"Willie","birth_date":"1992-10-17","weight":205.0,"height":71,"position":"WR","birth_place":"Winter Park, FL, USA","high_school":"Muskegon Heights (MI)","college":"Ball State","college_conf":"Mid-American Conference","rookie_year":2014,"status":"A01","sr_id":"sr:player:838877","name_suffix":"IV","references":[{"id":"41500","origin":"nflx"},{"id":"00-0030663","origin":"gsis"}]},{"id":"852b00dd-fd1c-4edb-809d-912a6472cd07","name":"Jihad Ward","jersey":"53","last_name":"Ward","first_name":"Jihad","abbr_name":"J.Ward","preferred_name":"Jihad","birth_date":"1994-05-11","weight":287.0,"height":77,"position":"DE","birth_place":"Philadelphia, PA, USA","high_school":"Globe Tech (NY)","college":"Illinois","college_conf":"Big Ten Conference","rookie_year":2016,"status":"A01","sr_id":"sr:player:987671","draft":{"year":2016,"round":2,"number":44,"team":{"id":"7d4fcc64-9cb5-4d1b-8e75-8a906d1e1576","name":"Raiders","market":"Las Vegas","alias":"LV","sr_id":"sr:competitor:4390"}},"references":[{"id":"43333","origin":"nflx"},{"id":"00-0033046","origin":"gsis"}]},{"id":"8e43eb21-92e4-4720-8766-c9204259c063","name":"Antoine Wesley","jersey":"84","last_name":"Wesley","first_name":"Antoine","abbr_name":"A.Wesley","preferred_name":"Antoine","birth_date":"1997-10-22","weight":206.0,"height":76,"position":"WR","birth_place":"Las Vegas, NV, USA","high_school":"Cibolo Steele (TX)","college":"Texas Tech","college_conf":"Big Twelve Conference","rookie_year":2019,"status":"A01","sr_id":"sr:player:1221032","references":[{"id":"00-0035126","origin":"gsis"},{"id":"48234","origin":"nflx"}]},{"id":"904f702b-e8b1-4fef-a4a0-278d18cc15e3","name":"Justin Madubuike","jersey":"92","last_name":"Madubuike","first_name":"Justin","abbr_name":"J.Madubuike","preferred_name":"Justin","birth_date":"1997-11-17","weight":300.0,"height":75,"position":"DT","birth_place":"McKinney, TX, USA","high_school":"McKinney North (TX)","college":"Texas A&amp;M","college_conf":"Southeastern Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040675","draft":{"year":2020,"round":3,"number":71,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"52479","origin":"nflx"},{"id":"00-0036130","origin":"gsis"}]},{"id":"9480dd9f-151f-4e6d-b5a3-35f07bda4cac","name":"Nick Boyle","jersey":"86","last_name":"Boyle","first_name":"Nick","abbr_name":"N.Boyle","preferred_name":"Nick","birth_date":"1993-02-17","weight":270.0,"height":76,"position":"TE","birth_place":"Wantage, NJ, USA","high_school":"High Point Regional (NJ)","college":"Delaware","college_conf":"Colonial Athletic Association","rookie_year":2015,"status":"A01","sr_id":"sr:player:835259","draft":{"year":2015,"round":5,"number":171,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"00-0031598","origin":"gsis"},{"id":"42514","origin":"nflx"}]},{"id":"99d79bb9-45aa-4c64-99aa-a92ba2c278af","name":"Matthew Judon","jersey":"99","last_name":"Judon","first_name":"Matt","abbr_name":"M.Judon","preferred_name":"Matt","birth_date":"1992-08-15","weight":261.0,"height":75,"position":"OLB","birth_place":"Pontiac, MI, USA","high_school":"West Bloomfield (MI)","college":"Grand Valley State","college_conf":"Great Lakes Intercollegiate Athletic Conference","rookie_year":2016,"status":"A01","sr_id":"sr:player:1074196","draft":{"year":2016,"round":5,"number":146,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"43435","origin":"nflx"},{"id":"00-0032415","origin":"gsis"}]},{"id":"9d699fbc-ce11-4e42-a9b1-c94ecee8f613","name":"Orlando Brown Jr.","jersey":"78","last_name":"Brown","first_name":"Orlando","abbr_name":"O.Brown","preferred_name":"Orlando","birth_date":"1996-05-02","weight":345.0,"height":80,"position":"T","birth_place":"Duluth, GA, USA","high_school":"Peachtree Ridge (GA)","college":"Oklahoma","college_conf":"Big Twelve Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1218314","name_suffix":"Jr.","draft":{"year":2018,"round":3,"number":83,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"46152","origin":"nflx"},{"id":"00-0034752","origin":"gsis"}]},{"id":"9e31f935-1e60-437d-9859-e1f2bb936aa5","name":"Ty'Son Williams","jersey":"34","last_name":"Williams","first_name":"Ty'Son","abbr_name":"T.Williams","preferred_name":"Ty'Son","birth_date":"1996-09-04","weight":220.0,"height":72,"position":"RB","birth_place":"Sumter, SC, USA","high_school":"Crestwood (SC)","college":"Brigham Young","college_conf":"Independent","rookie_year":2020,"status":"A01","sr_id":"sr:player:1218366","references":[{"id":"00-0036457","origin":"gsis"},{"id":"53180","origin":"nflx"}]},{"id":"a3855ea8-e71c-4028-86fb-5a1abbd94488","name":"D.J. Fluker","jersey":"70","last_name":"Fluker","first_name":"D.J.","abbr_name":"D.Fluker","preferred_name":"D.J.","birth_date":"1991-03-13","weight":342.0,"height":77,"position":"G","birth_place":"New Orleans, LA, USA","high_school":"Foley (AL)","college":"Alabama","college_conf":"Southeastern Conference","rookie_year":2013,"status":"A01","sr_id":"sr:player:828895","draft":{"year":2013,"round":1,"number":11,"team":{"id":"9dbb9060-ba0f-4920-829e-16d4d9246b5d","name":"Chargers","market":"San Diego","alias":"SD"}},"references":[{"id":"00-0030505","origin":"gsis"},{"id":"39957","origin":"nflx"}]},{"id":"a3f67680-66f1-4efc-b21b-badd19467cc9","name":"Trystan Colon-Castillo","jersey":"63","last_name":"Colon-Castillo","first_name":"Trystan","abbr_name":"T.Colon-Castillo","preferred_name":"Trystan","birth_date":"1998-03-23","weight":315.0,"height":76,"position":"C","birth_place":"Webb City, MO, USA","high_school":"Webb City (MO)","college":"Missouri","college_conf":"Southeastern Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:1220306","references":[{"id":"52894","origin":"nflx"},{"id":"00-0035992","origin":"gsis"}]},{"id":"a57b9914-4315-4295-98b4-9b348c52d6a1","name":"J.K. Dobbins","jersey":"27","last_name":"Dobbins","first_name":"J.K.","abbr_name":"J.Dobbins","preferred_name":"J.K.","birth_date":"1998-12-17","weight":214.0,"height":70,"position":"RB","birth_place":"La Grange, TX, USA","high_school":"La Grange (TX)","college":"Ohio State","college_conf":"Big Ten Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040183","draft":{"year":2020,"round":2,"number":55,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"52463","origin":"nflx"},{"id":"00-0036158","origin":"gsis"}]},{"id":"a5a7243e-d842-400d-89ff-5d451338426f","name":"Chauncey Rivers","jersey":"97","last_name":"Rivers","first_name":"Chauncey","abbr_name":"C.Rivers","preferred_name":"Chauncey","birth_date":"1997-06-12","weight":275.0,"height":75,"position":"DE","birth_place":"Stone Mountain, GA, USA","high_school":"Stephenson (GA)","college":"Mississippi State","college_conf":"Southeastern Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:1236060","references":[{"id":"52979","origin":"nflx"},{"id":"00-0036076","origin":"gsis"}]},{"id":"a792cbbf-d96a-48fc-a187-6f7f5b7dd214","name":"Ronnie Stanley","jersey":"79","last_name":"Stanley","first_name":"Ronnie","abbr_name":"R.Stanley","preferred_name":"Ronnie","birth_date":"1994-03-18","weight":315.0,"height":78,"position":"T","birth_place":"Las Vegas, NV, USA","high_school":"Gorman (NV)","college":"Notre Dame","college_conf":"Independent","rookie_year":2016,"status":"A01","sr_id":"sr:player:986903","draft":{"year":2016,"round":1,"number":6,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"43295","origin":"nflx"},{"id":"00-0032965","origin":"gsis"}]},{"id":"a8614822-2740-4b1f-a01e-b7960a4f07f6","name":"Jacob Breeland","jersey":"88","last_name":"Breeland","first_name":"Jacob","abbr_name":"J.Breeland","preferred_name":"Jacob","birth_date":"1996-09-20","weight":250.0,"height":77,"position":"TE","birth_place":"Mission Viejo, CA, USA","high_school":"Trabuco Hills (CA)","college":"Oregon","college_conf":"Pacific Twelve Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:1181922","references":[{"id":"53056","origin":"nflx"},{"id":"00-0036154","origin":"gsis"}]},{"id":"ab3ce81f-6625-45d3-aa6d-79f95ae4f503","name":"Ben Bredeson","jersey":"67","last_name":"Bredeson","first_name":"Ben","abbr_name":"B.Bredeson","preferred_name":"Ben","birth_date":"1998-02-20","weight":325.0,"height":76,"position":"G","birth_place":"Hartland, WI, USA","high_school":"Arrowhead (WI)","college":"Michigan","college_conf":"Big Ten Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040275","draft":{"year":2020,"round":4,"number":143,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"52551","origin":"nflx"},{"id":"00-0036132","origin":"gsis"}]},{"id":"ac84c815-7ed4-49b2-b84a-08cf6c016eb5","name":"Chris Westry","jersey":"31","last_name":"Westry","first_name":"Chris","abbr_name":"C.Westry","preferred_name":"Chris","birth_date":"1997-07-10","weight":197.0,"height":76,"position":"CB","birth_place":"Orange Park, FL, USA","high_school":"Oakleaf (FL)","college":"Kentucky","college_conf":"Southeastern Conference","rookie_year":2019,"status":"A01","sr_id":"sr:player:1209838","references":[{"id":"00-0035422","origin":"gsis"},{"id":"48565","origin":"nflx"}]},{"id":"b36539fa-de45-4cfd-90be-49d14149e64e","name":"Tyus Bowser","jersey":"54","last_name":"Bowser","first_name":"Tyus","abbr_name":"T.Bowser","preferred_name":"Tyus","birth_date":"1995-05-23","weight":240.0,"height":75,"position":"OLB","birth_place":"Tyler, TX, USA","high_school":"John Tyler (TX)","college":"Houston","college_conf":"American Athletic Conference","rookie_year":2017,"status":"A01","sr_id":"sr:player:1129871","draft":{"year":2017,"round":2,"number":47,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"00-0033283","origin":"gsis"},{"id":"44859","origin":"nflx"}]},{"id":"b3d7169b-9cf6-4fea-815a-26e4fb0ec16a","name":"Eric Tomlinson","jersey":"85","last_name":"Tomlinson","first_name":"Eric","abbr_name":"E.Tomlinson","preferred_name":"Eric","birth_date":"1992-04-22","weight":263.0,"height":78,"position":"TE","birth_place":"Oklahoma City, OK, USA","high_school":"Klein (TX)","college":"Texas-El Paso","college_conf":"Conference USA","rookie_year":2015,"status":"A01","sr_id":"sr:player:855784","references":[{"id":"42721","origin":"nflx"},{"id":"00-0031690","origin":"gsis"}]},{"id":"b4908ca3-f723-4d41-ab98-58acf0aa4a94","name":"Tyre Phillips","jersey":"74","last_name":"Phillips","first_name":"Tyre","abbr_name":"T.Phillips","preferred_name":"Tyre","birth_date":"1997-01-29","weight":345.0,"height":77,"position":"G","birth_place":"Grenada, MS, USA","high_school":"East Mississippi (MS)","college":"Mississippi State","college_conf":"Southeastern Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040629","draft":{"year":2020,"round":3,"number":106,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"00-0036214","origin":"gsis"},{"id":"52514","origin":"nflx"}]},{"id":"b84fb536-9705-45a9-b652-92a33578ac48","name":"Dez Bryant","jersey":"88","last_name":"Bryant","first_name":"Dez","abbr_name":"D.Bryant","preferred_name":"Dez","birth_date":"1988-11-04","weight":220.0,"height":74,"position":"WR","birth_place":"Galveston County, TX, USA","high_school":"Lufkin (TX)","college":"Oklahoma State","college_conf":"Big Twelve Conference","rookie_year":2010,"status":"A01","sr_id":"sr:player:827807","draft":{"year":2010,"round":1,"number":24,"team":{"id":"e627eec7-bbae-4fa4-8e73-8e1d6bc5c060","name":"Cowboys","market":"Dallas","alias":"DAL","sr_id":"sr:competitor:4392"}},"references":[{"id":"00-0027902","origin":"gsis"},{"id":"35463","origin":"nflx"}]},{"id":"bc4c0c7d-a6f4-4cff-95ec-a4d0523c2232","name":"Patrick Queen","jersey":"48","last_name":"Queen","first_name":"Patrick","abbr_name":"P.Queen","preferred_name":"Patrick","birth_date":"1999-08-13","weight":227.0,"height":73,"position":"MLB","birth_place":"Ventress, LA, USA","high_school":"Livonia (LA)","college":"Louisiana State","college_conf":"Southeastern Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040221","draft":{"year":2020,"round":1,"number":28,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"00-0036323","origin":"gsis"},{"id":"52436","origin":"nflx"}]},{"id":"bf9749c6-6609-456e-a3eb-b8cab21dd76a","name":"Marlon Humphrey","jersey":"44","last_name":"Humphrey","first_name":"Marlon","abbr_name":"M.Humphrey","preferred_name":"Marlon","birth_date":"1996-07-08","weight":197.0,"height":72,"position":"CB","birth_place":"Hoover, AL, USA","high_school":"Hoover (AL)","college":"Alabama","college_conf":"Southeastern Conference","rookie_year":2017,"status":"A01","sr_id":"sr:player:1129543","draft":{"year":2017,"round":1,"number":16,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"00-0033281","origin":"gsis"},{"id":"44828","origin":"nflx"}]},{"id":"c3d6c803-1c91-4bd9-956c-7f6c292558c5","name":"Jimmy Smith","jersey":"22","last_name":"Smith","first_name":"Jimmy","abbr_name":"J.Smith","preferred_name":"Jimmy","birth_date":"1988-07-26","weight":210.0,"height":74,"position":"CB","birth_place":"Fontana, CA, USA","high_school":"Colton (CA)","college":"Colorado","college_conf":"Big Twelve Conference","rookie_year":2011,"status":"A01","sr_id":"sr:player:829285","draft":{"year":2011,"round":1,"number":27,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"00-0027965","origin":"gsis"},{"id":"37100","origin":"nflx"}]},{"id":"c65488d4-251e-40fc-9f32-7019bbdaf75e","name":"James Proche","jersey":"11","last_name":"Proche","first_name":"James","abbr_name":"J.Proche","preferred_name":"James","birth_date":"1996-09-21","weight":193.0,"height":72,"position":"WR","birth_place":"Dallas, TX, USA","high_school":"DeSoto (TX)","college":"Southern Methodist","college_conf":"American Athletic Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040359","draft":{"year":2020,"round":6,"number":201,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"00-0036133","origin":"gsis"},{"id":"52609","origin":"nflx"}]},{"id":"cb68b95f-ef6f-4e5e-b861-8bfe6cfeacf5","name":"Patrick Ricard","jersey":"42","last_name":"Ricard","first_name":"Patrick","abbr_name":"P.Ricard","preferred_name":"Patrick","birth_date":"1994-05-27","weight":311.0,"height":75,"position":"FB","birth_place":"Spencer, MA, USA","high_school":"David Prouty (MA)","college":"Maine","college_conf":"Colonial Athletic Association","rookie_year":2017,"status":"A01","sr_id":"sr:player:1140902","references":[{"id":"45268","origin":"nflx"},{"id":"00-0033376","origin":"gsis"}]},{"id":"cfcac921-0ac6-457c-9f37-82324327f3e3","name":"Ben Powers","jersey":"72","last_name":"Powers","first_name":"Ben","abbr_name":"B.Powers","preferred_name":"Ben","birth_date":"1996-10-29","weight":310.0,"height":76,"position":"G","birth_place":"Wichita, KS, USA","high_school":"Kapaun Mt. Carmel Catholic (OK)","college":"Oklahoma","college_conf":"Big Twelve Conference","rookie_year":2019,"status":"A01","sr_id":"sr:player:1219214","draft":{"year":2019,"round":4,"number":123,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"47906","origin":"nflx"},{"id":"00-0034978","origin":"gsis"}]},{"id":"d027528c-6fb1-41bb-9ede-4f45ec731fdd","name":"Patrick Mekari","jersey":"65","last_name":"Mekari","first_name":"Patrick","abbr_name":"P.Mekari","preferred_name":"Patrick","birth_date":"1997-08-13","weight":308.0,"height":76,"position":"C","birth_place":"Westlake Village, CA, USA","high_school":"Westlake (CA)","college":"California","college_conf":"Pacific Twelve Conference","rookie_year":2019,"status":"A01","sr_id":"sr:player:1737531","references":[{"id":"00-0035112","origin":"gsis"},{"id":"48220","origin":"nflx"}]},{"id":"d1ed6f8c-1611-4695-8b48-5adce0de50dd","name":"Miles Boykin","jersey":"80","last_name":"Boykin","first_name":"Miles","abbr_name":"M.Boykin","preferred_name":"Miles","birth_date":"1996-10-12","weight":220.0,"height":76,"position":"WR","birth_place":"Tinley Park, IL, USA","high_school":"Providence Catholic (IL)","college":"Notre Dame","college_conf":"Independent","rookie_year":2019,"status":"A01","sr_id":"sr:player:1211694","draft":{"year":2019,"round":3,"number":93,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"00-0035703","origin":"gsis"},{"id":"47876","origin":"nflx"}]},{"id":"d4d135fd-b710-4c12-9082-9d6e544b3f8d","name":"Trace McSorley","jersey":"7","last_name":"McSorley","first_name":"Trace","abbr_name":"T.McSorley","preferred_name":"Trace","birth_date":"1995-08-23","weight":202.0,"height":72,"position":"QB","birth_place":"Ashburn, VA, USA","high_school":"Briar Woods (VA)","college":"Penn State","college_conf":"Big Ten Conference","rookie_year":2019,"status":"A01","sr_id":"sr:player:1218332","draft":{"year":2019,"round":6,"number":197,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"00-0035146","origin":"gsis"},{"id":"47980","origin":"nflx"}]},{"id":"d93dbc83-e604-4823-a24e-d162cbd8d4d9","name":"Devin Duvernay","jersey":"13","last_name":"Duvernay","first_name":"Devin","abbr_name":"D.Duvernay","preferred_name":"Devin","birth_date":"1997-09-12","weight":210.0,"height":71,"position":"WR","birth_place":"Sachse, TX, USA","high_school":"Sachse (TX)","college":"Texas","college_conf":"Big Twelve Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:2040197","draft":{"year":2020,"round":3,"number":92,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"52500","origin":"nflx"},{"id":"00-0036331","origin":"gsis"}]},{"id":"e06a9c07-453a-4bb0-a7e9-2c3a64166dad","name":"Lamar Jackson","jersey":"8","last_name":"Jackson","first_name":"Lamar","abbr_name":"L.Jackson","preferred_name":"Lamar","birth_date":"1997-01-07","weight":212.0,"height":74,"position":"QB","birth_place":"Pompano Beach, FL, USA","high_school":"Boynton Beach (FL)","college":"Louisville","college_conf":"Atlantic Coast Conference","rookie_year":2018,"status":"A01","sr_id":"sr:player:1221868","draft":{"year":2018,"round":1,"number":32,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"46101","origin":"nflx"},{"id":"00-0034796","origin":"gsis"}]},{"id":"e0abf267-f265-4682-9bb7-72bbcefda451","name":"DeAndrew White","jersey":"18","last_name":"White","first_name":"DeAndrew","abbr_name":"D.White","preferred_name":"DeAndrew","birth_date":"1991-10-16","weight":195.0,"height":72,"position":"WR","birth_place":"Houston, TX, USA","high_school":"North Shore (TX)","college":"Alabama","college_conf":"Southeastern Conference","rookie_year":2015,"status":"A01","sr_id":"sr:player:835879","references":[{"id":"00-0031511","origin":"gsis"},{"id":"42607","origin":"nflx"}]},{"id":"e8b1322a-6162-4535-b6af-4ca60ce8b09c","name":"Khalil Dorsey","jersey":"31","last_name":"Dorsey","first_name":"Khalil","abbr_name":"K.Dorsey","preferred_name":"Khalil","birth_date":"1998-03-31","weight":170.0,"height":69,"position":"CB","birth_place":"Ontario, CA, USA","high_school":"Colony (CA)","college":"Northern Arizona","college_conf":"Big Sky Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:1200304","references":[{"id":"53028","origin":"nflx"},{"id":"00-0036124","origin":"gsis"}]},{"id":"f5fc76fa-4381-4026-b8c0-384cb4dff19b","name":"Nigel Warrior","jersey":"39","last_name":"Warrior","first_name":"Nigel","abbr_name":"N.Warrior","preferred_name":"Nigel","birth_date":"1997-12-14","weight":187.0,"height":71,"position":"DB","birth_place":"College Park, GA, USA","high_school":"Peachtree Ridge (GA)","college":"Tennessee","college_conf":"Southeastern Conference","rookie_year":2020,"status":"A01","sr_id":"sr:player:1216498","references":[{"id":"00-0036127","origin":"gsis"},{"id":"53031","origin":"nflx"}]},{"id":"feeee40a-dd63-41a7-89cd-6c95b5456833","name":"Marquise Brown","jersey":"15","last_name":"Brown","first_name":"Marquise","abbr_name":"M.Brown","preferred_name":"Marquise","birth_date":"1997-06-04","weight":170.0,"height":69,"position":"WR","birth_place":"Hollywood, FL, USA","high_school":"Chaminade-Madonna (FL)","college":"Oklahoma","college_conf":"Big Twelve Conference","rookie_year":2019,"status":"A01","sr_id":"sr:player:1234416","draft":{"year":2019,"round":1,"number":25,"team":{"id":"ebd87119-b331-4469-9ea6-d51fe3ce2f1c","name":"Ravens","market":"Baltimore","alias":"BAL","sr_id":"sr:competitor:4413"}},"references":[{"id":"47808","origin":"nflx"},{"id":"00-0035662","origin":"gsis"}]}],"_comment":"Generation started @ 2021-02-12 17:56:21 UTC ended @ 2021-02-12 17:56:21 UTC"}
+{
+    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+    "name": "Ravens",
+    "market": "Baltimore",
+    "alias": "BAL",
+    "sr_id": "sr:competitor:4413",
+    "franchise": {
+        "id": "677f94d8-2228-47be-881f-6680fd0af994",
+        "name": "Ravens",
+        "alias": "BAL",
+        "references": [
+            {
+                "id": "5",
+                "origin": "gsis"
+            }
+        ]
+    },
+    "venue": {
+        "id": "d54faae0-0314-484f-8604-9d8dd08e1149",
+        "name": "M&T Bank Stadium",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "USA",
+        "zip": "21230",
+        "address": "1101 Russell Street",
+        "capacity": 71008,
+        "surface": "turf",
+        "roof_type": "outdoor",
+        "sr_id": "sr:venue:8169",
+        "location": {
+            "lat": "39.277995",
+            "lng": "-76.622592"
+        }
+    },
+    "division": {
+        "id": "eb60da78-4eb5-4184-971e-2c5cd4ab4988",
+        "name": "AFC North",
+        "alias": "AFC_NORTH"
+    },
+    "conference": {
+        "id": "1bdefe12-6cb2-4d6a-b208-b04602ae79c3",
+        "name": "AFC",
+        "alias": "AFC"
+    },
+    "references": [
+        {
+            "id": "BLT",
+            "origin": "gsis"
+        }
+    ],
+    "coaches": [
+        {
+            "id": "ae85f93d-f05e-4f8f-a056-05915e1b13d5",
+            "full_name": "Don Martindale",
+            "first_name": "Don",
+            "last_name": "Martindale",
+            "position": "Defensive Coordinator"
+        },
+        {
+            "id": "bc38f5a5-bfc0-4ea2-b81a-198c5c796be9",
+            "full_name": "Greg Roman",
+            "first_name": "Greg",
+            "last_name": "Roman",
+            "position": "Offensive Coordinator"
+        },
+        {
+            "id": "bf49a80f-9733-453e-8dca-7b0146e92cff",
+            "full_name": "John Harbaugh",
+            "first_name": "John",
+            "last_name": "Harbaugh",
+            "position": "Head Coach"
+        }
+    ],
+    "team_colors": [
+        {
+            "type": "secondary",
+            "hex_color": "#000000",
+            "alpha": 0.0,
+            "rgb_color": {
+                "red": 0,
+                "green": 0,
+                "blue": 0
+            }
+        },
+        {
+            "type": "primary",
+            "hex_color": "#1a195f",
+            "alpha": 0.0,
+            "rgb_color": {
+                "red": 26,
+                "green": 25,
+                "blue": 95
+            }
+        }
+    ],
+    "players": [
+        {
+            "id": "0333b8f0-3aab-45aa-a684-6d402a309413",
+            "name": "Calais Campbell",
+            "jersey": "93",
+            "last_name": "Campbell",
+            "first_name": "Calais",
+            "abbr_name": "C.Campbell",
+            "preferred_name": "Calais",
+            "birth_date": "1986-09-01",
+            "weight": 300.0,
+            "height": 80,
+            "position": "DT",
+            "birth_place": "Denver, CO, USA",
+            "high_school": "Denver South (CO)",
+            "college": "Miami",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2008,
+            "status": "A01",
+            "sr_id": "sr:player:829847",
+            "draft": {
+                "year": 2008,
+                "round": 2,
+                "number": 50,
+                "team": {
+                    "id": "de760528-1dc0-416a-a978-b510d20692ff",
+                    "name": "Cardinals",
+                    "market": "Arizona",
+                    "alias": "ARI",
+                    "sr_id": "sr:competitor:4412"
+                }
+            },
+            "references": [
+                {
+                    "id": "33131",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0026190",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "04e8ea8f-8424-4196-a0fd-7dff3740c734",
+            "name": "Anthony Levine Sr.",
+            "jersey": "41",
+            "last_name": "Levine",
+            "first_name": "Anthony",
+            "abbr_name": "A.Levine",
+            "preferred_name": "Anthony",
+            "birth_date": "1987-03-27",
+            "weight": 207.0,
+            "height": 71,
+            "position": "SS",
+            "birth_place": "Abbeville, LA, USA",
+            "high_school": "Richard J. Reynolds (NC)",
+            "college": "Tennessee State",
+            "college_conf": "Ohio Valley Conference",
+            "rookie_year": 2010,
+            "status": "A01",
+            "sr_id": "sr:player:830337",
+            "name_suffix": "Sr.",
+            "references": [
+                {
+                    "id": "36060",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0027539",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "0618f387-9b72-4270-8b8f-dec4cccc9e4a",
+            "name": "Mark Andrews",
+            "jersey": "89",
+            "last_name": "Andrews",
+            "first_name": "Mark",
+            "abbr_name": "M.Andrews",
+            "preferred_name": "Mark",
+            "birth_date": "1995-09-06",
+            "weight": 255.0,
+            "height": 77,
+            "position": "TE",
+            "birth_place": "Scottsdale, AZ, USA",
+            "high_school": "Desert Mountain (AZ)",
+            "college": "Oklahoma",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1219184",
+            "draft": {
+                "year": 2018,
+                "round": 3,
+                "number": 86,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0034753",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "46155",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "07247409-1cf8-4e67-a05b-15de83ca1bf9",
+            "name": "Chris Board",
+            "jersey": "49",
+            "last_name": "Board",
+            "first_name": "Chris",
+            "abbr_name": "C.Board",
+            "preferred_name": "Chris",
+            "birth_date": "1995-07-23",
+            "weight": 230.0,
+            "height": 74,
+            "position": "OLB",
+            "birth_place": "Orlando, FL, USA",
+            "high_school": "Timber Creek (FL)",
+            "college": "North Dakota State",
+            "college_conf": "Missouri Valley Football Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1476006",
+            "references": [
+                {
+                    "id": "46958",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034787",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "0782b3a2-9693-40f6-aff2-a21bc8fa4c5d",
+            "name": "Kristian Welch",
+            "jersey": "57",
+            "last_name": "Welch",
+            "first_name": "Kristian",
+            "abbr_name": "K.Welch",
+            "preferred_name": "Kristian",
+            "birth_date": "1998-05-24",
+            "weight": 239.0,
+            "height": 75,
+            "position": "LB",
+            "birth_place": "Iola, WI, USA",
+            "high_school": "Iola-Scandinavia (WI)",
+            "college": "Iowa",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1229576",
+            "references": [
+                {
+                    "id": "00-0036157",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "53059",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "0b504d67-639b-4ba8-979a-498a3086257b",
+            "name": "Chris Moore",
+            "jersey": "10",
+            "last_name": "Moore",
+            "first_name": "Chris",
+            "abbr_name": "C.Moore",
+            "preferred_name": "Chris",
+            "birth_date": "1993-06-16",
+            "weight": 200.0,
+            "height": 73,
+            "position": "WR",
+            "birth_place": "Tampa, FL, USA",
+            "high_school": "Thomas Jefferson (FL)",
+            "college": "Cincinnati",
+            "college_conf": "American Athletic Conference",
+            "rookie_year": 2016,
+            "status": "A01",
+            "sr_id": "sr:player:988781",
+            "draft": {
+                "year": 2016,
+                "round": 4,
+                "number": 107,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "43396",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0032398",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "0b93712a-3c39-4d73-aca5-ca04ed05bd59",
+            "name": "Iman Marshall",
+            "jersey": "37",
+            "last_name": "Marshall",
+            "first_name": "Iman",
+            "abbr_name": "I.Marshall",
+            "preferred_name": "Iman",
+            "birth_date": "1997-02-27",
+            "weight": 210.0,
+            "height": 73,
+            "position": "CB",
+            "birth_place": "Long Beach, CA, USA",
+            "high_school": "Long Beach Poly (CA)",
+            "college": "Southern California",
+            "college_conf": "Pacific Twelve Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1201270",
+            "draft": {
+                "year": 2019,
+                "round": 4,
+                "number": 127,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0034979",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "47910",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "0cc99dff-5895-48ed-9f30-e70e916bb52a",
+            "name": "L.J. Fort",
+            "jersey": "58",
+            "last_name": "Fort",
+            "first_name": "L.J.",
+            "abbr_name": "L.Fort",
+            "preferred_name": "L.J.",
+            "birth_date": "1990-01-03",
+            "weight": 232.0,
+            "height": 72,
+            "position": "OLB",
+            "birth_place": "Waynesville, MO, USA",
+            "high_school": "Waynesville (MO)",
+            "college": "Northern Iowa",
+            "college_conf": "Missouri Valley Football Conference",
+            "rookie_year": 2012,
+            "status": "A01",
+            "sr_id": "sr:player:829565",
+            "references": [
+                {
+                    "id": "00-0028932",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "38883",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "1105ae60-a4b6-4246-a77e-0849179b07b2",
+            "name": "Chuck Clark",
+            "jersey": "36",
+            "last_name": "Clark",
+            "first_name": "Chuck",
+            "abbr_name": "C.Clark",
+            "preferred_name": "Chuck",
+            "birth_date": "1995-04-19",
+            "weight": 205.0,
+            "height": 72,
+            "position": "SS",
+            "birth_place": "Suffolk, VA, USA",
+            "high_school": "King's Fork (VA)",
+            "college": "Virginia Tech",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1130051",
+            "draft": {
+                "year": 2017,
+                "round": 6,
+                "number": 186,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0033294",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "44999",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "13f716fb-7249-4b0a-9858-8af8cb83f78b",
+            "name": "Jordan Richards",
+            "jersey": "28",
+            "last_name": "Richards",
+            "first_name": "Jordan",
+            "abbr_name": "J.Richards",
+            "preferred_name": "Jordan",
+            "birth_date": "1993-01-21",
+            "weight": 215.0,
+            "height": 71,
+            "position": "SS",
+            "birth_place": "Folsom, CA, USA",
+            "high_school": "Folsom (CA)",
+            "college": "Stanford",
+            "college_conf": "Pacific Twelve Conference",
+            "rookie_year": 2015,
+            "status": "A01",
+            "sr_id": "sr:player:834767",
+            "draft": {
+                "year": 2015,
+                "round": 2,
+                "number": 64,
+                "team": {
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "sr_id": "sr:competitor:4424"
+                }
+            },
+            "references": [
+                {
+                    "id": "42407",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0031559",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "171e1cf6-8bcc-46f1-8afe-47756967611c",
+            "name": "Aaron Adeoye",
+            "jersey": "51",
+            "last_name": "Adeoye",
+            "first_name": "Aaron",
+            "abbr_name": "A.Adeoye",
+            "preferred_name": "Aaron",
+            "birth_date": "1993-08-26",
+            "weight": 250.0,
+            "height": 78,
+            "position": "OLB",
+            "birth_place": "Marion, IL, USA",
+            "high_school": "Marion (IL)",
+            "college": "Southeast Missouri",
+            "college_conf": "Ohio Valley Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1739819",
+            "references": [
+                {
+                    "id": "00-0035136",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "46032",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "17a056be-39c0-4913-bacf-1663f3ac4a56",
+            "name": "Andre Smith",
+            "jersey": "76",
+            "last_name": "Smith",
+            "first_name": "Andre",
+            "abbr_name": "A.Smith",
+            "preferred_name": "Andre",
+            "birth_date": "1987-01-25",
+            "weight": 330.0,
+            "height": 76,
+            "position": "T",
+            "birth_place": "Birmingham, AL, USA",
+            "high_school": "Huffman (AL)",
+            "college": "Alabama",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2009,
+            "status": "R62",
+            "sr_id": "sr:player:831239",
+            "draft": {
+                "year": 2009,
+                "round": 1,
+                "number": 6,
+                "team": {
+                    "id": "ad4ae08f-d808-42d5-a1e6-e9bc4e34d123",
+                    "name": "Bengals",
+                    "market": "Cincinnati",
+                    "alias": "CIN",
+                    "sr_id": "sr:competitor:4416"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0026982",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "34457",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "1880777d-9908-4a32-a492-264b4fec967d",
+            "name": "Tavon Young",
+            "jersey": "25",
+            "last_name": "Young",
+            "first_name": "Tavon",
+            "abbr_name": "T.Young",
+            "preferred_name": "Tavon",
+            "birth_date": "1994-03-14",
+            "weight": 185.0,
+            "height": 69,
+            "position": "CB",
+            "birth_place": "Oxon Hill, MD, USA",
+            "high_school": "Potomac (MD)",
+            "college": "Temple",
+            "college_conf": "American Athletic Conference",
+            "rookie_year": 2016,
+            "status": "A01",
+            "sr_id": "sr:player:988629",
+            "draft": {
+                "year": 2016,
+                "round": 4,
+                "number": 104,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0032770",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "43393",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "1c1c956f-0f4c-4b22-98f2-6bbbd5e4a504",
+            "name": "Aaron Crawford",
+            "jersey": "69",
+            "last_name": "Crawford",
+            "first_name": "Aaron",
+            "abbr_name": "A.Crawford",
+            "preferred_name": "Aaron",
+            "birth_date": "1997-11-04",
+            "weight": 290.0,
+            "height": 74,
+            "position": "DT",
+            "birth_place": "Ashburn, VA, USA",
+            "high_school": "Stone Bridge (VA)",
+            "college": "North Carolina",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2053023",
+            "references": [
+                {
+                    "id": "53083",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0036191",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "209307c5-8e39-44a6-8879-5e033e017eb4",
+            "name": "Otaro Alaka",
+            "jersey": "50",
+            "last_name": "Alaka",
+            "first_name": "Otaro",
+            "abbr_name": "O.Alaka",
+            "preferred_name": "Otaro",
+            "birth_date": "1996-05-18",
+            "weight": 240.0,
+            "height": 75,
+            "position": "MLB",
+            "birth_place": "Houston, TX, USA",
+            "high_school": "Cypress Falls (TX)",
+            "college": "Texas A&amp;M",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1183336",
+            "references": [
+                {
+                    "id": "48211",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035103",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "20a0bad2-d530-4ff4-a2df-5c0a21a1f5db",
+            "name": "Justin Tucker",
+            "jersey": "9",
+            "last_name": "Tucker",
+            "first_name": "Justin",
+            "abbr_name": "J.Tucker",
+            "preferred_name": "Justin",
+            "birth_date": "1989-11-21",
+            "weight": 183.0,
+            "height": 73,
+            "position": "K",
+            "birth_place": "Houston, TX, USA",
+            "high_school": "Westlake (TX)",
+            "college": "Texas",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2012,
+            "status": "A01",
+            "sr_id": "sr:player:829127",
+            "references": [
+                {
+                    "id": "39470",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0029597",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "20c1c6e8-509a-46a6-8edf-d402d56c20b2",
+            "name": "Bradley Bozeman",
+            "jersey": "77",
+            "last_name": "Bozeman",
+            "first_name": "Bradley",
+            "abbr_name": "B.Bozeman",
+            "preferred_name": "Bradley",
+            "birth_date": "1994-11-24",
+            "weight": 317.0,
+            "height": 77,
+            "position": "G",
+            "birth_place": "Roanoke, AL, USA",
+            "high_school": "Handley",
+            "college": "Alabama",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1218142",
+            "draft": {
+                "year": 2018,
+                "round": 6,
+                "number": 215,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0034281",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "46284",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "2eb0706c-3017-4895-a207-71d6fe9e1549",
+            "name": "Johnny Townsend",
+            "jersey": "6",
+            "last_name": "Townsend",
+            "first_name": "Johnny",
+            "abbr_name": "J.Townsend",
+            "preferred_name": "Johnny",
+            "birth_date": "1995-02-14",
+            "weight": 205.0,
+            "height": 73,
+            "position": "P",
+            "birth_place": "Orlando, FL, USA",
+            "high_school": "Boone (FL)",
+            "college": "Florida",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1474678",
+            "draft": {
+                "year": 2018,
+                "round": 5,
+                "number": 173,
+                "team": {
+                    "id": "1c1cec48-6352-4556-b789-35304c1a6ae1",
+                    "name": "Raiders",
+                    "market": "Oakland",
+                    "alias": "OAK",
+                    "sr_id": "sr:competitor:4390"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0034684",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "46242",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "30f98123-214c-4f32-b29c-ac6f3ff56f39",
+            "name": "Derek Wolfe",
+            "jersey": "95",
+            "last_name": "Wolfe",
+            "first_name": "Derek",
+            "abbr_name": "D.Wolfe",
+            "preferred_name": "Derek",
+            "birth_date": "1990-02-24",
+            "weight": 285.0,
+            "height": 77,
+            "position": "DE",
+            "birth_place": "Lisbon, OH, USA",
+            "high_school": "Beaver Local (OH)",
+            "college": "Cincinnati",
+            "college_conf": "Big East",
+            "rookie_year": 2012,
+            "status": "A01",
+            "sr_id": "sr:player:831597",
+            "draft": {
+                "year": 2012,
+                "round": 2,
+                "number": 36,
+                "team": {
+                    "id": "ce92bd47-93d5-4fe9-ada4-0fc681e6caa0",
+                    "name": "Broncos",
+                    "market": "Denver",
+                    "alias": "DEN",
+                    "sr_id": "sr:competitor:4418"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0029586",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "38566",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "32575119-3aca-47cb-aaaf-162c48b7d372",
+            "name": "Malik Harrison",
+            "jersey": "40",
+            "last_name": "Harrison",
+            "first_name": "Malik",
+            "abbr_name": "M.Harrison",
+            "preferred_name": "Malik",
+            "birth_date": "1998-03-05",
+            "weight": 245.0,
+            "height": 75,
+            "position": "OLB",
+            "birth_place": "Columbus, OH, USA",
+            "high_school": "Walnut Ridge (OH)",
+            "college": "Ohio State",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040123",
+            "draft": {
+                "year": 2020,
+                "round": 3,
+                "number": 98,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0036280",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52506",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "32ad0298-bbc6-4b66-bd4d-e87a169ad27a",
+            "name": "Nick Moore",
+            "jersey": "60",
+            "last_name": "Moore",
+            "first_name": "Nick",
+            "abbr_name": "N.Moore",
+            "preferred_name": "Nick",
+            "birth_date": "1992-12-09",
+            "weight": 250.0,
+            "height": 75,
+            "position": "LS",
+            "birth_place": "Snellville, GA, USA",
+            "high_school": "Brookwood (GA)",
+            "college": "Georgia",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1181260",
+            "references": [
+                {
+                    "id": "48543",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035408",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "34cc08f0-53ee-4fc8-95a3-971e6620884c",
+            "name": "Jaylon Moore",
+            "jersey": "81",
+            "last_name": "Moore",
+            "first_name": "Jaylon",
+            "abbr_name": "J.Moore",
+            "preferred_name": "Jaylon",
+            "birth_date": "1997-07-01",
+            "weight": 190.0,
+            "height": 74,
+            "position": "WR",
+            "birth_place": "Memphis, TN, USA",
+            "high_school": "Mitchell (TN)",
+            "college": "Tennessee-Martin",
+            "college_conf": "Ohio Valley Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1210354",
+            "references": [
+                {
+                    "id": "00-0036125",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "53029",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "3da67e95-bd15-409f-b5de-b2feb54efda7",
+            "name": "Deon Cain",
+            "jersey": "17",
+            "last_name": "Cain",
+            "first_name": "Deon",
+            "abbr_name": "D.Cain",
+            "preferred_name": "Deon",
+            "birth_date": "1996-08-09",
+            "weight": 202.0,
+            "height": 74,
+            "position": "WR",
+            "birth_place": "Tampa, FL, USA",
+            "high_school": "Tampa Bay Tech (FL)",
+            "college": "Clemson",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1218762",
+            "draft": {
+                "year": 2018,
+                "round": 6,
+                "number": 185,
+                "team": {
+                    "id": "82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9",
+                    "name": "Colts",
+                    "market": "Indianapolis",
+                    "alias": "IND",
+                    "sr_id": "sr:competitor:4421"
+                }
+            },
+            "references": [
+                {
+                    "id": "46254",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034406",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "3ffc3993-461e-4477-9def-c9633b7feac1",
+            "name": "Gus Edwards",
+            "jersey": "35",
+            "last_name": "Edwards",
+            "first_name": "Gus",
+            "abbr_name": "G.Edwards",
+            "preferred_name": "Gus",
+            "birth_date": "1995-04-13",
+            "weight": 238.0,
+            "height": 73,
+            "position": "RB",
+            "birth_place": "Staten Island, NY, USA",
+            "high_school": "Tottenville (NY)",
+            "college": "Rutgers",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1475776",
+            "references": [
+                {
+                    "id": "46437",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034184",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "402f063b-4703-4729-b6ea-3a9d45a314c7",
+            "name": "Marcus Peters",
+            "jersey": "24",
+            "last_name": "Peters",
+            "first_name": "Marcus",
+            "abbr_name": "M.Peters",
+            "preferred_name": "Marcus",
+            "birth_date": "1993-01-09",
+            "weight": 197.0,
+            "height": 72,
+            "position": "CB",
+            "birth_place": "Oakland, CA, USA",
+            "high_school": "McClymonds (CA)",
+            "college": "Washington",
+            "college_conf": "Pacific Twelve Conference",
+            "rookie_year": 2015,
+            "status": "A01",
+            "sr_id": "sr:player:834521",
+            "draft": {
+                "year": 2015,
+                "round": 1,
+                "number": 18,
+                "team": {
+                    "id": "6680d28d-d4d2-49f6-aace-5292d3ec02c2",
+                    "name": "Chiefs",
+                    "market": "Kansas City",
+                    "alias": "KC",
+                    "sr_id": "sr:competitor:4422"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0032165",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "42361",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "41524c86-8ab6-42e9-871b-a00e29cd2705",
+            "name": "Yannick Ngakoue",
+            "jersey": "91",
+            "last_name": "Ngakoue",
+            "first_name": "Yannick",
+            "abbr_name": "Y.Ngakoue",
+            "preferred_name": "Yannick",
+            "birth_date": "1995-03-31",
+            "weight": 246.0,
+            "height": 74,
+            "position": "DE",
+            "birth_place": "Washington, DC, USA",
+            "high_school": "Friendship Collegiate Academy (DC)",
+            "college": "Maryland",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2016,
+            "status": "A01",
+            "sr_id": "sr:player:1074184",
+            "draft": {
+                "year": 2016,
+                "round": 3,
+                "number": 69,
+                "team": {
+                    "id": "f7ddd7fa-0bae-4f90-bc8e-669e4d6cf2de",
+                    "name": "Jaguars",
+                    "market": "Jacksonville",
+                    "alias": "JAC",
+                    "sr_id": "sr:competitor:4386"
+                }
+            },
+            "references": [
+                {
+                    "id": "43358",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0033123",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "457123e2-aeb5-41c7-b2a8-ddc42c04f977",
+            "name": "Braxton Hoyett",
+            "jersey": "96",
+            "last_name": "Hoyett",
+            "first_name": "Braxton",
+            "abbr_name": "B.Hoyett",
+            "preferred_name": "Braxton",
+            "birth_date": "1996-02-05",
+            "weight": 302.0,
+            "height": 74,
+            "position": "DT",
+            "birth_place": "Alexander City, AL, USA",
+            "high_school": "Pelham (AL)",
+            "college": "Mississippi State",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1735589",
+            "references": [
+                {
+                    "id": "00-0035518",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "48668",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "45c926b6-0f2f-4d29-b806-d21e4ea89ba2",
+            "name": "Davontae Harris",
+            "jersey": "33",
+            "last_name": "Harris",
+            "first_name": "Davontae",
+            "abbr_name": "D.Harris",
+            "preferred_name": "Davontae",
+            "birth_date": "1995-01-21",
+            "weight": 200.0,
+            "height": 71,
+            "position": "CB",
+            "birth_place": "Wichita, KS, USA",
+            "high_school": "Wichita South (KS)",
+            "college": "Illinois State",
+            "college_conf": "Missouri Valley Football Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1204068",
+            "draft": {
+                "year": 2018,
+                "round": 5,
+                "number": 151,
+                "team": {
+                    "id": "ad4ae08f-d808-42d5-a1e6-e9bc4e34d123",
+                    "name": "Bengals",
+                    "market": "Cincinnati",
+                    "alias": "CIN",
+                    "sr_id": "sr:competitor:4416"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0034388",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "46220",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "4706e72c-c7ef-4fa0-b16b-e864a1085dd7",
+            "name": "Jaylon Ferguson",
+            "jersey": "45",
+            "last_name": "Ferguson",
+            "first_name": "Jaylon",
+            "abbr_name": "J.Ferguson",
+            "preferred_name": "Jaylon",
+            "birth_date": "1995-12-14",
+            "weight": 275.0,
+            "height": 77,
+            "position": "OLB",
+            "birth_place": "Zachary, LA, USA",
+            "high_school": "West Feliciana (LA)",
+            "college": "Louisiana Tech",
+            "college_conf": "Conference USA",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1184968",
+            "draft": {
+                "year": 2019,
+                "round": 3,
+                "number": 85,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0035651",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "47868",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "4b62138a-e222-408c-8595-936d1a194eca",
+            "name": "Pernell McPhee",
+            "jersey": "90",
+            "last_name": "McPhee",
+            "first_name": "Pernell",
+            "abbr_name": "P.McPhee",
+            "preferred_name": "Pernell",
+            "birth_date": "1988-12-17",
+            "weight": 265.0,
+            "height": 75,
+            "position": "OLB",
+            "birth_place": "Orlando, FL, USA",
+            "high_school": "Pahokee (FL)",
+            "college": "Mississippi State",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2011,
+            "status": "A01",
+            "sr_id": "sr:player:828343",
+            "draft": {
+                "year": 2011,
+                "round": 5,
+                "number": 165,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "37240",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0028103",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "513df09d-7d3a-44a8-873c-34f2fe46326b",
+            "name": "Morgan Cox",
+            "jersey": "46",
+            "last_name": "Cox",
+            "first_name": "Morgan",
+            "abbr_name": "M.Cox",
+            "preferred_name": "Morgan",
+            "birth_date": "1986-04-26",
+            "weight": 233.0,
+            "height": 76,
+            "position": "LS",
+            "birth_place": "Collierville, TN, USA",
+            "high_school": "Evangelical Christian (TN)",
+            "college": "Tennessee",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2010,
+            "status": "A01",
+            "sr_id": "sr:player:828447",
+            "references": [
+                {
+                    "id": "36086",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0027557",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "528e71ec-8fb3-4928-ace5-fc5ffbf26eb3",
+            "name": "Justice Hill",
+            "jersey": "43",
+            "last_name": "Hill",
+            "first_name": "Justice",
+            "abbr_name": "J.Hill",
+            "preferred_name": "Justice",
+            "birth_date": "1997-11-14",
+            "weight": 200.0,
+            "height": 70,
+            "position": "RB",
+            "birth_place": "Tulsa, OK, USA",
+            "high_school": "Booker T. Washington (OK)",
+            "college": "Oklahoma State",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1734845",
+            "draft": {
+                "year": 2019,
+                "round": 4,
+                "number": 113,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "47896",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034975",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "544e4159-3da3-47ad-866c-bf48d7634f25",
+            "name": "Sam Koch",
+            "jersey": "4",
+            "last_name": "Koch",
+            "first_name": "Sam",
+            "abbr_name": "S.Koch",
+            "preferred_name": "Sam",
+            "birth_date": "1982-08-13",
+            "weight": 222.0,
+            "height": 73,
+            "position": "P",
+            "birth_place": "York, NE, USA",
+            "high_school": "Seward (NE)",
+            "college": "Nebraska",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2006,
+            "status": "A01",
+            "sr_id": "sr:player:828059",
+            "draft": {
+                "year": 2006,
+                "round": 6,
+                "number": 203,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "31018",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0024417",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "630e6b5d-0486-4bc3-a919-1f02687c1291",
+            "name": "Binjimen Victor",
+            "jersey": "89",
+            "last_name": "Victor",
+            "first_name": "Binjimen",
+            "abbr_name": "B.Victor",
+            "preferred_name": "Binjimen",
+            "birth_date": "1997-01-15",
+            "weight": 199.0,
+            "height": 76,
+            "position": "WR",
+            "birth_place": "Pompano Beach, FL, USA",
+            "high_school": "Coconut Creek (FL)",
+            "college": "Ohio State",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1216616",
+            "references": [
+                {
+                    "id": "00-0035819",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52721",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "6f695364-f31f-420d-8baa-434539e2b12d",
+            "name": "Broderick Washington",
+            "jersey": "96",
+            "last_name": "Washington",
+            "first_name": "Broderick",
+            "abbr_name": "B.Washington",
+            "preferred_name": "Broderick",
+            "birth_date": "1996-12-04",
+            "weight": 305.0,
+            "height": 75,
+            "position": "DT",
+            "birth_place": "Longview, TX, USA",
+            "high_school": "Longview (TX)",
+            "college": "Texas Tech",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1224906",
+            "draft": {
+                "year": 2020,
+                "round": 5,
+                "number": 170,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0036081",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52578",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "71c657d6-a2d9-48f3-b6db-dd4372e910f4",
+            "name": "Eli Wolf",
+            "jersey": "87",
+            "last_name": "Wolf",
+            "first_name": "Eli",
+            "abbr_name": "E.Wolf",
+            "preferred_name": "Eli",
+            "birth_date": "1997-03-11",
+            "weight": 236.0,
+            "height": 76,
+            "position": "TE",
+            "birth_place": "Minster, OH, USA",
+            "high_school": "Minster (OH)",
+            "college": "Georgia",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1219356",
+            "references": [
+                {
+                    "id": "00-0036129",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "53033",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "791b7f98-c5ff-4145-ab8c-c67e3ca801c4",
+            "name": "Anthony Averett",
+            "jersey": "23",
+            "last_name": "Averett",
+            "first_name": "Anthony",
+            "abbr_name": "A.Averett",
+            "preferred_name": "Anthony",
+            "birth_date": "1994-11-30",
+            "weight": 178.0,
+            "height": 71,
+            "position": "CB",
+            "birth_place": "Woodbury, NJ, USA",
+            "high_school": "Woodbury (NJ)",
+            "college": "Alabama",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1217622",
+            "draft": {
+                "year": 2018,
+                "round": 4,
+                "number": 118,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0034265",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "46187",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "7963d8ea-c627-47cb-b46f-a917abb9e9d7",
+            "name": "Brandon Williams",
+            "jersey": "98",
+            "last_name": "Williams",
+            "first_name": "Brandon",
+            "abbr_name": "B.Williams",
+            "preferred_name": "Brandon",
+            "birth_date": "1989-02-21",
+            "weight": 336.0,
+            "height": 73,
+            "position": "NT",
+            "birth_place": "Kirkwood, MO, USA",
+            "high_school": "Rockwood Summit (MO)",
+            "college": "Missouri Southern",
+            "college_conf": "Mid-America Intercollegiate Athletic Association",
+            "rookie_year": 2013,
+            "status": "A01",
+            "sr_id": "sr:player:830151",
+            "draft": {
+                "year": 2013,
+                "round": 3,
+                "number": 94,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0030511",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "40042",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "7c226f73-a59f-4db6-ad98-2766d05d4d5a",
+            "name": "Tyler Huntley",
+            "jersey": "2",
+            "last_name": "Huntley",
+            "first_name": "Tyler",
+            "abbr_name": "T.Huntley",
+            "preferred_name": "Tyler",
+            "birth_date": "1998-02-03",
+            "weight": 205.0,
+            "height": 73,
+            "position": "QB",
+            "birth_place": "Dania, FL, USA",
+            "high_school": "Hallandale (FL)",
+            "college": "Utah",
+            "college_conf": "Pacific Twelve Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1223508",
+            "references": [
+                {
+                    "id": "00-0035993",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52895",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "7d58beec-bd16-475d-bf08-9137b86aef17",
+            "name": "Greg Mancz",
+            "jersey": "65",
+            "last_name": "Mancz",
+            "first_name": "Greg",
+            "abbr_name": "G.Mancz",
+            "preferred_name": "Greg",
+            "birth_date": "1992-04-23",
+            "weight": 310.0,
+            "height": 76,
+            "position": "C",
+            "birth_place": "Cincinnati, OH, USA",
+            "high_school": "Anderson (OH)",
+            "college": "Toledo",
+            "college_conf": "Mid-American Conference",
+            "rookie_year": 2015,
+            "status": "A01",
+            "sr_id": "sr:player:835477",
+            "references": [
+                {
+                    "id": "00-0031923",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "42954",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "7e2c36bd-bae6-42e8-84fc-147106ed7270",
+            "name": "Justin Ellis",
+            "jersey": "71",
+            "last_name": "Ellis",
+            "first_name": "Justin",
+            "abbr_name": "J.Ellis",
+            "preferred_name": "Justin",
+            "birth_date": "1990-12-27",
+            "weight": 350.0,
+            "height": 74,
+            "position": "NT",
+            "birth_place": "Monroe, LA, USA",
+            "high_school": "Neville (LA)",
+            "college": "Louisiana Tech",
+            "college_conf": "Conference USA",
+            "rookie_year": 2014,
+            "status": "A01",
+            "sr_id": "sr:player:827817",
+            "draft": {
+                "year": 2014,
+                "round": 4,
+                "number": 107,
+                "team": {
+                    "id": "7d4fcc64-9cb5-4d1b-8e75-8a906d1e1576",
+                    "name": "Raiders",
+                    "market": "Las Vegas",
+                    "alias": "LV",
+                    "sr_id": "sr:competitor:4390"
+                }
+            },
+            "references": [
+                {
+                    "id": "41336",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0031346",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "7e7b5ec8-dcf4-409f-a0eb-99246b7493c5",
+            "name": "Matt Skura",
+            "jersey": "68",
+            "last_name": "Skura",
+            "first_name": "Matt",
+            "abbr_name": "M.Skura",
+            "preferred_name": "Matt",
+            "birth_date": "1993-02-17",
+            "weight": 313.0,
+            "height": 75,
+            "position": "C",
+            "birth_place": "Columbus, OH, USA",
+            "high_school": "Worthington Kilbourne (OH)",
+            "college": "Duke",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2016,
+            "status": "A01",
+            "sr_id": "sr:player:989361",
+            "references": [
+                {
+                    "id": "00-0032575",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "43695",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "83128a20-392f-4ca7-878e-689c6e6dfbfc",
+            "name": "DeShon Elliott",
+            "jersey": "32",
+            "last_name": "Elliott",
+            "first_name": "DeShon",
+            "abbr_name": "D.Elliott",
+            "preferred_name": "DeShon",
+            "birth_date": "1997-04-21",
+            "weight": 210.0,
+            "height": 73,
+            "position": "FS",
+            "birth_place": "Dallas, TX, USA",
+            "high_school": "Rockwall-Heath (TX)",
+            "college": "Texas",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1474982",
+            "draft": {
+                "year": 2018,
+                "round": 6,
+                "number": 190,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "46259",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034277",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "8482bc94-0eb0-4e92-8f99-ced135f3cd5d",
+            "name": "Willie Snead IV",
+            "jersey": "83",
+            "last_name": "Snead",
+            "first_name": "Willie",
+            "abbr_name": "W.Snead IV",
+            "preferred_name": "Willie",
+            "birth_date": "1992-10-17",
+            "weight": 205.0,
+            "height": 71,
+            "position": "WR",
+            "birth_place": "Winter Park, FL, USA",
+            "high_school": "Muskegon Heights (MI)",
+            "college": "Ball State",
+            "college_conf": "Mid-American Conference",
+            "rookie_year": 2014,
+            "status": "A01",
+            "sr_id": "sr:player:838877",
+            "name_suffix": "IV",
+            "references": [
+                {
+                    "id": "41500",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0030663",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "852b00dd-fd1c-4edb-809d-912a6472cd07",
+            "name": "Jihad Ward",
+            "jersey": "53",
+            "last_name": "Ward",
+            "first_name": "Jihad",
+            "abbr_name": "J.Ward",
+            "preferred_name": "Jihad",
+            "birth_date": "1994-05-11",
+            "weight": 287.0,
+            "height": 77,
+            "position": "DE",
+            "birth_place": "Philadelphia, PA, USA",
+            "high_school": "Globe Tech (NY)",
+            "college": "Illinois",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2016,
+            "status": "A01",
+            "sr_id": "sr:player:987671",
+            "draft": {
+                "year": 2016,
+                "round": 2,
+                "number": 44,
+                "team": {
+                    "id": "7d4fcc64-9cb5-4d1b-8e75-8a906d1e1576",
+                    "name": "Raiders",
+                    "market": "Las Vegas",
+                    "alias": "LV",
+                    "sr_id": "sr:competitor:4390"
+                }
+            },
+            "references": [
+                {
+                    "id": "43333",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0033046",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "8e43eb21-92e4-4720-8766-c9204259c063",
+            "name": "Antoine Wesley",
+            "jersey": "84",
+            "last_name": "Wesley",
+            "first_name": "Antoine",
+            "abbr_name": "A.Wesley",
+            "preferred_name": "Antoine",
+            "birth_date": "1997-10-22",
+            "weight": 206.0,
+            "height": 76,
+            "position": "WR",
+            "birth_place": "Las Vegas, NV, USA",
+            "high_school": "Cibolo Steele (TX)",
+            "college": "Texas Tech",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1221032",
+            "references": [
+                {
+                    "id": "00-0035126",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "48234",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "904f702b-e8b1-4fef-a4a0-278d18cc15e3",
+            "name": "Justin Madubuike",
+            "jersey": "92",
+            "last_name": "Madubuike",
+            "first_name": "Justin",
+            "abbr_name": "J.Madubuike",
+            "preferred_name": "Justin",
+            "birth_date": "1997-11-17",
+            "weight": 300.0,
+            "height": 75,
+            "position": "DT",
+            "birth_place": "McKinney, TX, USA",
+            "high_school": "McKinney North (TX)",
+            "college": "Texas A&amp;M",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040675",
+            "draft": {
+                "year": 2020,
+                "round": 3,
+                "number": 71,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "52479",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0036130",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "9480dd9f-151f-4e6d-b5a3-35f07bda4cac",
+            "name": "Nick Boyle",
+            "jersey": "86",
+            "last_name": "Boyle",
+            "first_name": "Nick",
+            "abbr_name": "N.Boyle",
+            "preferred_name": "Nick",
+            "birth_date": "1993-02-17",
+            "weight": 270.0,
+            "height": 76,
+            "position": "TE",
+            "birth_place": "Wantage, NJ, USA",
+            "high_school": "High Point Regional (NJ)",
+            "college": "Delaware",
+            "college_conf": "Colonial Athletic Association",
+            "rookie_year": 2015,
+            "status": "A01",
+            "sr_id": "sr:player:835259",
+            "draft": {
+                "year": 2015,
+                "round": 5,
+                "number": 171,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0031598",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "42514",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "99d79bb9-45aa-4c64-99aa-a92ba2c278af",
+            "name": "Matthew Judon",
+            "jersey": "99",
+            "last_name": "Judon",
+            "first_name": "Matt",
+            "abbr_name": "M.Judon",
+            "preferred_name": "Matt",
+            "birth_date": "1992-08-15",
+            "weight": 261.0,
+            "height": 75,
+            "position": "OLB",
+            "birth_place": "Pontiac, MI, USA",
+            "high_school": "West Bloomfield (MI)",
+            "college": "Grand Valley State",
+            "college_conf": "Great Lakes Intercollegiate Athletic Conference",
+            "rookie_year": 2016,
+            "status": "A01",
+            "sr_id": "sr:player:1074196",
+            "draft": {
+                "year": 2016,
+                "round": 5,
+                "number": 146,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "43435",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0032415",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "9d699fbc-ce11-4e42-a9b1-c94ecee8f613",
+            "name": "Orlando Brown Jr.",
+            "jersey": "78",
+            "last_name": "Brown",
+            "first_name": "Orlando",
+            "abbr_name": "O.Brown",
+            "preferred_name": "Orlando",
+            "birth_date": "1996-05-02",
+            "weight": 345.0,
+            "height": 80,
+            "position": "T",
+            "birth_place": "Duluth, GA, USA",
+            "high_school": "Peachtree Ridge (GA)",
+            "college": "Oklahoma",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1218314",
+            "name_suffix": "Jr.",
+            "draft": {
+                "year": 2018,
+                "round": 3,
+                "number": 83,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "46152",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034752",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "9e31f935-1e60-437d-9859-e1f2bb936aa5",
+            "name": "Ty'Son Williams",
+            "jersey": "34",
+            "last_name": "Williams",
+            "first_name": "Ty'Son",
+            "abbr_name": "T.Williams",
+            "preferred_name": "Ty'Son",
+            "birth_date": "1996-09-04",
+            "weight": 220.0,
+            "height": 72,
+            "position": "RB",
+            "birth_place": "Sumter, SC, USA",
+            "high_school": "Crestwood (SC)",
+            "college": "Brigham Young",
+            "college_conf": "Independent",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1218366",
+            "references": [
+                {
+                    "id": "00-0036457",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "53180",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "a3855ea8-e71c-4028-86fb-5a1abbd94488",
+            "name": "D.J. Fluker",
+            "jersey": "70",
+            "last_name": "Fluker",
+            "first_name": "D.J.",
+            "abbr_name": "D.Fluker",
+            "preferred_name": "D.J.",
+            "birth_date": "1991-03-13",
+            "weight": 342.0,
+            "height": 77,
+            "position": "G",
+            "birth_place": "New Orleans, LA, USA",
+            "high_school": "Foley (AL)",
+            "college": "Alabama",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2013,
+            "status": "A01",
+            "sr_id": "sr:player:828895",
+            "draft": {
+                "year": 2013,
+                "round": 1,
+                "number": 11,
+                "team": {
+                    "id": "9dbb9060-ba0f-4920-829e-16d4d9246b5d",
+                    "name": "Chargers",
+                    "market": "San Diego",
+                    "alias": "SD"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0030505",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "39957",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "a3f67680-66f1-4efc-b21b-badd19467cc9",
+            "name": "Trystan Colon-Castillo",
+            "jersey": "63",
+            "last_name": "Colon-Castillo",
+            "first_name": "Trystan",
+            "abbr_name": "T.Colon-Castillo",
+            "preferred_name": "Trystan",
+            "birth_date": "1998-03-23",
+            "weight": 315.0,
+            "height": 76,
+            "position": "C",
+            "birth_place": "Webb City, MO, USA",
+            "high_school": "Webb City (MO)",
+            "college": "Missouri",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1220306",
+            "references": [
+                {
+                    "id": "52894",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035992",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "a57b9914-4315-4295-98b4-9b348c52d6a1",
+            "name": "J.K. Dobbins",
+            "jersey": "27",
+            "last_name": "Dobbins",
+            "first_name": "J.K.",
+            "abbr_name": "J.Dobbins",
+            "preferred_name": "J.K.",
+            "birth_date": "1998-12-17",
+            "weight": 214.0,
+            "height": 70,
+            "position": "RB",
+            "birth_place": "La Grange, TX, USA",
+            "high_school": "La Grange (TX)",
+            "college": "Ohio State",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040183",
+            "draft": {
+                "year": 2020,
+                "round": 2,
+                "number": 55,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "52463",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0036158",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "a5a7243e-d842-400d-89ff-5d451338426f",
+            "name": "Chauncey Rivers",
+            "jersey": "97",
+            "last_name": "Rivers",
+            "first_name": "Chauncey",
+            "abbr_name": "C.Rivers",
+            "preferred_name": "Chauncey",
+            "birth_date": "1997-06-12",
+            "weight": 275.0,
+            "height": 75,
+            "position": "DE",
+            "birth_place": "Stone Mountain, GA, USA",
+            "high_school": "Stephenson (GA)",
+            "college": "Mississippi State",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1236060",
+            "references": [
+                {
+                    "id": "52979",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0036076",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "a792cbbf-d96a-48fc-a187-6f7f5b7dd214",
+            "name": "Ronnie Stanley",
+            "jersey": "79",
+            "last_name": "Stanley",
+            "first_name": "Ronnie",
+            "abbr_name": "R.Stanley",
+            "preferred_name": "Ronnie",
+            "birth_date": "1994-03-18",
+            "weight": 315.0,
+            "height": 78,
+            "position": "T",
+            "birth_place": "Las Vegas, NV, USA",
+            "high_school": "Gorman (NV)",
+            "college": "Notre Dame",
+            "college_conf": "Independent",
+            "rookie_year": 2016,
+            "status": "A01",
+            "sr_id": "sr:player:986903",
+            "draft": {
+                "year": 2016,
+                "round": 1,
+                "number": 6,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "43295",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0032965",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "a8614822-2740-4b1f-a01e-b7960a4f07f6",
+            "name": "Jacob Breeland",
+            "jersey": "88",
+            "last_name": "Breeland",
+            "first_name": "Jacob",
+            "abbr_name": "J.Breeland",
+            "preferred_name": "Jacob",
+            "birth_date": "1996-09-20",
+            "weight": 250.0,
+            "height": 77,
+            "position": "TE",
+            "birth_place": "Mission Viejo, CA, USA",
+            "high_school": "Trabuco Hills (CA)",
+            "college": "Oregon",
+            "college_conf": "Pacific Twelve Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1181922",
+            "references": [
+                {
+                    "id": "53056",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0036154",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "ab3ce81f-6625-45d3-aa6d-79f95ae4f503",
+            "name": "Ben Bredeson",
+            "jersey": "67",
+            "last_name": "Bredeson",
+            "first_name": "Ben",
+            "abbr_name": "B.Bredeson",
+            "preferred_name": "Ben",
+            "birth_date": "1998-02-20",
+            "weight": 325.0,
+            "height": 76,
+            "position": "G",
+            "birth_place": "Hartland, WI, USA",
+            "high_school": "Arrowhead (WI)",
+            "college": "Michigan",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040275",
+            "draft": {
+                "year": 2020,
+                "round": 4,
+                "number": 143,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "52551",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0036132",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "ac84c815-7ed4-49b2-b84a-08cf6c016eb5",
+            "name": "Chris Westry",
+            "jersey": "31",
+            "last_name": "Westry",
+            "first_name": "Chris",
+            "abbr_name": "C.Westry",
+            "preferred_name": "Chris",
+            "birth_date": "1997-07-10",
+            "weight": 197.0,
+            "height": 76,
+            "position": "CB",
+            "birth_place": "Orange Park, FL, USA",
+            "high_school": "Oakleaf (FL)",
+            "college": "Kentucky",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1209838",
+            "references": [
+                {
+                    "id": "00-0035422",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "48565",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "b36539fa-de45-4cfd-90be-49d14149e64e",
+            "name": "Tyus Bowser",
+            "jersey": "54",
+            "last_name": "Bowser",
+            "first_name": "Tyus",
+            "abbr_name": "T.Bowser",
+            "preferred_name": "Tyus",
+            "birth_date": "1995-05-23",
+            "weight": 240.0,
+            "height": 75,
+            "position": "OLB",
+            "birth_place": "Tyler, TX, USA",
+            "high_school": "John Tyler (TX)",
+            "college": "Houston",
+            "college_conf": "American Athletic Conference",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1129871",
+            "draft": {
+                "year": 2017,
+                "round": 2,
+                "number": 47,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0033283",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "44859",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "b3d7169b-9cf6-4fea-815a-26e4fb0ec16a",
+            "name": "Eric Tomlinson",
+            "jersey": "85",
+            "last_name": "Tomlinson",
+            "first_name": "Eric",
+            "abbr_name": "E.Tomlinson",
+            "preferred_name": "Eric",
+            "birth_date": "1992-04-22",
+            "weight": 263.0,
+            "height": 78,
+            "position": "TE",
+            "birth_place": "Oklahoma City, OK, USA",
+            "high_school": "Klein (TX)",
+            "college": "Texas-El Paso",
+            "college_conf": "Conference USA",
+            "rookie_year": 2015,
+            "status": "A01",
+            "sr_id": "sr:player:855784",
+            "references": [
+                {
+                    "id": "42721",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0031690",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "b4908ca3-f723-4d41-ab98-58acf0aa4a94",
+            "name": "Tyre Phillips",
+            "jersey": "74",
+            "last_name": "Phillips",
+            "first_name": "Tyre",
+            "abbr_name": "T.Phillips",
+            "preferred_name": "Tyre",
+            "birth_date": "1997-01-29",
+            "weight": 345.0,
+            "height": 77,
+            "position": "G",
+            "birth_place": "Grenada, MS, USA",
+            "high_school": "East Mississippi (MS)",
+            "college": "Mississippi State",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040629",
+            "draft": {
+                "year": 2020,
+                "round": 3,
+                "number": 106,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0036214",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52514",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "b84fb536-9705-45a9-b652-92a33578ac48",
+            "name": "Dez Bryant",
+            "jersey": "88",
+            "last_name": "Bryant",
+            "first_name": "Dez",
+            "abbr_name": "D.Bryant",
+            "preferred_name": "Dez",
+            "birth_date": "1988-11-04",
+            "weight": 220.0,
+            "height": 74,
+            "position": "WR",
+            "birth_place": "Galveston County, TX, USA",
+            "high_school": "Lufkin (TX)",
+            "college": "Oklahoma State",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2010,
+            "status": "A01",
+            "sr_id": "sr:player:827807",
+            "draft": {
+                "year": 2010,
+                "round": 1,
+                "number": 24,
+                "team": {
+                    "id": "e627eec7-bbae-4fa4-8e73-8e1d6bc5c060",
+                    "name": "Cowboys",
+                    "market": "Dallas",
+                    "alias": "DAL",
+                    "sr_id": "sr:competitor:4392"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0027902",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "35463",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "bc4c0c7d-a6f4-4cff-95ec-a4d0523c2232",
+            "name": "Patrick Queen",
+            "jersey": "48",
+            "last_name": "Queen",
+            "first_name": "Patrick",
+            "abbr_name": "P.Queen",
+            "preferred_name": "Patrick",
+            "birth_date": "1999-08-13",
+            "weight": 227.0,
+            "height": 73,
+            "position": "MLB",
+            "birth_place": "Ventress, LA, USA",
+            "high_school": "Livonia (LA)",
+            "college": "Louisiana State",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040221",
+            "draft": {
+                "year": 2020,
+                "round": 1,
+                "number": 28,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0036323",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52436",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "bf9749c6-6609-456e-a3eb-b8cab21dd76a",
+            "name": "Marlon Humphrey",
+            "jersey": "44",
+            "last_name": "Humphrey",
+            "first_name": "Marlon",
+            "abbr_name": "M.Humphrey",
+            "preferred_name": "Marlon",
+            "birth_date": "1996-07-08",
+            "weight": 197.0,
+            "height": 72,
+            "position": "CB",
+            "birth_place": "Hoover, AL, USA",
+            "high_school": "Hoover (AL)",
+            "college": "Alabama",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1129543",
+            "draft": {
+                "year": 2017,
+                "round": 1,
+                "number": 16,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0033281",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "44828",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "c3d6c803-1c91-4bd9-956c-7f6c292558c5",
+            "name": "Jimmy Smith",
+            "jersey": "22",
+            "last_name": "Smith",
+            "first_name": "Jimmy",
+            "abbr_name": "J.Smith",
+            "preferred_name": "Jimmy",
+            "birth_date": "1988-07-26",
+            "weight": 210.0,
+            "height": 74,
+            "position": "CB",
+            "birth_place": "Fontana, CA, USA",
+            "high_school": "Colton (CA)",
+            "college": "Colorado",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2011,
+            "status": "A01",
+            "sr_id": "sr:player:829285",
+            "draft": {
+                "year": 2011,
+                "round": 1,
+                "number": 27,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0027965",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "37100",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "c65488d4-251e-40fc-9f32-7019bbdaf75e",
+            "name": "James Proche",
+            "jersey": "11",
+            "last_name": "Proche",
+            "first_name": "James",
+            "abbr_name": "J.Proche",
+            "preferred_name": "James",
+            "birth_date": "1996-09-21",
+            "weight": 193.0,
+            "height": 72,
+            "position": "WR",
+            "birth_place": "Dallas, TX, USA",
+            "high_school": "DeSoto (TX)",
+            "college": "Southern Methodist",
+            "college_conf": "American Athletic Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040359",
+            "draft": {
+                "year": 2020,
+                "round": 6,
+                "number": 201,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0036133",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "52609",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "cb68b95f-ef6f-4e5e-b861-8bfe6cfeacf5",
+            "name": "Patrick Ricard",
+            "jersey": "42",
+            "last_name": "Ricard",
+            "first_name": "Patrick",
+            "abbr_name": "P.Ricard",
+            "preferred_name": "Patrick",
+            "birth_date": "1994-05-27",
+            "weight": 311.0,
+            "height": 75,
+            "position": "FB",
+            "birth_place": "Spencer, MA, USA",
+            "high_school": "David Prouty (MA)",
+            "college": "Maine",
+            "college_conf": "Colonial Athletic Association",
+            "rookie_year": 2017,
+            "status": "A01",
+            "sr_id": "sr:player:1140902",
+            "references": [
+                {
+                    "id": "45268",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0033376",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "cfcac921-0ac6-457c-9f37-82324327f3e3",
+            "name": "Ben Powers",
+            "jersey": "72",
+            "last_name": "Powers",
+            "first_name": "Ben",
+            "abbr_name": "B.Powers",
+            "preferred_name": "Ben",
+            "birth_date": "1996-10-29",
+            "weight": 310.0,
+            "height": 76,
+            "position": "G",
+            "birth_place": "Wichita, KS, USA",
+            "high_school": "Kapaun Mt. Carmel Catholic (OK)",
+            "college": "Oklahoma",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1219214",
+            "draft": {
+                "year": 2019,
+                "round": 4,
+                "number": 123,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "47906",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034978",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "d027528c-6fb1-41bb-9ede-4f45ec731fdd",
+            "name": "Patrick Mekari",
+            "jersey": "65",
+            "last_name": "Mekari",
+            "first_name": "Patrick",
+            "abbr_name": "P.Mekari",
+            "preferred_name": "Patrick",
+            "birth_date": "1997-08-13",
+            "weight": 308.0,
+            "height": 76,
+            "position": "C",
+            "birth_place": "Westlake Village, CA, USA",
+            "high_school": "Westlake (CA)",
+            "college": "California",
+            "college_conf": "Pacific Twelve Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1737531",
+            "references": [
+                {
+                    "id": "00-0035112",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "48220",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "d1ed6f8c-1611-4695-8b48-5adce0de50dd",
+            "name": "Miles Boykin",
+            "jersey": "80",
+            "last_name": "Boykin",
+            "first_name": "Miles",
+            "abbr_name": "M.Boykin",
+            "preferred_name": "Miles",
+            "birth_date": "1996-10-12",
+            "weight": 220.0,
+            "height": 76,
+            "position": "WR",
+            "birth_place": "Tinley Park, IL, USA",
+            "high_school": "Providence Catholic (IL)",
+            "college": "Notre Dame",
+            "college_conf": "Independent",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1211694",
+            "draft": {
+                "year": 2019,
+                "round": 3,
+                "number": 93,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0035703",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "47876",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "d4d135fd-b710-4c12-9082-9d6e544b3f8d",
+            "name": "Trace McSorley",
+            "jersey": "7",
+            "last_name": "McSorley",
+            "first_name": "Trace",
+            "abbr_name": "T.McSorley",
+            "preferred_name": "Trace",
+            "birth_date": "1995-08-23",
+            "weight": 202.0,
+            "height": 72,
+            "position": "QB",
+            "birth_place": "Ashburn, VA, USA",
+            "high_school": "Briar Woods (VA)",
+            "college": "Penn State",
+            "college_conf": "Big Ten Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1218332",
+            "draft": {
+                "year": 2019,
+                "round": 6,
+                "number": 197,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "00-0035146",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "47980",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "d93dbc83-e604-4823-a24e-d162cbd8d4d9",
+            "name": "Devin Duvernay",
+            "jersey": "13",
+            "last_name": "Duvernay",
+            "first_name": "Devin",
+            "abbr_name": "D.Duvernay",
+            "preferred_name": "Devin",
+            "birth_date": "1997-09-12",
+            "weight": 210.0,
+            "height": 71,
+            "position": "WR",
+            "birth_place": "Sachse, TX, USA",
+            "high_school": "Sachse (TX)",
+            "college": "Texas",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:2040197",
+            "draft": {
+                "year": 2020,
+                "round": 3,
+                "number": 92,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "52500",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0036331",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "e06a9c07-453a-4bb0-a7e9-2c3a64166dad",
+            "name": "Lamar Jackson",
+            "jersey": "8",
+            "last_name": "Jackson",
+            "first_name": "Lamar",
+            "abbr_name": "L.Jackson",
+            "preferred_name": "Lamar",
+            "birth_date": "1997-01-07",
+            "weight": 212.0,
+            "height": 74,
+            "position": "QB",
+            "birth_place": "Pompano Beach, FL, USA",
+            "high_school": "Boynton Beach (FL)",
+            "college": "Louisville",
+            "college_conf": "Atlantic Coast Conference",
+            "rookie_year": 2018,
+            "status": "A01",
+            "sr_id": "sr:player:1221868",
+            "draft": {
+                "year": 2018,
+                "round": 1,
+                "number": 32,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "46101",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0034796",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "e0abf267-f265-4682-9bb7-72bbcefda451",
+            "name": "DeAndrew White",
+            "jersey": "18",
+            "last_name": "White",
+            "first_name": "DeAndrew",
+            "abbr_name": "D.White",
+            "preferred_name": "DeAndrew",
+            "birth_date": "1991-10-16",
+            "weight": 195.0,
+            "height": 72,
+            "position": "WR",
+            "birth_place": "Houston, TX, USA",
+            "high_school": "North Shore (TX)",
+            "college": "Alabama",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2015,
+            "status": "A01",
+            "sr_id": "sr:player:835879",
+            "references": [
+                {
+                    "id": "00-0031511",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "42607",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "e8b1322a-6162-4535-b6af-4ca60ce8b09c",
+            "name": "Khalil Dorsey",
+            "jersey": "31",
+            "last_name": "Dorsey",
+            "first_name": "Khalil",
+            "abbr_name": "K.Dorsey",
+            "preferred_name": "Khalil",
+            "birth_date": "1998-03-31",
+            "weight": 170.0,
+            "height": 69,
+            "position": "CB",
+            "birth_place": "Ontario, CA, USA",
+            "high_school": "Colony (CA)",
+            "college": "Northern Arizona",
+            "college_conf": "Big Sky Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1200304",
+            "references": [
+                {
+                    "id": "53028",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0036124",
+                    "origin": "gsis"
+                }
+            ]
+        },
+        {
+            "id": "f5fc76fa-4381-4026-b8c0-384cb4dff19b",
+            "name": "Nigel Warrior",
+            "jersey": "39",
+            "last_name": "Warrior",
+            "first_name": "Nigel",
+            "abbr_name": "N.Warrior",
+            "preferred_name": "Nigel",
+            "birth_date": "1997-12-14",
+            "weight": 187.0,
+            "height": 71,
+            "position": "DB",
+            "birth_place": "College Park, GA, USA",
+            "high_school": "Peachtree Ridge (GA)",
+            "college": "Tennessee",
+            "college_conf": "Southeastern Conference",
+            "rookie_year": 2020,
+            "status": "A01",
+            "sr_id": "sr:player:1216498",
+            "references": [
+                {
+                    "id": "00-0036127",
+                    "origin": "gsis"
+                },
+                {
+                    "id": "53031",
+                    "origin": "nflx"
+                }
+            ]
+        },
+        {
+            "id": "feeee40a-dd63-41a7-89cd-6c95b5456833",
+            "name": "Marquise Brown",
+            "jersey": "15",
+            "last_name": "Brown",
+            "first_name": "Marquise",
+            "abbr_name": "M.Brown",
+            "preferred_name": "Marquise",
+            "birth_date": "1997-06-04",
+            "weight": 170.0,
+            "height": 69,
+            "position": "WR",
+            "birth_place": "Hollywood, FL, USA",
+            "high_school": "Chaminade-Madonna (FL)",
+            "college": "Oklahoma",
+            "college_conf": "Big Twelve Conference",
+            "rookie_year": 2019,
+            "status": "A01",
+            "sr_id": "sr:player:1234416",
+            "draft": {
+                "year": 2019,
+                "round": 1,
+                "number": 25,
+                "team": {
+                    "id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+                    "name": "Ravens",
+                    "market": "Baltimore",
+                    "alias": "BAL",
+                    "sr_id": "sr:competitor:4413"
+                }
+            },
+            "references": [
+                {
+                    "id": "47808",
+                    "origin": "nflx"
+                },
+                {
+                    "id": "00-0035662",
+                    "origin": "gsis"
+                }
+            ]
+        }
+    ],
+    "_comment": "Generation started @ 2021-02-12 17:56:21 UTC ended @ 2021-02-12 17:56:21 UTC"
+}

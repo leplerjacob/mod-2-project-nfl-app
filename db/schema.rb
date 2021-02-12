@@ -13,9 +13,11 @@
 ActiveRecord::Schema.define(version: 2021_02_11_211901) do
 
   create_table "coaches", force: :cascade do |t|
-    t.string "name"
+    t.string "first_name"
+    t.string "last_name"
     t.integer "age"
     t.text "bio"
+    t.string "position"
     t.integer "team_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -56,7 +58,7 @@ ActiveRecord::Schema.define(version: 2021_02_11_211901) do
     t.index ["team_id"], name: "index_players_on_team_id"
   end
 
-  create_table "stadiums", force: :cascade do |t|
+  create_table "stadia", force: :cascade do |t|
     t.string "city"
     t.string "state"
     t.integer "capacity"
@@ -66,7 +68,6 @@ ActiveRecord::Schema.define(version: 2021_02_11_211901) do
 
   create_table "teams", force: :cascade do |t|
     t.string "name"
-    t.string "city"
     t.string "state"
     t.integer "stadium_id"
     t.integer "wins"
