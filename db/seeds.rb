@@ -11,21 +11,22 @@ require 'json'
 Team.destroy_all
 Player.destroy_all
 Coach.destroy_all
-Stadium.destroy_all
+Venue.destroy_all
 
 def finder_create(team_hash)
 
-    stadium = Stadium.create(
-        city: team_hash["venue"]["city"],
-        state: team_hash["venue"]["state"],
-        capacity: team_hash["venue"]["capacity"]
-    )
-
+    
     team = Team.create(
         name: team_hash["name"],
         state: team_hash["market"],
-        division: team_hash["division"]["name"],
-        stadium_id: stadium.id
+        division: team_hash["division"]["name"]
+        )
+
+    venue = Venue.create(
+        city: team_hash["venue"]["city"],
+        state: team_hash["venue"]["state"],
+        capacity: team_hash["venue"]["capacity"],
+        team_id: team.id
     )
 
     team_hash["players"].each{|player|
