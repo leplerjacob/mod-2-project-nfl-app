@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_02_13_005725) do
+ActiveRecord::Schema.define(version: 2021_02_13_205704) do
 
   create_table "coaches", force: :cascade do |t|
     t.string "first_name"
@@ -39,8 +39,6 @@ ActiveRecord::Schema.define(version: 2021_02_13_005725) do
   end
 
   create_table "players", force: :cascade do |t|
-    t.string "username"
-    t.string "password"
     t.string "first_name"
     t.string "last_name"
     t.string "birth_date"
@@ -52,10 +50,12 @@ ActiveRecord::Schema.define(version: 2021_02_13_005725) do
     t.float "weight"
     t.float "height"
     t.text "bio"
+    t.integer "user_id"
     t.integer "team_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["team_id"], name: "index_players_on_team_id"
+    t.index ["user_id"], name: "index_players_on_user_id"
   end
 
   create_table "teams", force: :cascade do |t|
@@ -66,6 +66,17 @@ ActiveRecord::Schema.define(version: 2021_02_13_005725) do
     t.string "division"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "username"
+    t.string "password_digest"
+    t.string "email"
+    t.string "phone_number"
+    t.integer "name_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["name_id"], name: "index_users_on_name_id"
   end
 
   create_table "venues", force: :cascade do |t|
