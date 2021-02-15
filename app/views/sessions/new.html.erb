@@ -1,4 +1,11 @@
 <h2>Login</h2>
+
+<%- if flash.any? %>
+  <%- flash.keys.each do |flash_key| %>
+    <%= flash.discard(flash_key) %>
+  <%- end %>
+<%- end %>
+
 <div>
     <%= form_for :user, url: login_path do |p| %>
         <div>

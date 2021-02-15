@@ -1,7 +1,6 @@
 class User < ApplicationRecord
     has_secure_password
     has_one :player, dependent: :nullify
-    validates :name_id, presence: {message: "has an account already"}
     validates :username, presence: true, uniqueness: true
     before_create :downcase_username
 

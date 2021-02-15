@@ -5,11 +5,10 @@ class UsersController < ApplicationController
 
   def create
     @user = User.create(user_params)
-    if @user.valid?
+    if @user.valid? && @user.errors.empty?
       redirect_to user_login_path, flash: { success: "Account successfully created", instruction: "Log into your new account to get started" }
     else
       @user.errors.each do |error|
-        byebug
         flash.now[error.attribute] = error.full_message
       end
       render :new
