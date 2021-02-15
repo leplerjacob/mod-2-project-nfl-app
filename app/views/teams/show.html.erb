@@ -18,7 +18,7 @@
     <tbody>
         <% @team.coaches.each do |coach| %>
         <tr>
-            <td><%= coach.first_name %></td>
+            <td><%= link_to coach.first_name, coach %></td>
             <td><%= coach.last_name %></td>
             <td><%= coach.position %></td>
         </tr>

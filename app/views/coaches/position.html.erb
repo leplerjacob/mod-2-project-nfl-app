@@ -1,7 +1,10 @@
-<h1 style="font-size:40px; color:purple">All Coaches</h1>
+<h1 style="font-size:40px; color:purple"><%= "All #{@coaches.first.position}" %></h1>
+
 <%= link_to 'All Players', players_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %><br><br>
-<%= link_to 'All Teams', teams_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %>
-<h4>Sorted by Teams</h4>
+<%= link_to 'All Teams', teams_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %><br><br>
+<%= link_to 'Back', coaches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %>
+
+<h4>Sorted by Teams and Position</h4>
 
 <% Team.team_names.sort.each do |name| %>
     <strong style="font-size:25px"><%= link_to name, team_path(Team.find_by(name: name)), {:style=>'color:#FF2D00;', :class => "css_class"} %></strong>
@@ -19,7 +22,7 @@
                     <tr>
                         <td><%= link_to coach.first_name, coach %></td>
                         <td><%= coach.last_name %></td>
-                        <td><%= link_to coach.position, coachpositions_path(coach.position) %></td>
+                        <td><%= coach.position %></td>
                     </tr>
                 <% end %>
             <% end %>

@@ -8,6 +8,10 @@ class PlayersController < ApplicationController
     def show
     end
 
+    def position
+        @players = Player.positions_array(params[:format])
+    end
+
     private
     def find_player
         @player = Player.find(params[:id])

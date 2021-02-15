@@ -12,4 +12,14 @@ class Player < ApplicationRecord
         end
     end
 
+    def self.positions_array(p)
+        p_array = []
+        Player.all.each do |player|
+            if player.position == p
+                p_array.push(player)
+            end
+        end
+        return p_array
+    end
+
 end
