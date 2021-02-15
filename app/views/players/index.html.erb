@@ -1,9 +1,10 @@
 <h1>All Players</h1>
-<%= link_to 'Teams', teams_path%>
+<%= link_to 'All Teams', teams_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %><br><br>
+<%= link_to 'All Coaches', coaches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %>
 <h4>Sorted By Teams</h4>
 
 <% @team_names.each do |team| %>
-    <h2><%= team %></h2>
+    <strong style="font-size:35px"><%= link_to team, team_path(Team.find_by(name: team)), {:style=>'color:#FF2D00;', :class => "css_class"} %></strong>
     <table style="width:50%">
         <thead>
             <tr style="font-size:25px">
@@ -27,5 +28,5 @@
                 <% end %>
             <% end %>
         </tbody>
-    </table>
+    </table><br><br>
 <% end %>

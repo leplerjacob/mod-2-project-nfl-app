@@ -1,5 +1,6 @@
 <h1>All Teams</h1>
-<%= link_to 'Players', players_path %>
+<%= link_to 'All Players', players_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %><br><br>
+<%= link_to 'All Coaches', coaches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %>
 <h4>Sorted by Division</h4>
 
 <% @divisions.each do |d| %>

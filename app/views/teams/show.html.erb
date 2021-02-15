@@ -1,11 +1,12 @@
-<h1><%= @team.name %></h1>
+<h1 style="font-size:100px; color:purple"><%= @team.name %></h1>
 <h2><%= "#{@team.state},  #{@team.division}"%></h2>
 <h2><%= "Wins:  #{@team.wins},  Losses:  #{@team.losses}" %></h2>
 
-<h4><%= link_to 'All Teams', teams_path %></h4>
-<h4><%= link_to 'All Player', players_path %></h4>
+<h4><%= link_to 'All Teams', teams_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %></h4>
+<h4><%= link_to 'All Player', players_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %></h4>
+<h4><%= link_to 'All Coaches', coaches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %></h4><br>
 
-<h3>Coaches</h3>
+<strong style="font-size:35px; color:red">Coaches</strong>
 <table style="width:35%">
     <thead>
         <tr style="font-size:25px">
@@ -23,9 +24,9 @@
         </tr>
         <% end %>
     </tbody>
-</table>
+</table><br><br>
 
-<h3>Players</h3>
+<strong style="font-size:35px; color:red">Players</strong>
 <table style="width:35%">
     <thead>
         <tr style="font-size:25px">

@@ -15,7 +15,6 @@ ActiveRecord::Schema.define(version: 2021_02_13_005725) do
   create_table "coaches", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
-    t.integer "age"
     t.text "bio"
     t.string "position"
     t.integer "team_id"
@@ -61,7 +60,6 @@ ActiveRecord::Schema.define(version: 2021_02_13_005725) do
   create_table "teams", force: :cascade do |t|
     t.string "name"
     t.string "state"
-    t.integer "stadium_id"
     t.integer "wins"
     t.integer "losses"
     t.string "division"

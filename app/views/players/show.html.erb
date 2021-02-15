@@ -1,4 +1,4 @@
-<h1><%= "#{@player.first_name} #{@player.last_name}" %></h1>
+<h1 style="font-size:40px; color:purple"><%= "#{@player.first_name} #{@player.last_name}" %></h1>
 
 <ul>
     <li><b style="font-size:20px">First Name:</b><%= @player.first_name %></li>
@@ -14,6 +14,7 @@
     <li><b style="font-size:20px">Bio:</b> <%= @player.bio %></li>
 </ul>
 
-<h4><%= link_to "Current player's team", team_path(@player.team_id) %></h4>
-<h4><%= link_to 'All Players', players_path %></h4>
-<h4><%= link_to 'All Teams', teams_path %></h4>
+<h4><%= link_to "Current player's team", team_path(@player.team_id),  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
+<h4><%= link_to 'All Players', players_path,  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
+<h4><%= link_to 'All Teams', teams_path,  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
+<h4><%= link_to 'All Coaches', coaches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %></h4>
