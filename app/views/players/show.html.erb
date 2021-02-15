@@ -1,16 +1,14 @@
 <style>
 .content {
-  max-width: 500px;
   margin: auto;
   text-align: center;
+  border: 50px groove red;
 }
 </style>
 <body>
     <div class="content">
         <h1 style="font-size:40px; color:purple"><%= "#{@player.first_name} #{@player.last_name}" %></h1>
 
-            <p><b style="font-size:20px">First Name:</b><%= @player.first_name %></p>
-            <p><b style="font-size:20px">Last Name:</b> <%= @player.last_name %></p>
             <p><b style="font-size:20px">Date of Birth:</b> <%= @player.birth_date %></p>
             <p><b style="font-size:20px">Age:</b> <%= @player.calc_age %></p>
             <p><b style="font-size:20px">Weight:</b> <%= @player.weight %></p>

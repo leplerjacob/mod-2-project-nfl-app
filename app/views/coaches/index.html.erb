@@ -1,8 +1,8 @@
 <style>
 .content {
-  max-width: 500px;
   margin: auto;
   text-align: center;
+  border: 50px groove red;
 }
 </style>
 <body>
@@ -14,7 +14,7 @@
 
         <% Team.team_names.sort.each do |name| %>
             <strong style="font-size:35px"><%= link_to name, team_path(Team.find_by(name: name)), {:style=>'color:#FF2D00;', :class => "css_class"} %></strong>
-            <table style="width:110%">
+            <table style="width:106%">
                 <thead>
                     <tr style="font-size:25px">
                         <th>First Name</th>
