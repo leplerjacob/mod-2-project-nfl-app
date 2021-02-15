@@ -19,10 +19,13 @@ def finder_create(team_hash)
     team = Team.create(
         name: team_hash["name"],
         state: team_hash["market"],
+        wins: 0,
+        losses: 0,
         division: team_hash["division"]["name"]
         )
 
     venue = Venue.create(
+        name: team_hash["venue"]["name"],
         city: team_hash["venue"]["city"],
         state: team_hash["venue"]["state"],
         capacity: team_hash["venue"]["capacity"],

@@ -1,0 +1,27 @@
+<h1>All Teams</h1>
+<%= link_to 'Players', players_path %>
+<h4>Sorted by Division</h4>
+
+<% @divisions.each do |d| %>
+    <h2><%= d %></h2>
+    <table style="width:20%">
+        <thead>
+            <tr style="font-size:25px">
+                <th>Name</th>
+                <th>wins</th>
+                <th>losses</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% @teams.each do |team| %>
+                <% if team.division == d %>
+                    <tr>
+                        <td><%= link_to team.name, team %></td>
+                        <td><%= team.wins %></td>
+                        <td><%= team.losses %></td>
+                    </tr>
+                <% end %>
+            <% end %>
+        </tbody>
+    </table>
+<% end %>

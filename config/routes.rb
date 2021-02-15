@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
-  resources :coaches
+  root 'topics#index'
+  resources :coaches, only: [:index, :show]
   resources :venues
   resources :matches
-  resources :teams
-  resources :players
+  resources :teams, only: [:index, :show]
+  resources :players, only: [:index, :show]
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

@@ -1,0 +1,19 @@
+<h1><%= "#{@player.first_name} #{@player.last_name}" %></h1>
+
+<ul>
+    <li><b style="font-size:20px">First Name:</b><%= @player.first_name %></li>
+    <li><b style="font-size:20px">Last Name:</b> <%= @player.last_name %></li>
+    <li><b style="font-size:20px">Date of Birth:</b> <%= @player.birth_date %></li>
+    <li><b style="font-size:20px">Age:</b> <%= @player.calc_age %></li>
+    <li><b style="font-size:20px">Weight:</b> <%= @player.weight %></li>
+    <li><b style="font-size:20px">Height:</b> <%= @player.height %></li>
+    <li><b style="font-size:20px">Position:</b> <%= @player.position %></li>
+    <li><b style="font-size:20px">Jersey Number:</b> <%= @player.jersey %></li>
+    <li><b style="font-size:20px">Home Town:</b> <%= @player.home_town %></li>
+    <li><b style="font-size:20px">College:</b> <%= @player.college %></li>
+    <li><b style="font-size:20px">Bio:</b> <%= @player.bio %></li>
+</ul>
+
+<h4><%= link_to "Current player's team", team_path(@player.team_id) %></h4>
+<h4><%= link_to 'All Players', players_path %></h4>
+<h4><%= link_to 'All Teams', teams_path %></h4>

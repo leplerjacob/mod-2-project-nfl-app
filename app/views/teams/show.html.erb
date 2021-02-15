@@ -1,0 +1,48 @@
+<h1><%= @team.name %></h1>
+<h2><%= "#{@team.state},  #{@team.division}"%></h2>
+<h2><%= "Wins:  #{@team.wins},  Losses:  #{@team.losses}" %></h2>
+
+<h4><%= link_to 'All Teams', teams_path %></h4>
+<h4><%= link_to 'All Player', players_path %></h4>
+
+<h3>Coaches</h3>
+<table style="width:35%">
+    <thead>
+        <tr style="font-size:25px">
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Position</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% @team.coaches.each do |coach| %>
+        <tr>
+            <td><%= coach.first_name %></td>
+            <td><%= coach.last_name %></td>
+            <td><%= coach.position %></td>
+        </tr>
+        <% end %>
+    </tbody>
+</table>
+
+<h3>Players</h3>
+<table style="width:35%">
+    <thead>
+        <tr style="font-size:25px">
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Jersey Number</th>
+            <th>Position</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% @team.players.each do |player| %>
+        <tr>
+            <td><%= link_to player.first_name, player %></td>
+            <td><%= player.last_name %></td>
+            <td><%= player.jersey %></td>
+            <td><%= player.position %></td>
+        </tr>
+        <% end %>
+    </tbody>
+</table>

@@ -2,11 +2,7 @@ class PlayersController < ApplicationController
     before_action :find_player, only: [:show]
 
     def index
-        temp = Team.all
-        @team_names = []
-        temp.length.times do
-            @team_names.push(temp.name)
-        end
+        @team_names = Team.team_names
         @players = Player.all
     end
 
