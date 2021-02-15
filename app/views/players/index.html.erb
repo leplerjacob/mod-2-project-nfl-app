@@ -1,32 +1,43 @@
-<h1 style="font-size:40px; color:purple">All Players</h1>
-<%= link_to 'All Teams', teams_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %><br><br>
-<%= link_to 'All Coaches', coaches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %>
-<h4>Sorted By Teams</h4>
+<style>
+.content {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+</style>
+<body>
+    <div class="content">
+        <h1 style="font-size:40px; color:purple">All Players</h1>
+        <%= link_to 'All Teams', teams_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %><br><br>
+        <%= link_to 'All Coaches', coaches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %>
+        <h4>Sorted By Teams</h4>
 
-<% Team.team_names.sort.each do |team| %>
-    <strong style="font-size:35px"><%= link_to team, team_path(Team.find_by(name: team)), {:style=>'color:#FF2D00;', :class => "css_class"} %></strong>
-    <table style="width:50%">
-        <thead>
-            <tr style="font-size:25px">
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Jersey Number</th>
-                <th>Position</th>
-                <th>Team Name</th>
-            </tr>
-        </thead>
-        <tbody>
-            <% @players.each do |player| %>
-                <% if player.team.name == team %>
-                <tr>
-                    <td><%= link_to player.first_name, player %></td>
-                    <td><%= player.last_name %></td>
-                    <td><%= player.jersey %></td>
-                    <td><%= link_to player.position, playerpositions_path(player.position) %></td>
-                    <td><%= player.team.name %></td>
-                </tr>
-                <% end %>
-            <% end %>
-        </tbody>
-    </table><br><br>
-<% end %>
+        <% Team.team_names.sort.each do |team| %>
+            <strong style="font-size:35px"><%= link_to team, team_path(Team.find_by(name: team)), {:style=>'color:#FF2D00;', :class => "css_class"} %></strong>
+            <table style="width:100%">
+                <thead>
+                    <tr style="font-size:25px">
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Jersey Number</th>
+                        <th>Position</th>
+                        <th>Team Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% @players.each do |player| %>
+                        <% if player.team.name == team %>
+                        <tr>
+                            <td style="text-align:center"><%= link_to player.first_name, player %></td>
+                            <td style="text-align:center"><%= player.last_name %></td>
+                            <td style="text-align:center"><%= player.jersey %></td>
+                            <td style="text-align:center"><%= link_to player.position, playerpositions_path(player.position) %></td>
+                            <td style="text-align:center"><%= player.team.name %></td>
+                        </tr>
+                        <% end %>
+                    <% end %>
+                </tbody>
+            </table><br><br>
+        <% end %>
+    </div>
+</body>

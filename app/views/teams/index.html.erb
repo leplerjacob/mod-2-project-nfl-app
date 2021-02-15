@@ -1,28 +1,39 @@
-<h1 style="font-size:40px; color:purple">All Teams</h1>
-<%= link_to 'All Players', players_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %><br><br>
-<%= link_to 'All Coaches', coaches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %>
-<h4>Sorted by Division</h4>
+<style>
+.content {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+</style>
+<body>
+    <div class="content">
+        <h1 style="font-size:40px; color:purple">All Teams</h1>
+        <%= link_to 'All Players', players_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %><br><br>
+        <%= link_to 'All Coaches', coaches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %>
+        <h4>Sorted by Division</h4>
 
-<% Team.division_array.each do |d| %>
-    <h2 style="font-size:35px; color:red"><%= d %></h2>
-    <table style="width:20%">
-        <thead>
-            <tr style="font-size:25px">
-                <th>Name</th>
-                <th>wins</th>
-                <th>losses</th>
-            </tr>
-        </thead>
-        <tbody>
-            <% @teams.each do |team| %>
-                <% if team.division == d %>
-                    <tr>
-                        <td><%= link_to team.name, team %></td>
-                        <td><%= team.wins %></td>
-                        <td><%= team.losses %></td>
+        <% Team.division_array.each do |d| %>
+            <h2 style="font-size:35px; color:red"><%= d %></h2>
+            <table style="width:100%">
+                <thead>
+                    <tr style="font-size:25px">
+                        <th>Name</th>
+                        <th>wins</th>
+                        <th>losses</th>
                     </tr>
-                <% end %>
-            <% end %>
-        </tbody>
-    </table>
-<% end %>
+                </thead>
+                <tbody>
+                    <% @teams.each do |team| %>
+                        <% if team.division == d %>
+                            <tr>
+                                <td style="text-align:center"><%= link_to team.name, team %></td>
+                                <td style="text-align:center"><%= team.wins %></td>
+                                <td style="text-align:center"><%= team.losses %></td>
+                            </tr>
+                        <% end %>
+                    <% end %>
+                </tbody>
+            </table>
+        <% end %>
+    </div>
+</body>

@@ -1,13 +1,22 @@
-<h1 style="font-size:40px; color:purple"><%= "#{@coach.first_name} #{@coach.last_name}" %></h1>
+<style>
+.content {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+</style>
+<body>
+    <div class="content">
+        <h1 style="font-size:40px; color:purple"><%= "#{@coach.first_name} #{@coach.last_name}" %></h1>
 
-<ul>
-    <li><b style="font-size:20px">First Name:</b><%= @coach.first_name %></li>
-    <li><b style="font-size:20px">Last Name:</b> <%= @coach.last_name %></li>
-    <li><b style="font-size:20px">Position:</b> <%= @coach.position %></li>
-    <li><b style="font-size:20px">Bio:</b> <%= @coach.bio %></li>
-</ul>
+            <p><b style="font-size:20px">First Name:</b><%= @coach.first_name %></p>
+            <p><b style="font-size:20px">Last Name:</b> <%= @coach.last_name %></p>
+            <p><b style="font-size:20px">Position:</b> <%= @coach.position %></p>
+            <p><b style="font-size:20px">Bio:</b> <%= @coach.bio %></p>
 
-<h4><%= link_to "Current coach's team", team_path(@coach.team_id),  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
-<h4><%= link_to 'All Players', players_path,  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
-<h4><%= link_to 'All Teams', teams_path,  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
-<h4><%= link_to 'All Coaches', coaches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %></h4>
+        <h4><%= link_to "Current coach's team", team_path(@coach.team_id),  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
+        <h4><%= link_to 'All Players', players_path,  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
+        <h4><%= link_to 'All Teams', teams_path,  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
+        <h4><%= link_to 'All Coaches', coaches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %></h4>
+    </div>
+</body>
