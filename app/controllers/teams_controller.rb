@@ -2,7 +2,6 @@ class TeamsController < ApplicationController
     before_action :find_team, only: [:show]
 
     def index
-        @divisions = Team.division_array
         @teams = Team.all
     end
 
