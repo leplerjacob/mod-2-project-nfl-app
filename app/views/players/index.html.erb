@@ -3,7 +3,7 @@
 <%= link_to 'All Coaches', coaches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %>
 <h4>Sorted By Teams</h4>
 
-<% @team_names.each do |team| %>
+<% Team.team_names.each do |team| %>
     <strong style="font-size:35px"><%= link_to team, team_path(Team.find_by(name: team)), {:style=>'color:#FF2D00;', :class => "css_class"} %></strong>
     <table style="width:50%">
         <thead>

@@ -2,7 +2,6 @@ class PlayersController < ApplicationController
     before_action :find_player, only: [:show]
 
     def index
-        @team_names = Team.team_names
         @players = Player.all
     end
 
