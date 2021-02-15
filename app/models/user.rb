@@ -1,21 +1,22 @@
 class User < ApplicationRecord
     has_secure_password
-    has_one :player
-    validate :check_player_exists
+    has_one :player, dependent: :nullify
+    validates :name_id, presence: {message: "has an account already"}
+    validates :username, presence: true, uniqueness: true
+    before_create :downcase_username
 
-    def player_name=(name)
-        first_name, last_name = name.split(" ")
-        player = Player.find_by(first_name: first_name, last_name: last_name)
-        self.name_id = player.id
+    def downcase_username
+        self.username.downcase!   
+    end
+
+    def name_id=(id)
+        player = Player.find(id)
+        if player.user.nil?
+            self.player = Player.find(id)
+        end
     end
 
     def name
         Player.find(self.name_id).name_to_s if self.name_id
     end
-
-    private
-        def check_player_exists
-            # byebug
-            # player_exists()
-        end
 end

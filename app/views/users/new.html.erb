@@ -1,2 +1,52 @@
-<h1>Users#new</h1>
-<p>Find me in app/views/users/new.html.erb</p>
+<h2>New Account</h2>
+<!-- Notes
+1.) Note about :name attribute
+    For now, the name will be entered and searched for within backend to check for existence as a player. If player name does not exist, reroute to create player account page, else add username/password to player instance
+
+    Future update might include a searchable text-box to find an exisiting player name without an account yet. And may require some form of identity verification to make sure the person creating the account is actually that player they choose
+
+2.) Note about :username attribute
+    Username must be unique
+
+3.) Note about :name_id
+    As of this moment, dropdown select displays all players by a lastname/first basis. If there is time, will implement javascript dynamic search functionality
+-->
+
+<%- if flash.any? %>
+  <%- flash.keys.each do |flash_key| %>
+  <% byebug %>
+    <%= flash.discard(flash_key) %>
+  <%- end %>
+<%- end %>
+
+<div>
+    <%= form_for @user do |p| %>
+        <div>
+            <%= p.label "Name" %>
+            <%= p.collection_select :name_id, Player.return_players_without_accounts, :id, :last_name_first %>
+        </div>
+        <div class="<%= "field-with-error" if flash[:username] %>">
+            <%= p.label :username %>
+            <%= p.text_field :username, class:"field"%>
+        </div>
+        <div class="<%= "field-with-error" if flash[:password] %>">
+            <%= p.label :password %>
+            <%= p.password_field :password, class:"field" %>
+        </div>
+        <div class="<%= "field-with-error" if flash[:password_confirmation] %>">
+            <%= p.label :password_confirmation %>
+            <%= p.password_field :password_confirmation, class:"field" %>
+        </div>
+        <div class="<%= "field-with-error" if flash[:email] %>">
+            <%= p.label :email %>
+            <%= p.text_field :email, class:"field" %>
+        </div>
+        <div class="<%= "field-with-error" if flash[:phone_number] %>">
+            <%= p.label :phone_number %>
+            <%= p.text_field :phone_number, class:"field" %>
+        </div>
+        <div>
+            <%= p.submit "Create Your Account" %>
+        </div>
+    <% end %>
+</div>
