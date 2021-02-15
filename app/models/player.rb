@@ -16,6 +16,8 @@ class Player < ApplicationRecord
 
     def self.return_players_without_accounts
         Player.where(user_id: nil)
+    end
+
     def calc_age
         if self.birth_date != nil
             temp = self.birth_date
