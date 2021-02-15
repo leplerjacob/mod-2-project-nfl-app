@@ -2,7 +2,7 @@ class PlayersController < ApplicationController
     before_action :find_player, only: [:show]
 
     def index
-        @players = Player.all
+        @players = Player.all.sort{|a,b| a.first_name <=> b.first_name}
     end
 
     def show

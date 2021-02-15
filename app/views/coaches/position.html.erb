@@ -7,7 +7,7 @@
 </style>
 <body>
     <div class="content">
-        <h1 style="font-size:40px; color:purple"><%= "All #{@coaches.first.position}" %></h1>
+        <h1 style="font-size:40px; color:purple"><%= "#{@coaches.first.position}" %></h1>
 
         <%= link_to 'All Players', players_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %><br><br>
         <%= link_to 'All Teams', teams_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %><br><br>

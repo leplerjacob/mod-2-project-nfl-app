@@ -2,7 +2,7 @@ class CoachesController < ApplicationController
     before_action :find_coach, only: [:show]
 
     def index
-        @coaches = Coach.all
+        @coaches = Coach.all.sort{|a,b| a.first_name <=> b.first_name}
     end
 
     def show

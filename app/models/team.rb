@@ -9,7 +9,7 @@ class Team < ApplicationRecord
         temp.each do |team|
             team_names.push(team.name)
         end
-        return team_names
+        return team_names.sort
     end
 
     def self.division_array
