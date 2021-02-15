@@ -1,0 +1,33 @@
+<style>
+.content {
+    margin: auto;
+    text-align: center;
+    border: 50px groove red;
+    background-image: url('https://www.nicepng.com/png/detail/40-402412_10-oct-2018-cotton-polyester-comfort-nfl-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px;
+}
+</style>
+<body>
+    <div class="content">
+        <h1 style="font-size:40px; color:purple"><%= "#{@player.first_name} #{@player.last_name}" %></h1>
+
+            <p><b style="font-size:20px">Date of Birth:</b> <%= @player.birth_date %></p>
+            <p><b style="font-size:20px">Age:</b> <%= @player.calc_age %></p>
+            <p><b style="font-size:20px">Weight:</b> <%= @player.weight %></p>
+            <p><b style="font-size:20px">Height:</b> <%= @player.height %></p>
+            <p><b style="font-size:20px">Position:</b> <%= @player.position %></p>
+            <p><b style="font-size:20px">Jersey Number:</b> <%= @player.jersey %></p>
+            <p><b style="font-size:20px">Home Town:</b> <%= @player.home_town %></p>
+            <p><b style="font-size:20px">College:</b> <%= @player.college %></p>
+            <p><b style="font-size:20px">Bio:</b> <%= @player.bio %></p>
+
+        <h4><%= link_to "Current player's team", team_path(@player.team_id),  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
+        <h4><%= link_to 'All Players', players_path,  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
+        <h4><%= link_to 'All Teams', teams_path,  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
+        <h4><%= link_to 'All Coaches', coaches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %></h4>
+    </div>
+</body>

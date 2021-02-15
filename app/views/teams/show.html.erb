@@ -1,0 +1,66 @@
+<style>
+.content {
+    margin: auto;
+    text-align: center;
+    border: 50px groove red;
+    background-image: url('https://www.nicepng.com/png/detail/40-402412_10-oct-2018-cotton-polyester-comfort-nfl-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px;
+}
+</style>
+<body>
+    <div class="content">
+        <h1 style="font-size:100px; color:purple"><%= @team.name %></h1>
+        <h2><%= "#{@team.state},  #{@team.division}"%></h2>
+        <h2><%= "Wins:  #{@team.wins},  Losses:  #{@team.losses}" %></h2>
+
+        <h4><%= link_to 'All Teams', teams_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %></h4>
+        <h4><%= link_to 'All Player', players_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %></h4>
+        <h4><%= link_to 'All Coaches', coaches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %></h4><br>
+
+        <strong style="font-size:35px; color:red">Coaches</strong>
+        <table style="width:100%">
+            <thead>
+                <tr style="font-size:25px">
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Position</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% @team.coaches.sort{|a,b| a.first_name <=> b.first_name}.each do |coach| %>
+                <tr>
+                    <td style="text-align:center"><%= link_to coach.first_name, coach %></td>
+                    <td style="text-align:center"><%= coach.last_name %></td>
+                    <td style="text-align:center"><%= coach.position %></td>
+                </tr>
+                <% end %>
+            </tbody>
+        </table><br><br>
+
+        <strong style="font-size:35px; color:red">Players</strong>
+        <table style="width:100%">
+            <thead>
+                <tr style="font-size:25px">
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Jersey Number</th>
+                    <th>Position</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% @team.players.sort{|a,b| a.first_name <=> b.first_name}.each do |player| %>
+                <tr>
+                    <td style="text-align:center"><%= link_to player.first_name, player %></td>
+                    <td style="text-align:center"><%= player.last_name %></td>
+                    <td style="text-align:center"><%= player.jersey %></td>
+                    <td style="text-align:center"><%= player.position %></td>
+                </tr>
+                <% end %>
+            </tbody>
+        </table>
+    </div>
+</body>

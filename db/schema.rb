@@ -15,7 +15,6 @@ ActiveRecord::Schema.define(version: 2021_02_13_205704) do
   create_table "coaches", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
-    t.integer "age"
     t.text "bio"
     t.string "position"
     t.integer "team_id"
@@ -26,7 +25,7 @@ ActiveRecord::Schema.define(version: 2021_02_13_205704) do
 
   create_table "matches", force: :cascade do |t|
     t.string "date"
-    t.integer "venue_id"
+    t.integer "stadium_id"
     t.integer "home_team_id"
     t.integer "away_team_id"
     t.integer "home_score"
@@ -35,7 +34,7 @@ ActiveRecord::Schema.define(version: 2021_02_13_205704) do
     t.datetime "updated_at", precision: 6, null: false
     t.index ["away_team_id"], name: "index_matches_on_away_team_id"
     t.index ["home_team_id"], name: "index_matches_on_home_team_id"
-    t.index ["venue_id"], name: "index_matches_on_venue_id"
+    t.index ["stadium_id"], name: "index_matches_on_stadium_id"
   end
 
   create_table "players", force: :cascade do |t|
@@ -66,6 +65,7 @@ ActiveRecord::Schema.define(version: 2021_02_13_205704) do
     t.string "division"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["stadium_id"], name: "index_teams_on_stadium_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -80,6 +80,7 @@ ActiveRecord::Schema.define(version: 2021_02_13_205704) do
   end
 
   create_table "venues", force: :cascade do |t|
+    t.string "name"
     t.string "city"
     t.string "state"
     t.integer "capacity"

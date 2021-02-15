@@ -3,12 +3,6 @@ class Player < ApplicationRecord
     belongs_to :user, optional: true
     has_many :coaches, through: :team
 
-    # def player_exists(name)
-    #     [first_name, last_name] = name.split(" ")
-    #     player = Player.find_by(first_name: first_name, last_name: last_name)
-    #     player.nil?
-    # end
-
 
     # Returns "firstname lastname"
     def name_to_s
@@ -22,6 +16,24 @@ class Player < ApplicationRecord
 
     def self.return_players_without_accounts
         Player.where(user_id: nil)
+    def calc_age
+        if self.birth_date != nil
+            temp = self.birth_date
+            date = temp.split("-")
+            calculated = Time.now.year - date[0].to_i
+            self.age = calculated
+            return calculated
+        end
+    end
+
+    def self.positions_array(p)
+        p_array = []
+        Player.all.each do |player|
+            if player.position == p
+                p_array.push(player)
+            end
+        end
+        return p_array
     end
 
 end
