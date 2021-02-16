@@ -38,4 +38,13 @@ class Player < ApplicationRecord
         return p_array
     end
 
+    def retrieve_data
+        team_data = File.read("./db/season-data/#{self.team.name.downcase}-s.json")
+        team_data_as_hash = JSON.parse(team_data)
+        player = team_data_as_hash["players"].select{|player|
+            player["name"] == self.name_to_s
+        }
+        byebug
+    end
+
 end
