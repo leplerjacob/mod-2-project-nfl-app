@@ -30,6 +30,7 @@
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
       <%= link_to "Home", :root, class:"navbar-item" %>
+
       <a class="navbar-item">
         Profile
       </a>
@@ -60,6 +61,7 @@
           <a class="button is-light">
             Log in
           </a>
+          <%= link_to "Log out", logout_path, method: "delete", class:"button" %>
         </div>
       </div>
     </div>

@@ -58,12 +58,12 @@ ActiveRecord::Schema.define(version: 2021_02_16_181904) do
   end
 
   create_table "routines", force: :cascade do |t|
-    t.integer "user_id_id", null: false
+    t.integer "user_id", null: false
     t.string "date"
     t.string "location"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["user_id_id"], name: "index_routines_on_user_id_id"
+    t.index ["user_id"], name: "index_routines_on_user_id"
   end
 
   create_table "teams", force: :cascade do |t|
@@ -105,11 +105,11 @@ ActiveRecord::Schema.define(version: 2021_02_16_181904) do
     t.string "date"
     t.float "distance"
     t.string "duration"
-    t.integer "routine_id_id"
+    t.integer "routine_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["routine_id_id"], name: "index_workouts_on_routine_id_id"
+    t.index ["routine_id"], name: "index_workouts_on_routine_id"
   end
 
-  add_foreign_key "routines", "user_ids"
+  add_foreign_key "routines", "users"
 end

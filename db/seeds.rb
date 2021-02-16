@@ -54,7 +54,6 @@ def finder_create(team_hash)
             first_name: coach["first_name"],
             last_name: coach["last_name"],
             position: coach["position"],
-            age: 0,
             bio: Faker::Lorem.paragraph,
             team_id: team.id
         )

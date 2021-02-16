@@ -1,4 +1,5 @@
 class CoachesController < ApplicationController
+    before_action :logged_in_user
     before_action :find_coach, only: [:show]
 
     def index
