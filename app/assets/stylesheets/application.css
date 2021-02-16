@@ -23,11 +23,20 @@
     background-color: var(--red-primary)
 }
 
+/* Navbar */
+
+nav {
+    padding: 0 5vw;
+}
+
 .navbar-item:hover {
     color: #c0424e !important;
 }
 .navbar-link:hover {
     color: #c0424e !important;
+}
+
+/* Stat Content */
 .content {
     margin: auto;
     text-align: center;

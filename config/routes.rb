@@ -1,11 +1,10 @@
 Rails.application.routes.draw do
   
-  get 'workouts/new'
-  get 'workouts/create'
-  get 'workouts/show'
-  get 'routines/new'
-  get 'routines/create'
-  get 'routines/show'
+  # Welcome
+  get '/home', to: 'welcome#home', as: 'home'
+  get '/about', to: 'welcome#about', as: 'about'
+  get '/contact', to: 'welcome#contact', as: 'contact'
+
   # Temp Homepage
   root "sessions#new"
   
@@ -32,6 +31,12 @@ Rails.application.routes.draw do
   # Players
   resources :players, only: [:index, :show]
   get '/playerpositions', to: 'players#position'
+
+  # Workouts
+  resources :workouts
+
+  # Routines
+  resources :routines
   
   delete 'logout', to: 'sessions#logout', as: 'logout'
 
