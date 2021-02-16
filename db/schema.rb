@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_02_13_205704) do
+ActiveRecord::Schema.define(version: 2021_02_16_181904) do
 
   create_table "coaches", force: :cascade do |t|
     t.string "first_name"
@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 2021_02_13_205704) do
 
   create_table "matches", force: :cascade do |t|
     t.string "date"
-    t.integer "stadium_id"
+    t.integer "venue_id"
     t.integer "home_team_id"
     t.integer "away_team_id"
     t.integer "home_score"
@@ -34,7 +34,7 @@ ActiveRecord::Schema.define(version: 2021_02_13_205704) do
     t.datetime "updated_at", precision: 6, null: false
     t.index ["away_team_id"], name: "index_matches_on_away_team_id"
     t.index ["home_team_id"], name: "index_matches_on_home_team_id"
-    t.index ["stadium_id"], name: "index_matches_on_stadium_id"
+    t.index ["venue_id"], name: "index_matches_on_venue_id"
   end
 
   create_table "players", force: :cascade do |t|
@@ -57,6 +57,15 @@ ActiveRecord::Schema.define(version: 2021_02_13_205704) do
     t.index ["user_id"], name: "index_players_on_user_id"
   end
 
+  create_table "routines", force: :cascade do |t|
+    t.integer "user_id_id", null: false
+    t.string "date"
+    t.string "location"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_id_id"], name: "index_routines_on_user_id_id"
+  end
+
   create_table "teams", force: :cascade do |t|
     t.string "name"
     t.string "state"
@@ -65,7 +74,6 @@ ActiveRecord::Schema.define(version: 2021_02_13_205704) do
     t.string "division"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["stadium_id"], name: "index_teams_on_stadium_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -90,4 +98,18 @@ ActiveRecord::Schema.define(version: 2021_02_13_205704) do
     t.index ["team_id"], name: "index_venues_on_team_id"
   end
 
+  create_table "workouts", force: :cascade do |t|
+    t.string "type"
+    t.float "weight"
+    t.integer "reps"
+    t.string "date"
+    t.float "distance"
+    t.string "duration"
+    t.integer "routine_id_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["routine_id_id"], name: "index_workouts_on_routine_id_id"
+  end
+
+  add_foreign_key "routines", "user_ids"
 end

@@ -7,6 +7,7 @@ class CreateWorkouts < ActiveRecord::Migration[6.1]
       t.string :date
       t.float :distance
       t.string :duration
+      t.references :routine_id
 
       t.timestamps
     end
