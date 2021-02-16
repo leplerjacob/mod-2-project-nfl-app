@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
   
+  get 'workouts/new'
+  get 'workouts/create'
+  get 'workouts/show'
+  get 'routines/new'
+  get 'routines/create'
+  get 'routines/show'
   # Temp Homepage
   root "sessions#new"
   

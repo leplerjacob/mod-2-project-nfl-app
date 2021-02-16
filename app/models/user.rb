@@ -1,6 +1,8 @@
 class User < ApplicationRecord
     has_secure_password
     has_one :player, dependent: :nullify
+    has_many :routines
+    has_many :workouts, through: :routines
     validates :username, presence: true, uniqueness: true
     before_create :downcase_username
 
