@@ -1,0 +1,39 @@
+<h2>New Account</h2>
+
+<%- if flash.any? %>
+  <%- flash.keys.each do |flash_key| %>
+    <%= flash.discard(flash_key) %>
+  <%- end %>
+<%- end %>
+
+<div>
+    <%= form_for @user do |p| %>
+        <div>
+            <%= p.label "Name" %>
+            <%= p.collection_select :name_id, Player.return_players_without_accounts, :id, :last_name_first %>
+        </div>
+        <div class="<%= "field-with-error" if flash[:username] %>">
+            <%= p.label :username %>
+            <%= p.text_field :username, class:"field"%>
+        </div>
+        <div class="<%= "field-with-error" if flash[:password] %>">
+            <%= p.label :password %>
+            <%= p.password_field :password, class:"field" %>
+        </div>
+        <div class="<%= "field-with-error" if flash[:password_confirmation] %>">
+            <%= p.label :password_confirmation %>
+            <%= p.password_field :password_confirmation, class:"field" %>
+        </div>
+        <div class="<%= "field-with-error" if flash[:email] %>">
+            <%= p.label :email %>
+            <%= p.text_field :email, class:"field" %>
+        </div>
+        <div class="<%= "field-with-error" if flash[:phone_number] %>">
+            <%= p.label :phone_number %>
+            <%= p.text_field :phone_number, class:"field" %>
+        </div>
+        <div>
+            <%= p.submit "Create Your Account" %>
+        </div>
+    <% end %>
+</div>

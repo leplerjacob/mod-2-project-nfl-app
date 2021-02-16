@@ -24,3 +24,19 @@
     background-attachment: fixed;
     padding: 100px;
 }
+
+:root {
+    --red-primary: #c0424e
+    --blue-primary: #341671
+}
+
+.red-primary {
+    background-color: var(--red-primary)
+}
+
+.navbar-item:hover {
+    color: #c0424e !important;
+}
+.navbar-link:hover {
+    color: #c0424e !important;
+}

@@ -1,6 +1,22 @@
 class Player < ApplicationRecord
     belongs_to :team
+    belongs_to :user, optional: true
     has_many :coaches, through: :team
+
+
+    # Returns "firstname lastname"
+    def name_to_s
+        self.first_name + " " + self.last_name
+    end
+
+    # Returns "lastname firstname"
+    def last_name_first
+        self.last_name + ", " + self.first_name
+    end
+
+    def self.return_players_without_accounts
+        Player.where(user_id: nil)
+    end
 
     def calc_age
         if self.birth_date != nil
