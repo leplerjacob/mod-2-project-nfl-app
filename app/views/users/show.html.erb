@@ -1,6 +1,33 @@
-<section class="section is-large">
-  <table>
-    
-  
-  </table>
-</section>
+    <hr>
+<div class="is-flex flex-direction-row">
+  <section class="section is-small flex-item">
+    <div>
+      <%= image_tag 'blank.jpg', height:"200", width:"200"%> <br>
+      <%= button_tag "Add image"%>
+    </div>
+    <div class="">
+    </div>
+    <hr>
+  </section>
+  <section class="section is-small flex-item">
+    <h2 class="py-3"><%= @user.player.name_to_s %></h2>
+    <h3><%= @user.player.position %> #<%= @user.player.jersey %></h3>
+    <h4><%= @user.player.team.name %></h4>
+
+    <h2>Info</h2>
+    <table>
+      <thead>
+        <tr>
+          <td>Email: <%= @user.email %></td>
+        </tr>
+        <tr>
+          <td>Phone Number: <%= @user.phone_number %></td>
+        </tr>
+      </thead>
+    </table>
+    <hr>
+  </section>
+</div>
+  <section class="seciont is-large">
+    <h2><%= link_to "View Workout Routines", routines_path %></h2>
+  </section>

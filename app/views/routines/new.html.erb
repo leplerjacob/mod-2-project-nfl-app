@@ -1,2 +1,23 @@
-<h1>Routines#new</h1>
-<p>Find me in app/views/routines/new.html.erb</p>
+<section class="section is-large">
+    <h2>Add Workout Routine</h2>
+
+    <%= form_for :routine, url: routines_path do |r| %>
+        <%= r.hidden_field :user_id, value: current_user %>
+        <div class="<%= "field-with-error" if flash[:title] %>">
+            <%= r.label "Routine/Focus" %>
+            <%= r.text_field :title, class:"field" %>
+        </div>
+        <div class="<%= "field-with-error" if flash[:date] %>">
+            <%= r.label :date %>
+            <%= r.date_field :date, value: r.object.try(:strftime,"%m/%d/%Y"), class: 'field' %>
+        </div>
+        <div class="<%= "field-with-error" if flash[:workout] %>">
+            <%= r.label "How many exercises in this routine?" %>
+            <%= r.number_field :number, class:"field" %>
+        </div>
+        <div>
+            <%= r.submit "Add Routine" %>
+        </div>
+    <% end %>
+
+</section>

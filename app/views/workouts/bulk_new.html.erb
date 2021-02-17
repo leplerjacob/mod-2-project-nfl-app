@@ -1,0 +1,34 @@
+<h2>Add Workouts to <%= @routine.title %> created at <%= @routine.created_at.to_s %></h2>
+<section class="section is-medium">
+
+    <%= form_for @workouts.to_ary, method: 'patch',url:    update_routine_workouts_path do |r| %>
+        <%= @workouts.each_with_index do |w,i| %>
+            
+            <h2>Add workout <%= number_to_human(i+1) %></h2>
+            <div>
+                <%= r.label "Name of exercise" %>
+                <%= r.text_field :type, class:"field" %>
+            </div>
+            <div>
+                <%= r.label :weight %>
+                <%= r.text_field :weight, class:"field" %>
+            </div>
+            <div>
+                <%= r.label :weight %>
+                <%= r.text_field :weight, class:"field" %>
+            </div>
+            <div>
+                <%= r.label :distance %>
+                <%= r.text_field :distance, class:"field" %>
+            </div>
+            <div>
+                <%= r.label :duration %>
+                <%= r.date_field :duration, class: 'field' %>
+            </div>
+        <% end %>
+        <div>
+            <%= r.submit "Add Routine" %>
+        </div>
+    <% end %>
+
+</section>

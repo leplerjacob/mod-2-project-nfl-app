@@ -1,0 +1,38 @@
+<h2>Your Routines</h2>
+<% if @routines.size == 0 %>
+    <%= link_to @routines.size == 0 ? "Add your first routine" : "Add Routine", new_routine_path %>
+<% end %>
+<table>
+    <thead>
+        <tr>
+           Routines
+        </tr>
+    </thead>
+    <tbody>
+        <% @routines.each_with_index do |r, i| %>
+        <%= i == 0 ? r.title %>
+            <% r.workouts.each do |w| %>
+                <tr>
+                    <td>Type</td>
+                    <td><%= w.type %></td>
+                </tr>
+                <tr>
+                    <td>Duration</td>
+                    <td><%= w.duration %></td>
+                </tr>
+                <tr>
+                    <td>Distance</td>
+                    <td><%= w.type %></td>
+                </tr>
+                <tr>
+                    <td>Weight</td>
+                    <td><%= w.weight %></td>
+                </tr>
+                <tr>
+                    <td>Reps</td>
+                    <td><%= w.type %></td>
+                </tr>
+            <% end %>
+        <% end %>
+    </tbody>
+</table>

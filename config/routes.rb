@@ -34,9 +34,11 @@ Rails.application.routes.draw do
 
   # Workouts
   resources :workouts
+  get 'routine/workouts', to: 'workouts#bulk_new', as: 'bulk_new'
 
   # Routines
   resources :routines
+  patch 'update/routine', to: 'workouts#update_routine_workouts', as: 'update_routine_workouts'
   
   delete 'logout', to: 'sessions#logout', as: 'logout'
 

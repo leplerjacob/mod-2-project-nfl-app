@@ -5,13 +5,11 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   </head>
-
 
   <body class="has-navbar-fixed-top">
 
@@ -54,6 +52,7 @@
         <div class="buttons">
           <%= link_to "Sign up", new_user_path, class:"button is-danger" unless logged_in? %>
           <%= link_to "Log in", login_path, class:"button is-light" unless logged_in? %>
+          <%= link_to "My Profile", user_path(User.find(session[:user_id])), class:"button" if logged_in? %>
           <%= link_to "Log out", logout_path, method: "delete", class:"button" if logged_in? %>
         </div>
       </div>
@@ -64,7 +63,6 @@
   <div class="container">
     <%= yield %>
     </div>
-
 
   <script>
   document.addEventListener('DOMContentLoaded', () => {

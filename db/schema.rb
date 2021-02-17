@@ -59,6 +59,7 @@ ActiveRecord::Schema.define(version: 2021_02_16_181904) do
 
   create_table "routines", force: :cascade do |t|
     t.integer "user_id", null: false
+    t.string "title"
     t.string "date"
     t.string "location"
     t.datetime "created_at", precision: 6, null: false

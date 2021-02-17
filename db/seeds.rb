@@ -12,6 +12,7 @@ Team.destroy_all
 Player.destroy_all
 Coach.destroy_all
 Venue.destroy_all
+User.destroy_all
 
 def finder_create(team_hash)
 
@@ -80,3 +81,4 @@ files.length.times do
     x += 1
 end
 
+User.create(name_id: 2345, username: "tbrady", password: "tb", password_confirmation: "tb", email: "tb@gmail.com", phone_number: "1112223332")
