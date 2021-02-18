@@ -1,7 +1,7 @@
 class Match < ApplicationRecord
-    has_many :team_matches
-    has_many :teams, through: :team_matches
-    # has_and_belongs_to_many :teams
+    belongs_to :venue
+    belongs_to :home_team, class_name: 'Team'
+    belongs_to :away_team, class_name: 'Team'
 
     def self.weeks
         matches = TeamMatch.all
@@ -12,23 +12,11 @@ class Match < ApplicationRecord
         return ans
     end
 
-    def home
-        return Team.find_by(id: self.home_team_id)
-    end
-
-    def away
-        return Team.find_by(id: self.away_team_id)
-    end
-
-    def venue
-        return Venue.find_by(id: self.venue_id)
-    end
-
     def winner
         if self.home_score > self.away_score
-            return self.home
+            return self.home_team
         else
-            return self.away
+            return self.away_team
         end
     end 
 

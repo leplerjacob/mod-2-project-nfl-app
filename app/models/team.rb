@@ -2,9 +2,8 @@ class Team < ApplicationRecord
     has_one :venue
     has_many :players
     has_many :coaches
-    # has_many :matches
-    has_many :team_matches
-    has_many :matches, through: :team_matches
+    has_many :home_matches, foreign_key: :home_team_id, class_name: 'Match'
+    has_many :away_matches, foreign_key: :away_team_id, class_name: 'Match'
 
     def self.team_names
         temp = Team.all
@@ -45,24 +44,36 @@ class Team < ApplicationRecord
 
     end
 
-    # def calc_wins
-    #     wins = 0
-    #     self.matches.each do |match|
-    #         if match.winner == self
-    #             wins += 1
-    #         end
-    #     end
-    #     return wins
-    # end
+    def calc_wins
+        wins = 0
+        self.home_matches.each do |match|
+            if match.winner == self
+                wins += 1
+            end
+        end
+        self.away_matches.each do |match|
+            if match.winner == self
+                wins += 1
+            end
+        end
+        self.wins = wins
+        return wins
+    end
 
-    # def calc_losses
-    #     losses = 0
-    #     self.matches.each do |match|
-    #         if match.winner != self
-    #             losses += 1
-    #         end
-    #     end
-    #     return losses
-    # end
+    def calc_losses
+        losses = 0
+        self.home_matches.each do |match|
+            if match.winner != self
+                losses += 1
+            end
+        end
+        self.away_matches.each do |match|
+            if match.winner != self
+                losses += 1
+            end
+        end
+        self.losses = losses
+        return losses
+    end
 
 end

@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   
-  resources :team_matches
   # Temp Homepage
   root "sessions#new"
   

@@ -13,7 +13,7 @@ Player.destroy_all
 Coach.destroy_all
 Venue.destroy_all
 Match.destroy_all
-# TeamMatch.destroy_all
+# Team_Match.destroy_all
 
 def finder_create(team_hash)
 

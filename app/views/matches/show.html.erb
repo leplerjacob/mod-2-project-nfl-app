@@ -1,7 +1,6 @@
 <body>
     <div class="content">
-        <h1>Match Stats</h1>
-        <%= @match.home.name %><br>
-        <%= @match.away.name %>
+        <h1 style="font-size:40px; color:purple">Match Stats</h1>
+        <h2 style="color:red"><%= "#{@match.home_team.name} vs. #{@match.away_team.name}"%></h2>
     </div>
 </body>
