@@ -1,10 +1,10 @@
 class CreateWorkouts < ActiveRecord::Migration[6.1]
   def change
     create_table :workouts do |t|
-      t.string :type
+      t.string :name
       t.float :weight
       t.integer :reps
-      t.string :date
+      t.integer :sets
       t.float :distance
       t.string :duration
       t.references :routine

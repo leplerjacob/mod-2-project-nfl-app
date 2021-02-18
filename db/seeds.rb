@@ -13,6 +13,8 @@ Player.destroy_all
 Coach.destroy_all
 Venue.destroy_all
 User.destroy_all
+Routine.destroy_all
+Workout.destroy_all
 
 def finder_create(team_hash)
 
@@ -82,3 +84,28 @@ files.length.times do
 end
 
 User.create(name_id: 2345, username: "tbrady", password: "tb", password_confirmation: "tb", email: "tb@gmail.com", phone_number: "1112223332")
+
+Routine.create(user_id: 1, title: 'Legs, back, abs', date: "2021-02-14", location: "")
+Routine.create(user_id: 1, title: 'Chest, arms, back, shoulders', date: "2021-02-15", location: "")
+Routine.create(user_id: 1, title: 'Legs, back, shoulders, abs', date: "2021-02-16", location: "")
+
+# routine 1
+Workout.create(name: "dumbell box squat", weight: 60, reps: 3, sets: 5, routine_id: Routine.first.id)
+Workout.create(name: "dumbell bulgarian squat", weight: 60, reps: 8, sets: 3, routine_id: Routine.first.id)
+Workout.create(name: "bench weighted back extension", weight: 45, reps: 12, sets: 4, routine_id: Routine.first.id)
+Workout.create(name: "dumbell side bend", weight: 30, reps: 12, sets: 4, routine_id: Routine.first.id)
+Workout.create(name: "sprinter situp", weight: 0, reps: 3, sets: 5, routine_id: Routine.first.id)
+
+# routine 2
+Workout.create(name: "barbell bench press", weight: 60, reps: 3, sets: 5, routine_id: Routine.second.id)
+Workout.create(name: "dumbell neutral-grip floow press", weight: 60, reps: 8, sets: 3, routine_id: Routine.second.id)
+Workout.create(name: "dumbell row", weight: 40, reps: 20, sets: 2, routine_id: Routine.second.id)
+Workout.create(name: "seated dumbbell lateral raise", weight: 40, reps: 10, sets: 3, routine_id: Routine.second.id)
+Workout.create(name: "seated dumbbell clean", weight: 40, reps: 10, sets: 3, routine_id: Routine.second.id)
+Workout.create(name: "dumbbell zottman curl", weight: 40, reps: 8, sets: 3, routine_id: Routine.second.id)
+
+# routine 3
+Workout.create(name: "high box jump", weight: 0, reps: 2, sets: 8, routine_id: Routine.third.id)
+Workout.create(name: "dumbbell reverse lunge", weight: 40, reps: 10, sets: 3, routine_id: Routine.third.id)
+Workout.create(name: "dumbbell one-arm swing", weight: 25, reps: 15, sets: 3, routine_id: Routine.third.id)
+Workout.create(name: "weighted situp", weight: 25, reps: 15, sets: 3, routine_id: Routine.third.id)

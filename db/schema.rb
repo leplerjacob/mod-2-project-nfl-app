@@ -100,10 +100,10 @@ ActiveRecord::Schema.define(version: 2021_02_16_181904) do
   end
 
   create_table "workouts", force: :cascade do |t|
-    t.string "type"
+    t.string "name"
     t.float "weight"
     t.integer "reps"
-    t.string "date"
+    t.integer "sets"
     t.float "distance"
     t.string "duration"
     t.integer "routine_id"

@@ -2,7 +2,7 @@ class RoutinesController < ApplicationController
   before_action :logged_in_user
 
   def index
-    @routines = Routine.where(user_id: session[:user_id])
+    @routines = Routine.where(user_id: session[:user_id]).order(date: :asc)
   end
 
   def new

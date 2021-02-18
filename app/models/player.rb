@@ -15,7 +15,7 @@ class Player < ApplicationRecord
     end
 
     def self.return_players_without_accounts
-        Player.where(user_id: nil)
+        Player.where(user_id: nil).order(last_name: :asc)
     end
 
     def calc_age

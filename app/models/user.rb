@@ -20,4 +20,5 @@ class User < ApplicationRecord
     def name
         Player.find(self.name_id).name_to_s if self.name_id
     end
+
 end

@@ -7,10 +7,10 @@
                 <%= fields_for "workout #{number_to_human(i+1)}".to_sym do |ff| %>
                     <div>
                         <%= ff.label "Name of exercise" %>
-                        <%= ff.text_field :type, class:"field" %>
+                        <%= ff.text_field :name, class:"field" %>
                     </div>
                     <div>
-                        <%= ff.label :weight %>
+                        <%= ff.label "Weight (lbs)" %>
                         <%= ff.text_field :weight, class:"field" %>
                     </div>
                     <div>
@@ -18,12 +18,12 @@
                         <%= ff.text_field :reps, class:"field" %>
                     </div>
                     <div>
-                        <%= r.label :distance %>
+                        <%= r.label "Distance (miles)" %>
                         <%= r.text_field :distance, class:"field" %>
                     </div>
                     <div>
-                        <%= ff.label :duration %>
-                        <%= ff.date_field :duration, class: 'field' %>
+                        <%= ff.label "Duration (MM:ss)" %>
+                        <%= ff.time_select :duration, {discard_hour: true, discard_day: true, discard_month: true ,:include_seconds => true} %>
                     </div>
                 <% end %>
         <% end %>

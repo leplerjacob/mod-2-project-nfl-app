@@ -1,37 +1,33 @@
-<h2>Your Routines</h2>
+<h1>Your Routines</h1>
 <h3>
 <%= link_to @routines.size == 0 ? "Add your first routine" : "Add Routine", new_routine_path %>
 </h3>
-<table>
-    <thead>
-        <tr>
-           Routines  
-        </tr>
-    </thead>
-    <tbody>
-        <% @routines.each_with_index do |r, i| %>
+
+<% @routines.each_with_index do |r,i| %>
+    <h3>Date: <%= r.get_date %></h3>
+    <h4>Routine: <%= r.title %></h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Duration</th>
+                <th>Distance</th>
+                <th>Weight</th>
+                <th>Reps</th>
+                <th>Sets</th>
+            </tr>
+        </thead>
+        <tbody>
             <% r.workouts.each do |w| %>
                 <tr>
-                    <td>Type</td>
-                    <td><%= w.type %></td>
-                </tr>
-                <tr>
-                    <td>Duration</td>
+                    <td><%= w.name %></td>
                     <td><%= w.duration %></td>
-                </tr>
-                <tr>
-                    <td>Distance</td>
-                    <td><%= w.type %></td>
-                </tr>
-                <tr>
-                    <td>Weight</td>
+                    <td><%= w.distance %></td>
                     <td><%= w.weight %></td>
-                </tr>
-                <tr>
-                    <td>Reps</td>
-                    <td><%= w.type %></td>
+                    <td><%= w.reps %></td>
+                    <td><%= w.sets %></td>
                 </tr>
             <% end %>
-        <% end %>
-    </tbody>
-</table>
+        </tbody>
+    </table>
+<% end %>
