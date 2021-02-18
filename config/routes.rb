@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  resources :team_matches
   # Temp Homepage
   root "sessions#new"
   
@@ -8,10 +9,10 @@ Rails.application.routes.draw do
   get '/coachpositions', to: 'coaches#position'
   
   # Venues
-  resources :venues
+  resources :venues, only: [:index, :show]
   
   # Matches
-  resources :matches
+  resources :matches, only: [:index, :show]
   
   # Users
   resources :users
@@ -21,10 +22,14 @@ Rails.application.routes.draw do
   post 'login', to: 'sessions#create', as: 'login'
   
   # Teams
-  resources :teams, only: [:index, :show]
+  resources :teams, only: [:index, :show] do
+    get 'stats', as: 'stats'
+  end
   
   # Players
-  resources :players, only: [:index, :show]
+  resources :players, only: [:index, :show] do
+    get 'stats', as: 'stats'
+  end
   get '/playerpositions', to: 'players#position'
   
 

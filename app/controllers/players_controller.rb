@@ -12,6 +12,11 @@ class PlayersController < ApplicationController
         @players = Player.positions_array(params[:format])
     end
 
+    def stats
+        @player = Player.find(params[:player_id])
+        @stats = @player.retrieve_data
+    end
+
     private
     def find_player
         @player = Player.find(params[:id])

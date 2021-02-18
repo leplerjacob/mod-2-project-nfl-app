@@ -1,0 +1,57 @@
+<body>
+    <div class="content">
+        <h1 style="font-size:40px; color:purple">All Matches for the 2020 Season</h1>
+        <%= link_to 'All Players', players_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %><br>
+        <%= link_to 'All Coaches', coaches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %><br>
+        <%= link_to 'All Teams', teams_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %><br>
+        <b style='color:red'>Quick Scroll to Week</b><br>
+        <% Match.weeks.times do |week| %>
+            <% if week == 16 %>
+                <b style="font-size:20px" ><a href='#<%=week%>'><%="#{week}"%></a></b>
+            <% elsif week != 0 %>
+                <b style="font-size:20px" ><a href='#<%=week%>'><%="#{week}, "%></a></b>
+            <% end %>
+        <% end %><br><br>
+
+        <% Match.weeks.times do |week| %>
+            <div id=<%= week %>>
+                <% if week != 0 %>
+                    <h2 style="font-size:35px; color:red"><%= "Week: #{week}" %></h2>
+                    <table style="width:100%">
+                        <thead>
+                            <tr style="font-size:25px">
+                                <th>Home Division</th>
+                                <th>Home Team</th>
+                                <th>Home Score</th>
+                                <th>Away Division</th>
+                                <th>Away Team</th>
+                                <th>Away Score</th>
+                                <th>Winner</th>
+                                <th>Venue</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% @matches.each do |match| %>
+                                <% if match.week == week %>
+                                    <tr>
+                                        <td style="text-align:center"><%= match.home.division %></td>
+                                        <td style="text-align:center"><%= link_to match.home.name, team_path(match.home_team_id) %></td>
+                                        <td style="text-align:center"><%= match.home_score %></td>
+                                        <td style="text-align:center"><%= match.away.division %></td>
+                                        <td style="text-align:center"><%= link_to match.away.name, team_path(match.away_team_id) %></td>
+                                        <td style="text-align:center"><%= match.away_score %></td>
+                                        <td style="text-align:center; color:red"><b><%= match.winner.name %></b></td>
+                                        <td style="text-align:center"><%= match.venue.name %></td>
+                                        <td style="text-align:center"><%= link_to "View", match%></td>
+                                    </tr>
+                                <% end %>
+                            <% end %>
+                        </tbody>
+                    </table>
+                <% end %>
+            </div>
+        <% end %>
+
+    </div>
+</body>
