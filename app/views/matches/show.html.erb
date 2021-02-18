@@ -1,6 +1,42 @@
 <body>
     <div class="content">
         <h1 style="font-size:40px; color:purple">Match Stats</h1>
+        <%= link_to "Back", matches_path %>
         <h2 style="color:red"><%= "#{@match.home_team.name} vs. #{@match.away_team.name}"%></h2>
+        <b style="font-size:20px"><%= "Venue: #{@data["venue"]["name"]}" %></b><br>
+        <b style="font-size:20px"><%= "City: #{@data["venue"]["city"]}" %></b><br>
+        <b style="font-size:20px"><%= "State: #{@data["venue"]["state"]}" %></b><br>
+        <b style="font-size:20px"><%= "Broadcast: #{@data["broadcast"]["network"]}" %></b><br>
+        <b style="font-size:20px"><%= "Scheduled: #{@data["scheduled"]}" %></b><br>
+        <b style="font-size:20px"><%= "Weather::: #{@data["weather"]}" %></b><br><br>
+
+        <% @quarters.each do |quarter| %>
+            <b style="font-size:30px; color:red"><%= "#{quarter["period_type"].capitalize}: #{quarter["number"]}" %></b><br>
+            
+            <table style="width:100%">
+                <thead>
+                    <tr style="font-size:15px">
+                        <th>Home Team</th>
+                        <th>Home Score</th>
+                        <th>Away Team</th>
+                        <th>Away Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="text-align:center"><%= link_to @match.home_team.name, team_path(@match.home_team.id) %></td>
+                        <td style="text-align:center"><%= quarter["home_points"] %></td>
+                        <td style="text-align:center"><%= link_to @match.away_team.name, team_path(@match.away_team.id) %></td>
+                        <td style="text-align:center"><%= quarter["away_points"] %></td>
+                    </tr>
+                </tbody>
+            </table>
+        <% end %>
+
+        <b style="font-size:30px; color:red">Final Score</b><br>
+        <b style="font-size:20px"><%= "Home: #{@match.home_score} - Away: #{@match.away_score}" %></b><br>
+        <b style="font-size:25px; color:purple"><%= @match.winner.name %></b>
+
+
     </div>
 </body>

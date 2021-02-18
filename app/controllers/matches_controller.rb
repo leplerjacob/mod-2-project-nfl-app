@@ -6,6 +6,8 @@ class MatchesController < ApplicationController
     end
 
     def show
+        @data = @match.retrieve_data
+        @quarters = @data["scoring"]["periods"]
     end
 
     private
