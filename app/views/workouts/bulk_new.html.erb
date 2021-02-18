@@ -2,29 +2,30 @@
 <section class="section is-medium">
 
     <%= form_for @workouts.to_ary, method: 'patch',url:    update_routine_workouts_path do |r| %>
-        <%= @workouts.each_with_index do |w,i| %>
-            
+        <% @workouts.each_with_index do |w,i| %>
             <h2>Add workout <%= number_to_human(i+1) %></h2>
-            <div>
-                <%= r.label "Name of exercise" %>
-                <%= r.text_field :type, class:"field" %>
-            </div>
-            <div>
-                <%= r.label :weight %>
-                <%= r.text_field :weight, class:"field" %>
-            </div>
-            <div>
-                <%= r.label :weight %>
-                <%= r.text_field :weight, class:"field" %>
-            </div>
-            <div>
-                <%= r.label :distance %>
-                <%= r.text_field :distance, class:"field" %>
-            </div>
-            <div>
-                <%= r.label :duration %>
-                <%= r.date_field :duration, class: 'field' %>
-            </div>
+                <%= fields_for "workout #{number_to_human(i+1)}".to_sym do |ff| %>
+                    <div>
+                        <%= ff.label "Name of exercise" %>
+                        <%= ff.text_field :type, class:"field" %>
+                    </div>
+                    <div>
+                        <%= ff.label :weight %>
+                        <%= ff.text_field :weight, class:"field" %>
+                    </div>
+                    <div>
+                        <%= ff.label :reps %>
+                        <%= ff.text_field :reps, class:"field" %>
+                    </div>
+                    <div>
+                        <%= r.label :distance %>
+                        <%= r.text_field :distance, class:"field" %>
+                    </div>
+                    <div>
+                        <%= ff.label :duration %>
+                        <%= ff.date_field :duration, class: 'field' %>
+                    </div>
+                <% end %>
         <% end %>
         <div>
             <%= r.submit "Add Routine" %>

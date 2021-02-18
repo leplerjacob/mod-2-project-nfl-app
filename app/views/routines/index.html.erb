@@ -1,16 +1,15 @@
 <h2>Your Routines</h2>
-<% if @routines.size == 0 %>
-    <%= link_to @routines.size == 0 ? "Add your first routine" : "Add Routine", new_routine_path %>
-<% end %>
+<h3>
+<%= link_to @routines.size == 0 ? "Add your first routine" : "Add Routine", new_routine_path %>
+</h3>
 <table>
     <thead>
         <tr>
-           Routines
+           Routines  
         </tr>
     </thead>
     <tbody>
         <% @routines.each_with_index do |r, i| %>
-        <%= i == 0 ? r.title %>
             <% r.workouts.each do |w| %>
                 <tr>
                     <td>Type</td>
