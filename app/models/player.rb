@@ -39,11 +39,30 @@ class Player < ApplicationRecord
     end
 
     def retrieve_data
+
         team_data = File.read("./db/season-data/#{self.team.name.downcase}-s.json")
         team_data_as_hash = JSON.parse(team_data)
-        player_data = team_data_as_hash["players"].select{|player|
-            player["name"] == self.name_to_s
-        }
+        player_hash = Hash.new
+        team_data_as_hash["players"].each do |player| 
+            if player["name"] == self.name_to_s
+                player_hash = player
+            end
+        end
+
+        stats = ["touchdowns", "rushing", "receiving", "punts", 
+        "punt_returns", "penalties", "passing", "kickoffs", "kick_returns", "interceptions", 
+        "int_returns", "fumbles", "first_downs", "field_goals", "extra_points", "efficiency", "defense"]
+
+        player_stats = Hash.new
+
+        player_hash.each do |stat_key , stat_value|
+            if stats.include?(stat_key)
+                player_stats[stat_key] = stat_value
+            end
+        end
+
+        return player_stats
+
     end
 
 end

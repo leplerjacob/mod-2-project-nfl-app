@@ -14,6 +14,10 @@
  *= require_self
  */
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
     --red-primary: #c0424e
     --blue-primary: #341671

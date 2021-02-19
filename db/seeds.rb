@@ -15,6 +15,8 @@ Venue.destroy_all
 User.destroy_all
 Routine.destroy_all
 Workout.destroy_all
+Match.destroy_all
+# Team_Match.destroy_all
 
 def finder_create(team_hash)
 
@@ -109,3 +111,64 @@ Workout.create(name: "high box jump", weight: 0, reps: 2, sets: 8, routine_id: R
 Workout.create(name: "dumbbell reverse lunge", weight: 40, reps: 10, sets: 3, routine_id: Routine.third.id)
 Workout.create(name: "dumbbell one-arm swing", weight: 25, reps: 15, sets: 3, routine_id: Routine.third.id)
 Workout.create(name: "weighted situp", weight: 25, reps: 15, sets: 3, routine_id: Routine.third.id)
+
+json_season_data = File.read("./db/season-data/schedule-all-teams.json")
+season_data_as_hash = JSON.parse(json_season_data)
+season_data_weeks = season_data_as_hash["weeks"]
+
+
+season_data_weeks.each do |week_data|
+    games = week_data["games"]
+    week = week_data["sequence"]
+
+    games.each do |game|
+        if game["status"] == "closed"
+            venue = game["venue"]["name"]
+            venue_id = Venue.find_by(name: venue).id
+
+            home_team = game["home"]["name"]
+            if home_team == "Washington Football Team"
+                home_team_name = "Football Team"
+            else
+                home_team_array = home_team.split(" ")
+                home_team_name = home_team_array[-1]
+            end
+            home_t = Team.find_by(name: home_team_name)
+            home_team_id = home_t.id
+
+            away_team = game["away"]["name"]
+            if away_team == "Washington Football Team" 
+                away_team_name = "Football Team"
+            else
+                away_team_array = away_team.split(" ")
+                away_team_name = away_team_array[-1]
+            end
+            away_t = Team.find_by(name: away_team_name)
+            away_team_id = away_t.id
+
+            home_score = game["scoring"]["home_points"]
+            away_score = game["scoring"]["away_points"]
+
+            match = Match.create(
+                date: "",
+                week: week,
+                venue_id: venue_id,
+                home_team_id: home_team_id,
+                away_team_id: away_team_id,
+                home_score: home_score,
+                away_score: away_score
+            )
+
+            TeamMatch.create(
+                date: "",
+                week: week,
+                venue_id: venue_id,
+                match_id: match.id,
+                home_team_id: home_team_id,
+                away_team_id: away_team_id,
+                home_score: home_score,
+                away_score: away_score
+            )
+        end
+    end
+end

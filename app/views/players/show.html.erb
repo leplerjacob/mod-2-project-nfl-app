@@ -1,6 +1,6 @@
 <body>
     <div class="content">
-        <h1 style="font-size:40px; color:purple"><%= "#{@player.first_name} #{@player.last_name}" %></h1>
+        <h1 style="font-size:40px; color:purple"><%= @player.name_to_s %></h1>
 
             <p><b style="font-size:20px">Date of Birth:</b> <%= @player.birth_date %></p>
             <p><b style="font-size:20px">Age:</b> <%= @player.calc_age %></p>
@@ -11,6 +11,7 @@
             <p><b style="font-size:20px">Home Town:</b> <%= @player.home_town %></p>
             <p><b style="font-size:20px">College:</b> <%= @player.college %></p>
             <p><b style="font-size:20px">Bio:</b> <%= @player.bio %></p>
+            <p style="font-size:20px"><b>View player 2020 season</b> <%= link_to "stats", player_stats_path(@player.id) %></p>
 
         <h4><%= link_to "Current player's team", team_path(@player.team_id),  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
         <h4><%= link_to 'All Players', players_path,  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>

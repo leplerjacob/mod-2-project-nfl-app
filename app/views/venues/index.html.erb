@@ -1,0 +1,34 @@
+<body>
+    <div class="content">
+        <h1 style="font-size:40px; color:purple">All Venues</h1>
+        <%= link_to 'All Players', players_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %><br>
+        <%= link_to 'All Coaches', coaches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %><br>
+        <%= link_to 'All Teams', teams_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %><br>
+        <%= link_to 'All Matches', matches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %><br>
+
+        <table style="width:100%">
+            <thead>
+                <tr style="font-size:25px">
+                    <th>Name</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Capacity</th>
+                    <th>Team</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% @venues.each do |venue| %>
+                    <tr>
+                        <td style="text-align:center"><%= link_to venue.name, venue %></td>
+                        <td style="text-align:center"><%= venue.city %></td>
+                        <td style="text-align:center"><%= venue.state %></td>
+                        <td style="text-align:center"><%= venue.capacity %></td>
+                        <td style="text-align:center"><%= link_to venue.team.name, team_path(venue.team.id) %></td>
+                    </tr>
+                <% end %>
+            </tbody>
+        </table>
+
+
+    </div>
+</body>

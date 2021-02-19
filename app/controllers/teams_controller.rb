@@ -9,6 +9,11 @@ class TeamsController < ApplicationController
     def show
     end
 
+    def stats
+        @team = Team.find(params[:team_id])
+        @stats = @team.retrieve_data
+    end
+
     private
     def find_team
         @team = Team.find(params[:id])
