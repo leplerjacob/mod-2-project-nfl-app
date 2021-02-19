@@ -11,12 +11,10 @@ class WorkoutsController < ApplicationController
   def bulk_new
     @routine = Routine.order(created_at: :desc).first
     @workouts = @routine.workouts
-    byebug
   end
 
   def update_routine_workouts
     User.find(session[:user_id]).routines.last.workouts.each_with_index {|workout, i|
-      params
       workout.name = params["workout #{i+1}"]["name"]
       workout.weight = params["workout #{i+1}"]["weight"]
       workout.reps = params["workout #{i+1}"]["reps"]

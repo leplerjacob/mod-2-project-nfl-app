@@ -10,11 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 2021_02_16_181904) do
-=======
 ActiveRecord::Schema.define(version: 2021_02_17_174651) do
->>>>>>> Abraham-test
 
   create_table "coaches", force: :cascade do |t|
     t.string "first_name"
@@ -29,10 +25,7 @@ ActiveRecord::Schema.define(version: 2021_02_17_174651) do
 
   create_table "matches", force: :cascade do |t|
     t.string "date"
-<<<<<<< HEAD
-=======
     t.integer "week"
->>>>>>> Abraham-test
     t.integer "venue_id"
     t.integer "home_team_id"
     t.integer "away_team_id"
@@ -73,6 +66,8 @@ ActiveRecord::Schema.define(version: 2021_02_17_174651) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["user_id"], name: "index_routines_on_user_id"
+  end
+
   create_table "team_matches", force: :cascade do |t|
     t.string "date"
     t.integer "week"

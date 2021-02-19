@@ -5,7 +5,7 @@ class Routine < ApplicationRecord
 
 
   def get_date
-    byebug
+
     Date.new(self.date.split("-")[0].to_i, self.date.split("-")[1].to_i, self.date.split("-")[2].to_i)
   end
 
