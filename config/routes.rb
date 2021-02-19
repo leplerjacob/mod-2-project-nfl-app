@@ -22,7 +22,8 @@ Rails.application.routes.draw do
   
   # Teams
   resources :teams, only: [:index, :show] do
-    get 'stats', as: 'stats'
+    get 'stats', as: 'stats';
+    get 'games', as: 'games'
   end
   
   # Players

@@ -1,9 +1,6 @@
 <body>
     <div class="content">
         <h1 style="font-size:40px; color:purple">All Coaches</h1>
-        <%= link_to 'All Matches', matches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %><br>
-        <%= link_to 'All Players', players_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %><br>
-        <%= link_to 'All Teams', teams_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %><br>
         <b style='color:red'>Quick Scroll to Team</b><br>
         <% Team.team_names.each do |team| %>
             <% if team == Team.team_names[-1] %>

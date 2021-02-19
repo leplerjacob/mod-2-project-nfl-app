@@ -13,6 +13,10 @@ class TeamsController < ApplicationController
         @stats = @team.retrieve_data
     end
 
+    def games
+        @team = Team.find(params[:team_id])
+    end
+
     private
     def find_team
         @team = Team.find(params[:id])

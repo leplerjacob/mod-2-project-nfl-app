@@ -2,6 +2,8 @@
     <div class="content">
         <h1 style="font-size:40px; color:purple"><%= @player.name_to_s %></h1>
         <h2 style="font-size:25px; color:purple">Season 2020 Stats</h2>
+        <h4><%= link_to 'Back', player_path(@player.id), {:style=>'color:#BD2A2A;', :class => "css_class"} %></h4>
+        <h4><%= link_to "Current player's team", team_path(@player.team_id),  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
 
         <% @stats.keys.each do |stat| %>
             <strong style="font-size:35px; color:red"><%= stat.capitalize %></strong>
@@ -12,8 +14,5 @@
 
         <h4><%= link_to 'Back', player_path(@player.id), {:style=>'color:#BD2A2A;', :class => "css_class"} %></h4>
         <h4><%= link_to "Current player's team", team_path(@player.team_id),  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
-        <h4><%= link_to 'All Players', players_path,  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
-        <h4><%= link_to 'All Teams', teams_path,  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
-        <h4><%= link_to 'All Coaches', coaches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %></h4>
     </div>
 </body>

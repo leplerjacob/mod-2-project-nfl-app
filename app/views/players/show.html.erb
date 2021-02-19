@@ -14,8 +14,5 @@
             <p style="font-size:20px"><b>View player 2020 season</b> <%= link_to "stats", player_stats_path(@player.id) %></p>
 
         <h4><%= link_to "Current player's team", team_path(@player.team_id),  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
-        <h4><%= link_to 'All Players', players_path,  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
-        <h4><%= link_to 'All Teams', teams_path,  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
-        <h4><%= link_to 'All Coaches', coaches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %></h4>
     </div>
 </body>

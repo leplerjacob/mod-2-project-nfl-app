@@ -6,8 +6,5 @@
             <p><b style="font-size:20px">Bio:</b> <%= @coach.bio %></p>
 
         <h4><%= link_to "Current coach's team", team_path(@coach.team_id),  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
-        <h4><%= link_to 'All Players', players_path,  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
-        <h4><%= link_to 'All Teams', teams_path,  {:style=>'color:#BD2A2A;', :class => "css_class"}  %></h4>
-        <h4><%= link_to 'All Coaches', coaches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %></h4>
     </div>
 </body>

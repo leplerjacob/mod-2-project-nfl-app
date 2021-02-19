@@ -4,6 +4,7 @@
         <h1 style="font-size:100px; color:purple"><%= @team.name %></h1>
         <h2><%= "#{@team.state},  #{@team.division}"%></h2>
         <h2>2020 Season Team Stats</h2>
+        <h4><%= link_to 'Back', team_path(@team.id), {:style=>'color:#BD2A2A;', :class => "css_class"} %></h4><br>
 
         <% @stats.keys.each do |stat| %>
             <strong style="font-size:35px; color:red"><%= stat.capitalize %></strong>
@@ -12,9 +13,6 @@
             <% end %>
         <% end %>
 
-        <h4><%= link_to 'All Teams', teams_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %></h4>
-        <h4><%= link_to 'All Player', players_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %></h4>
-        <h4><%= link_to 'All Coaches', coaches_path, {:style=>'color:#BD2A2A;', :class => "css_class"} %></h4>
         <h4><%= link_to 'Back', team_path(@team.id), {:style=>'color:#BD2A2A;', :class => "css_class"} %></h4><br>
 
     </div>
